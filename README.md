@@ -4,6 +4,8 @@
 
 Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
 
+![react-cv](https://raw.githubusercontent.com/PlatziMaster/project-react-01/master/screenshot.png)
+
 ### Retos
 [project-react-01](https://github.com/platzimaster/project-react-01/issues)
 
