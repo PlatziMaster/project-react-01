@@ -8,7 +8,8 @@
     "start": "webpack-dev-server --open --mode development",
     "server": "json-server data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
-    "lint": "eslint src/ --fix"
+    "lint": "eslint src/ --fix",
+    "test": "jest"
   },
   "keywords": [
     "react",
@@ -29,6 +30,7 @@
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.2",
     "enzyme": "^3.11.0",
+    "jest-fetch-mock": "^3.0.1",
     "enzyme-adapter-react-16": "^1.15.2"
   },
   "devDependencies": {
@@ -44,7 +46,6 @@
     "eslint-plugin-react": "^7.18.2",
     "husky": "^2.7.0",
     "jest": "^25.1.0",
-    "jest-fetch-mock": "^3.0.1",
     "json-server": "^0.15.1",
     "mini-css-extract-plugin": "^0.7.0",
     "prettier": "^1.19.1",
