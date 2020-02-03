@@ -7,13 +7,12 @@ Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate 
 ![react-cv](https://raw.githubusercontent.com/PlatziMaster/project-react-01/master/screenshot.png)
 
 ### Retos
-[project-react-01](https://github.com/platzimaster/project-react-01/issues)
-[Crear los componentes del proyecto](https://github.com/platzimaster/project-react-01/issues/6)
-[Añadir estilos](https://github.com/platzimaster/project-react-01/issues/5)
-[Crear función getData.js](https://github.com/platzimaster/project-react-01/issues/4)
-[Integrar API](https://github.com/platzimaster/project-react-01/issues/3)
-[Personalizar API](https://github.com/platzimaster/project-react-01/issues/2)
-[Documentar](https://github.com/platzimaster/project-react-01/issues/1)
+1. [Crear los componentes del proyecto](https://github.com/platzimaster/project-react-01/issues/6)
+2. [Añadir estilos](https://github.com/platzimaster/project-react-01/issues/5)
+3. [Crear función getData.js](https://github.com/platzimaster/project-react-01/issues/4)
+4. [Integrar API](https://github.com/platzimaster/project-react-01/issues/3)
+5. [Personalizar API](https://github.com/platzimaster/project-react-01/issues/2)
+6. [Documentar](https://github.com/platzimaster/project-react-01/issues/1)
 
 ### Instalación
 ```
