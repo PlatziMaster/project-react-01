@@ -9,7 +9,6 @@ const Header = (props) => {
   return (
     <header className='Header'>
       <img src={avatar} alt='' className='Header__profile-photo' />
-      <About />
     </header>
   );
 };
