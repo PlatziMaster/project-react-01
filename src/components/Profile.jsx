@@ -1,10 +1,11 @@
 import React from 'react';
 import '../styles/components/Profile.styl';
 
-const Profile = () => {
+const Profile = ({ Profile }) => {
   return (
     <div className='Profile'>
-      Profile
+      <h2>My profile</h2>
+      {Profile}
     </div>
   );
 };

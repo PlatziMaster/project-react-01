@@ -1,19 +1,43 @@
 import React from 'react';
 import '../styles/components/About.styl';
 
-const About = () => {
+const About = ({ name, phone, email, profession, address, website }) => {
   return (
     <div className='About'>
       <h1 className='Header-title'>
-        Rulos
-        <span>Codev</span>
+        {name}
       </h1>
-      <p className='Header-job-title'>Web Developer</p>
+      <div className='Header-job-title'>{profession}</div>
 
-      <p className='Header-phone'>555</p>
-      <p className='Header-email'>email</p>
-      <p className='Header-website'>website</p>
-      <p className='Header-adress'>aderss</p>
+      <div className='Header-phone'>
+        <p>Phone</p>
+        <p>
+
+          {phone}
+        </p>
+      </div>
+      <div className='Header-email'>
+        <p>Email</p>
+        <p>
+
+          {email}
+        </p>
+      </div>
+      <div className='Header-website'>
+        <p>Website</p>
+        <a href='/'>
+          <p>
+
+            {website}
+          </p>
+        </a>
+      </div>
+      <div className='Header-adress'>
+        <p>Adress</p>
+        <p>
+          {address}
+        </p>
+      </div>
     </div>
   );
 };

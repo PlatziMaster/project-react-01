@@ -1,10 +1,16 @@
 import React from 'react';
 import '../styles/components/Experience.styl';
+import Jobtarget from './JobTarget';
 
-const Experience = () => {
+const Experience = ({ experience }) => {
   return (
     <div className='Experience'>
-      Experience
+      {experience && experience.map((jobInfo) => {
+        return (
+          <Jobtarget {...jobInfo} />
+
+        );
+      })}
     </div>
   );
 };
