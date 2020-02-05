@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/App.styl';
+import '../styles/components/Academic.styl';
 
 const Academic = (props) => {
   const {

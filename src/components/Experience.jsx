@@ -1,10 +1,9 @@
 import React from 'react';
-import '../styles/components/App.styl';
+import '../styles/components/Experience.styl';
 
 const Experience = (props) => {
 
   const {
-    profession = 'Developer',
     experience = [
       {
         'company': 'PugStar',
