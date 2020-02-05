@@ -9,6 +9,8 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import Social from '../components/Social';
+
 import getData from '../utils/getData';
 
 class App extends React.Component {
@@ -34,16 +36,19 @@ class App extends React.Component {
   render() {
     const { profile } = this.state;
     return (
-      <div className='AppContainer'>
+      <div className='App'>
         <Header {...profile}>
           <About {...profile} />
         </Header>
-        <Profile {...profile} />
-        <Experience {...profile} />
-        <Academic {...profile} />
-        <Skills {...profile} />
-        <Interest {...profile} />
-        <Languages {...profile} />
+        <div className='AppContainer'>
+          <Profile className='boxItem' {...profile} />
+          <Experience {...profile} />
+          <Academic {...profile} />
+          <Skills {...profile} />
+          <Interest {...profile} />
+          <Languages {...profile} />
+        </div>
+
       </div>
     );
   }

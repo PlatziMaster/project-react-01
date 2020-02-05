@@ -1,9 +1,16 @@
 import React from 'react';
+import Degree from './Degree';
 
-const Academic = () => {
+const Academic = ({ Academic }) => {
   return (
     <div className='Academic'>
-      Academic
+      <h2>Academic</h2>
+      {Academic && Academic.map((degreeInfo) => {
+        return (
+          <Degree {...degreeInfo} />
+        );
+      })}
+
     </div>
   );
 };

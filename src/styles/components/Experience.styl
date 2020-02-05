@@ -1,3 +1,9 @@
 .Experience
   grid-area: experience
-  display: flex
+  display: grid 
+  grid-template-columns: 1fr 1fr
+  grid-template-rows: auto auto
+  grid-template-areas: 'title title'\
+                        'item item'
+  h2 
+    grid-area: title

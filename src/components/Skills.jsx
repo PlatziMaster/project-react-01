@@ -1,9 +1,17 @@
 import React from 'react';
+import Skill from './Skill';
 
-const Skills = () => {
+import '../styles/components/Skills.styl';
+
+const Skills = ({ skills }) => {
   return (
     <div className='Skills'>
-      Skills
+      <h2>Skills</h2>
+      {skills && skills.map((skill) => {
+        return (
+          <Skill {...skill} />
+        );
+      })}
     </div>
   );
 };

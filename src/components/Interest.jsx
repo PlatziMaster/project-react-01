@@ -1,9 +1,17 @@
 import React from 'react';
 
-const Interest = () => {
+const Interest = ({ interest }) => {
   return (
     <div className='Interest'>
-      Interest
+      <h2>Interest</h2>
+      {interest && interest.map((elemento, indice, array) => {
+        console.log(elemento);
+
+        return (
+          <p>{elemento}</p>
+        );
+
+      })}
     </div>
   );
 };
