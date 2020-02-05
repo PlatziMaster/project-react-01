@@ -11,7 +11,7 @@ import Languages from '../components/Languages';
 
 const App = () => {
   return (
-    <>
+    <div className='AppContainer'>
       <Header>
         <About />
       </Header>
@@ -21,8 +21,8 @@ const App = () => {
       <Skills />
       <Interest />
       <Languages />
-    </>
-  )
+    </div>
+  );
 };
 
 export default App;

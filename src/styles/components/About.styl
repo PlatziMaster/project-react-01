@@ -1,0 +1,24 @@
+.About
+  padding: 1em
+  display grid
+  grid-template-rows: repeat(4, 1fr)
+  grid-template-columns: 1fr 1fr 1fr 
+  grid-template-areas: 'title title tile'\
+                      'jobtitle jobtitle jobtitle'\
+                       'phone email website'\
+                       'adress adress adress'
+  border yellow solid 2px
+  width: 70%
+  justify-content center
+  .Header-title                       
+    grid-area: title
+  .Header-job-title                       
+    grid-area: jobtitle
+  .Header-phone                       
+    grid-area: phone
+  .Header-email                       
+    grid-area: email
+  .Header-website                       
+    grid-area: website
+  .Header-adress                       
+    grid-area: adress

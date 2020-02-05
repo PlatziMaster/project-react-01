@@ -1,2 +1,21 @@
+
+*
+  margin 0
 body
-  background-color blue
+  background-color #f1f1ef
+  font-family: sans-serif
+.AppContainer
+  height 100vh
+  display: grid
+  grid-template-rows: repeat(5, 1fr)
+  grid-template-columns: 1fr 1fr
+  grid-template-areas: 'header header'\
+                       'profile profile'\
+                       'experience experience'\
+                       'academic skills'\
+                       'interest languages'
+.AppContainer:nth-child()
+  border solid blue 1px
+
+
+    
