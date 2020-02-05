@@ -4,7 +4,7 @@ import Degree from './Degree';
 const Academic = ({ Academic }) => {
   return (
     <div className='Academic'>
-      <h2>Academic</h2>
+      <h2 className='titleLabel'>Academic</h2>
       {Academic && Academic.map((degreeInfo) => {
         return (
           <Degree {...degreeInfo} />

@@ -5,7 +5,7 @@ const Header = ({ children, avatar }) => {
   return (
     <div className='Header'>
       <div className='Header__photoContainer'>
-        <img src={avatar} alt='profile' />
+        <img src='/src/utils/perfilFinal.png' alt='profile' />
       </div>
       <div>
         { children}

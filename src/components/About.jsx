@@ -7,7 +7,7 @@ const About = ({ name, phone, email, profession, address, website }) => {
       <h1 className='Header-title'>
         {name}
       </h1>
-      <div className='Header-job-title'>{profession}</div>
+      <div className='Header-job-title titleLabel '>{profession}</div>
 
       <div className='Header-phone'>
         <p>Phone</p>

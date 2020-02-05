@@ -4,7 +4,7 @@ import '../styles/components/Profile.styl';
 const Profile = ({ Profile }) => {
   return (
     <div className='Profile'>
-      <h2>My profile</h2>
+      <h2 className='titleLabel'>My profile</h2>
       {Profile}
     </div>
   );
