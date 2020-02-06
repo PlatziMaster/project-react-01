@@ -22,15 +22,16 @@ const Languages = (props) => {
       </h1>
       {Languages.map(item => (
         <section key={item.name} className='Languages__item'>
-          <p className='Languages__item-name'>
-            {item.name}
-            {' '}
-            |
-            {' '}
-            {item.percentage}
-            %
-            <progress className='Languages__item-percentage' max='100' value={item.percentage} />
-          </p>
+          <div className='Item-info'>
+            <div className='Item-name'>
+              {item.name}
+            </div>
+            <div className='Item-percentage'>
+              {item.percentage}
+              %
+            </div>
+          </div>
+          <progress max='100' value={item.percentage} />
         </section>
       ))}
     </section>

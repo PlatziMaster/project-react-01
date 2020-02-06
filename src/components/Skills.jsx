@@ -30,16 +30,16 @@ const Skills = (props) => {
       </h1>
       {Skills.map(item => (
         <section key={item.name} className='Skills__item'>
-          <p className='Skills__item-name'>
-            {item.name}
-            {' '}
-            |
-            {' '}
-            {item.percentage}
-            %
-
-            <progress className='Skills__item-percentage' max='100' value={item.percentage} />
-          </p>
+          <div className='Item-info'>
+            <div className='Item-name'>
+              {item.name}
+            </div>
+            <div className='Item-percentage'>
+              {item.percentage}
+              %
+            </div>
+          </div>
+          <progress max='100' value={item.percentage} />
         </section>
       ))}
     </section>
