@@ -9,8 +9,8 @@ const Profile = (props) => {
   } = props;
 
   return (
-    <section className='Profile'>
-      <h1 className='Profile__title'>
+    <section className='Profile Box'>
+      <h1 className='Profile__title Subtitle'>
         {profession}
       </h1>
       <p className='Profile__description'>{Profile}</p>

@@ -1,11 +1,11 @@
 import React from 'react';
-import '../styles/components/App.styl';
+import '../styles/components/About.styl';
 
 const About = (props) => {
 
   const {
-    name = 'Arantxa',
-    profession = 'Developer',
+    name = 'Arantxa Rosas',
+    profession = 'Full Stack Developer',
     phone = '55 6358 4267',
     email = 'ary.rosvall@gmail.com',
     website = 'aryrosvall.com',
@@ -13,15 +13,19 @@ const About = (props) => {
   } = props;
 
   return (
-    <section className='About'>
+    <section className='About Box'>
       <h1 className='About__title'>
         {name}
       </h1>
-      <p className='About__job-title'>{profession}</p>
-      <p className='About__phone'>{phone}</p>
-      <p className='About__email'>{email}</p>
-      <p className='About__website'>{website}</p>
-      <p className='About__address'>{address}</p>
+      <p className='About__job-title Subtitle'>{profession}</p>
+      <section className='About__contact'>
+        <p className='About__contact-item About__phone'>
+          {phone}
+        </p>
+        <p className='About__contact-item About__email'>{email}</p>
+        <p className='About__contact-item About__website'>{website}</p>
+        <p className='About__contact-item About__address'>{address}</p>
+      </section>
     </section>
   );
 };

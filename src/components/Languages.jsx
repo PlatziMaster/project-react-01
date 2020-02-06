@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/App.styl';
+import '../styles/components/Language.styl';
 
 const Languages = (props) => {
   const {
@@ -16,8 +16,8 @@ const Languages = (props) => {
   } = props;
 
   return (
-    <section className='Languages'>
-      <h1 className='Languages__title'>
+    <section className='Languages Box'>
+      <h1 className='Languages__title Subtitle'>
         Languages
       </h1>
       {Languages.map(item => (

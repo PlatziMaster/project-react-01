@@ -23,27 +23,27 @@ const Experience = (props) => {
   } = props;
 
   return (
-    <section className='Experience'>
-      <h1 className='Experience__title'>
+    <section className='Experience Box'>
+      <h1 className='Experience__title Subtitle'>
         Experience
       </h1>
       {experience.map(item => (
         <section key={item.jobTitle} className='Experience__item'>
-          <p className='Experience__item-job-title'>
+          <p className='Experience__item-job-title Item__title'>
             {item.jobTitle}
             {' '}
             |
             {' '}
             {item.company}
           </p>
-          <p className='Experience__item-dates'>
+          <p className='Experience__item-dates Item__subtitle'>
             {item.startDate}
             {' '}
             -
             {' '}
             {item.endDate}
           </p>
-          <p className='Experience__item-job-description'>
+          <p className='Experience__item-job-description Item__description'>
             {item.jobDescription}
           </p>
         </section>

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/App.styl';
+import '../styles/components/Skills.styl';
 
 const Skills = (props) => {
   const {
@@ -24,8 +24,8 @@ const Skills = (props) => {
   } = props;
 
   return (
-    <section className='Skills'>
-      <h1 className='Skills__title'>
+    <section className='Skills Box'>
+      <h1 className='Skills__title Subtitle'>
         Skills
       </h1>
       {Skills.map(item => (

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/App.styl';
+import '../styles/components/Social.styl';
 
 const Social = (props) => {
   const {
@@ -24,17 +24,14 @@ const Social = (props) => {
   } = props;
 
   return (
-    <section className='Social'>
-      <h1 className='Social__title'>
-        Social
-      </h1>
-      {Social.map(item => (
-        <section key={item.name} className='Social__item'>
-          <a className='Social__item-name' href={item.url}>
+    <section className='Social Box'>
+      <section className='Social__item-container'>
+        {Social.map(item => (
+          <a className='Social__item' key={item.name} href={item.url}>
             {item.name}
           </a>
-        </section>
-      ))}
+        ))}
+      </section>
     </section>
   );
 };

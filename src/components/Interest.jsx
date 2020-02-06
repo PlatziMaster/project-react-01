@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/App.styl';
+import '../styles/components/Interest.styl';
 
 const Interest = (props) => {
   const {
@@ -12,8 +12,8 @@ const Interest = (props) => {
   } = props;
 
   return (
-    <section className='Interests'>
-      <h1 className='Interests__title'>
+    <section className='Interests Box'>
+      <h1 className='Interests__title Subtitle'>
         Interests
       </h1>
       {Interests.map(item => (

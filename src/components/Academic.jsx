@@ -22,27 +22,27 @@ const Academic = (props) => {
   } = props;
 
   return (
-    <section className='Academic'>
-      <h1 className='Academic__title'>
+    <section className='Academic Box'>
+      <h1 className='Academic__title Subtitle'>
         Academic
       </h1>
       {Academic.map(item => (
-        <section key={item.degree} className='Academic__item'>
-          <p className='Academic__item-job-title'>
+        <section key={item.degree} className='Academic__item '>
+          <p className='Academic__item-job-title Item__title'>
             {item.degree}
             {' '}
             |
             {' '}
             {item.institution}
           </p>
-          <p className='Academic__item-dates'>
+          <p className='Academic__item-dates Item__subtitle'>
             {item.startDate}
             {' '}
             -
             {' '}
             {item.endDate}
           </p>
-          <p className='Academic__item-job-description'>
+          <p className='Academic__item-job-description Item__description'>
             {item.description}
           </p>
         </section>
