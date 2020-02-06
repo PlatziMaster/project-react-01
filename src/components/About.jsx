@@ -10,21 +10,21 @@ const About = ({ name, phone, email, profession, address, website }) => {
       <div className='Header-job-title titleLabel '>{profession}</div>
 
       <div className='Header-phone'>
-        <p>Phone</p>
+        <p className='subtitleLabel'>Phone</p>
         <p>
 
           {phone}
         </p>
       </div>
       <div className='Header-email'>
-        <p>Email</p>
+        <p className='subtitleLabel'>Email</p>
         <p>
 
           {email}
         </p>
       </div>
       <div className='Header-website'>
-        <p>Website</p>
+        <p className='subtitleLabel'>Website</p>
         <a href='/'>
           <p>
 
@@ -33,7 +33,7 @@ const About = ({ name, phone, email, profession, address, website }) => {
         </a>
       </div>
       <div className='Header-adress'>
-        <p>Adress</p>
+        <p className='subtitleLabel'>Address</p>
         <p>
           {address}
         </p>

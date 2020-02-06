@@ -1,7 +1,7 @@
 import React from 'react';
 import Language from './Language';
 
-import '../styles/components/Skill.styl';
+import '../styles/components/Languages.styl';
 
 const Languages = ({ languages }) => {
   return (

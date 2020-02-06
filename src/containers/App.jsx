@@ -49,6 +49,10 @@ class App extends React.Component {
           <Languages {...profile} />
         </div>
 
+        <div>
+          <Social {...profile} />
+        </div>
+
       </div>
     );
   }

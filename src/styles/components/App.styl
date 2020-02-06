@@ -6,27 +6,25 @@ body
   height auto
   .App
     background: linear-gradient(180deg, #d0d0d2 0%, #fdfefe 100%);
-    padding: 0 0 2em 0;
     .AppContainer
       display: grid
-      grid-template-rows: repeat(5, auto)
+      grid-template-rows: repeat(4, auto)
       grid-template-columns: 1fr 1fr
       grid-template-areas: 
                           'profile profile'\
                           'experience experience'\
                           'academic skills'\
-                          'interest languages'\
-                          'social social'
+                          'interest languages'
       box-shadow: 0px 2px 5px #4EA3BB
       width: 90%
       grid-gap: 1.3em;
-      margin 0 auto 
-      margin-top: 1em
+      margin 1em auto 
       padding: 1em
       background: #fdfefe               
       border-radius: 1em
       .date
         font-size: .8em
+        font-weight: bold
         color: #313131
         margin: 0
                              
@@ -39,6 +37,7 @@ body
   .flexBetween
     display flex
     justify-content: space-between
+    align-items: flex-end
   .titleLabel
     color: #2294bd;
     text-shadow: 1px 1px 1px #3131318c

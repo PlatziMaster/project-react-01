@@ -5,7 +5,10 @@ const Profile = ({ Profile }) => {
   return (
     <div className='Profile'>
       <h2 className='titleLabel'>My profile</h2>
-      {Profile}
+      <p className='Profile--description'>
+
+        {Profile}
+      </p>
     </div>
   );
 };

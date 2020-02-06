@@ -7,11 +7,13 @@ const Skills = ({ social }) => {
   return (
     <div className='social'>
       <h2>Social</h2>
-      {social && social.map((social) => {
-        return (
-          <SocialMedia {...social} />
-        );
-      })}
+      <div className='social-container'>
+        {social && social.map((social) => {
+          return (
+            <SocialMedia {...social} />
+          );
+        })}
+      </div>
     </div>
   );
 };
