@@ -6,11 +6,11 @@ const Languages = (props) => {
     Languages = [
       {
         'name': 'Spanish',
-        'percentage': '90%',
+        'percentage': '90',
       },
       {
         'name': 'English',
-        'percentage': '50%',
+        'percentage': '50',
       },
     ],
   } = props;
@@ -28,6 +28,8 @@ const Languages = (props) => {
             |
             {' '}
             {item.percentage}
+            %
+            <progress className='Languages__item-percentage' max='100' value={item.percentage} />
           </p>
         </section>
       ))}

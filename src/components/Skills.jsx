@@ -6,19 +6,19 @@ const Skills = (props) => {
     Skills = [
       {
         'name': 'HTML5',
-        'percentage': '75%',
+        'percentage': '75',
       },
       {
         'name': 'CSS',
-        'percentage': '25%',
+        'percentage': '25',
       },
       {
         'name': 'JavaScript',
-        'percentage': '55%',
+        'percentage': '55',
       },
       {
         'name': 'React',
-        'percentage': '90%',
+        'percentage': '90',
       },
     ],
   } = props;
@@ -36,6 +36,9 @@ const Skills = (props) => {
             |
             {' '}
             {item.percentage}
+            %
+
+            <progress className='Skills__item-percentage' max='100' value={item.percentage} />
           </p>
         </section>
       ))}
