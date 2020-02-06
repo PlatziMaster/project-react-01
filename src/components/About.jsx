@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMobileAlt, faEnvelope, faMapMarkerAlt, faGlobeAmericas } from '@fortawesome/free-solid-svg-icons';
 
 const About = (props) => {
-
+  console.log(props);
   const {
     name = 'Arantxa Giovanna Rosas del Valle',
     profession = 'Full Stack Developer',
