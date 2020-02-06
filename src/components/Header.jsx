@@ -9,23 +9,27 @@ const Header = () => {
       <div className="Header-picture">
         <img src={Profile} alt="Usuario" />
       </div>
-      <div className="Header-title">
-        Header-title
-      </div>
-      <div className="Header-job-title">
-        Header-job-title
-      </div>
-      <div className="Header-phone">
-        Header-phone
-      </div>
-      <div className="Header-email">
-        Header-email
-      </div>
-      <div className="Header-website">
-        Header-website
-      </div>
-      <div className="Header-address">
-        Header-address
+      <div className="Header-container">
+        <div className="Header-title">
+          Header-title
+        </div>
+        <div className="Header-job-title">
+          Header-job-title
+        </div>
+        <div className="Header-container-data">
+          <div className="Header-phone">
+            Header-phone
+          </div>
+          <div className="Header-email">
+            Header-email
+          </div>
+          <div className="Header-website">
+            Header-website
+          </div>
+        </div>
+        <div className="Header-address">
+          Header-address
+        </div>
       </div>
     </div>
   );
