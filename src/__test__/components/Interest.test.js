@@ -1,3 +1,6 @@
+/* eslint-disable */
+/* eslint-disable */
+
 import React from 'react';
 import { mount } from 'enzyme';
 import Interest from '../../components/Interest';

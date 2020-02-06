@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from 'react';
 import { mount } from 'enzyme';
 import Skills from '../../components/Skills';
