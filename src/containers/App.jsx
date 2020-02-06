@@ -17,12 +17,16 @@ const App = () => {
       </Header>
       <Profile />
       <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <div className='Wrapper'>
+        <Academic />
+        <Skills />
+      </div>
+      <div className='Wrapper'>
+        <Interest />
+        <Languages />
+      </div>
     </>
-  )
+  );
 };
 
 export default App;
