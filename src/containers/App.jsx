@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
@@ -8,8 +8,17 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import getData from '../utils/getData.js';
 
 const App = () => {
+  const API = 'http://localhost:3000/data';
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    getData(API)
+      .then(response => setData(response));
+  }, []);
+  console.log(data);
+
   return (
     <>
       <Header>
@@ -17,15 +26,14 @@ const App = () => {
       </Header>
       <Profile />
       <Experience />
-      <div className="Container">
+      <div className='Container'>
         <Academic />
         <Skills />
       </div>
-      <div className="Container">
+      <div className='Container'>
         <Interest />
         <Languages />
       </div>
-
 
     </>
   );
