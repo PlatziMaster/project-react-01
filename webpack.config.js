@@ -38,6 +38,17 @@ module.exports = {
           'stylus-loader',
         ],
       },
+      {
+        test: /\.(jpeg|jpg|png)$/,
+        use:[
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'assets/[hash].[ext]',
+            }
+          },
+        ],
+      },
     ],
   },
   plugins: [
