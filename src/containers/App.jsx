@@ -26,8 +26,8 @@ class App extends React.Component {
     };
   }
 
-  componentDidMount() {
-    const data = getData();
+  async componentDidMount() {
+    const data = await getData();
     this.setState({
       profile: data,
     });
