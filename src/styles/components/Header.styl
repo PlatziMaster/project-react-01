@@ -1,0 +1,49 @@
+@import "./vars.styl"
+  
+.Header
+  position relative
+  grid-area header
+  width 100%
+  display flex
+  align-items center
+  justify-content flex-start
+  background-image url("https://k46.kn3.net/taringa/0/C/A/6/0/7/irvinn666/3BD.png")
+  background-repeat no-repeat
+  background-size cover
+  background-position center
+  color font-color
+  img
+    width 180px
+    height 180px
+    object-fit cover
+    border-radius 180px
+    margin 30px
+  &-content
+    height 180px
+    display flex
+    justify-content space-around
+    flex-direction column
+    div
+      display flex
+      flex-direction row
+  &-title
+    font-size 30px
+    margin 0
+  &-job-title,
+  &-phone,
+  &-email,
+  &-website,
+  &-adress
+    font-size 16px
+    margin 10px 0
+  &-phone,
+  &-email,
+  &-website
+    margin-right 20px
+  &-website
+    a
+      text-decoration none
+      color #FFFFF1
+      &:hover
+        cursor pointer
+        text-decoration underline

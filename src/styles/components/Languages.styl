@@ -1,0 +1,47 @@
+@import "./vars.styl"
+
+.Languages
+  grid-area languages
+  width calc(37.5vw - 45px)
+  margin 0 30px 30px 15px
+  &-title
+    width: 28%;
+    margin 15px auto
+    padding-bottom: 5px;
+    color font-colorSecond
+    text-align center
+    border-bottom: 3px solid rgb(186, 154, 109);
+  &-content
+    display flex
+    justify-content space-around
+    flex-wrap wrap
+  &-item
+    position relative
+    width 25%
+    height 115px
+    margin 10px 0
+    canvas
+      width 100%
+      height 100%
+    div
+      position absolute
+      width 90%
+      height 90%
+      background-color color-bgSecond
+      border-radius 50%
+      bottom 5%
+      left 5%
+    h4,
+    p
+      position absolute
+      width: 100%
+      text-align center
+      margin 0
+      left 0
+      right 0
+    h4
+      color font-colorSecond
+      font-size 16px
+      top 25%
+    p
+      top 60%

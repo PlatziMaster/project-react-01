@@ -3,7 +3,21 @@ import { mount } from 'enzyme';
 import About from '../../components/About';
 
 describe('<About />', () => {
-  const about = mount(<About />);
+  const data = [
+    {
+      name: 'facebook',
+      url: 'https://facebook.com/tuentyfaivpage',
+    },
+    {
+      name: 'twitter',
+      url: 'https://twitter.com/TuentyFaiv',
+    },
+    {
+      name: 'github',
+      url: 'https://github.com/TuentyFaiv',
+    },
+  ];
+  const about = mount(<About about={data} />);
 
   test('About render', () => {
     expect(about.length).toEqual(1);
@@ -16,5 +30,4 @@ describe('<About />', () => {
   test('About haves 3 items', () => {
     expect(about.find('.About-item').length).toBeGreaterThan(2);
   });
-
 });
