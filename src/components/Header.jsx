@@ -1,9 +1,9 @@
 import React from 'react';
-import Profile from '../images/profile.jpeg';
 import '../styles/components/Header.styl';
+import SocialItem from './SocialItem';
 
 const Header = (props) => {
-
+  let i=0;
   return (
     <div className='Header'>
       <div className='Header-picture'>
@@ -24,11 +24,16 @@ const Header = (props) => {
             {props.email}
           </div>
           <div className='Header-website'>
-            {props.website}
+            <a href={props.website}>{props.website} </a>
           </div>
         </div>
         <div className='Header-address'>
-          {props.address}
+          {props.address} 
+        </div>
+        <div className='Header-container-social'>
+          {props.social ?
+            (Object.keys(props.social).map(item => <SocialItem key={i++} {...props.social[item]} />)) :
+            (<div className='Header-social'> Ninguno </div>) }
         </div>
       </div>
     </div>
