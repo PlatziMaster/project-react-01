@@ -1,5 +1,5 @@
 import React from 'react';
-import ExperienceItem from './Experienceitem';
+import ExperienceItem from './ExperienceItem';
 import '../styles/components/Experience.styl';
 
 const Experience = (props) => {
