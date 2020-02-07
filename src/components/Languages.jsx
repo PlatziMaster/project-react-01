@@ -1,32 +1,18 @@
 import React from 'react';
 import '../styles/components/Languages.styl';
 
-const languages = {
-  title: 'Languages',
-  items: [
-    {
-      id: 1,
-      language: 'English',
-      level: 'Intermediate',
-    },
-    {
-      id: 2,
-      language: 'Spanish',
-      level: 'Native',
-    },
-  ],
-};
-
-const Languages = () => {
+const Languages = ({ languages }) => {
   return (
     <div className='Languages'>
-      <h3 className='Languages-title'>{languages.title}</h3>
+      <h3 className='Languages-title'>Languages</h3>
       {
-        languages.items.map(item => (
-          <ul className='Languages-item' key={item.id}>
-            <li>{`${item.language}: ${item.level}`}</li>
-          </ul>
-        ))
+        (languages) ? (
+          languages.map(item => (
+            <ul className='Languages-item' key={item.name}>
+              <li >{`${item.name}: ${item.percentage}`}</li>
+            </ul>
+          ))
+        ) : null
       }
     </div>
   );

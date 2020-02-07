@@ -24,7 +24,6 @@ const dataFetcher = (url) => {
 
 const App = () => {
   const initialState = dataFetcher(BASE_URL);
-  console.log(initialState.experience, 'initialState');
   return (
     <>
       <Header
@@ -45,12 +44,12 @@ const App = () => {
         experience={initialState.experience}
       />
       <div className='Wrapper'>
-        <Academic />
-        <Skills />
+        <Academic academic={initialState.Academic} />
+        <Skills skills={initialState.skills} />
       </div>
       <div className='Wrapper'>
-        <Interest />
-        <Languages />
+        <Interest interest={initialState.interest} />
+        <Languages languages={initialState.languages} />
       </div>
     </>
   );

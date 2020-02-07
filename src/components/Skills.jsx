@@ -1,33 +1,33 @@
 import React from 'react';
 import '../styles/components/Skills.styl';
 
-const skills = {
-  title: 'Skills',
-  items: [
-    'React',
-    'Redux',
-    'CSS',
-    'NodeJS',
-    'Javascript',
-    'Angular',
-    'PHP',
-    'MongoDB',
-    'Firebase',
-    'MariaDB',
-    'Redis',
-    'HTML5',
-    'Git',
-    'SCRUM',
-  ],
-};
-
-const Skills = () => {
+const Skills = ({ skills }) => {
   return (
     <div className='Skills'>
-      <h3 className='Skills-title'>{skills.title}</h3>
-      <ul className='Skills-list'>
-        {skills.items.map(item => (<li className='Skills-item' key={item}>{item}</li>))}
-      </ul>
+      <h3 className='Skills-title'>Skills</h3>
+      {
+        (skills) ?
+          (skills.map(item => (
+            <>
+              <div>
+                {' '}
+                {item.name}
+                {' '}
+              </div>
+              <div className='c100 p12 small'>
+                <span>
+                  {' '}
+                  {item.percentage}
+                  {' '}
+                </span>
+                <div className='slice'>
+                  <div className='bar' />
+                  <div className='fill' />
+                </div>
+              </div>
+            </>
+          ))) : null
+      }
     </div>
   );
 };
