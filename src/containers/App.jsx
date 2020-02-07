@@ -12,15 +12,17 @@ import Languages from '../components/Languages';
 const App = () => {
   return (
     <>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <div className="container">
+        <Header>
+          <About />
+        </Header>
+        <Profile />
+        <Experience />
+        <Academic />
+        <Skills />
+        <Interest />
+        <Languages />
+      </div>
     </>
   )
 };

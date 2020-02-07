@@ -1,2 +1,19 @@
-body
-  background-color blue
+@import '../Vars.styl'
+
+.container
+  max-width 1200px
+  font-family font
+  color font-color
+  font-size 19px
+  margin 0 auto
+  display grid
+  grid-template-columns repeat(2, 1fr)
+  grid-template-rows repeat(5, span 1)
+  grid-template-areas "header header" "profile profile" "experience experience" "academic skills" "interest languages"
+
+h1
+  color dark-grey
+
+h3
+  color dark-grey
+  font-size 25px
