@@ -3,22 +3,22 @@ import '../styles/components/Interest.styl';
 
 const Interest = (props) => {
   const {
-    Interests = [
+    interest = [
       'javascript',
       'develop',
       'backend',
       'frontend',
     ],
   } = props;
-
+  console.log(interest);
   return (
     <section className='Interests Box'>
       <h1 className='Interest-title Subtitle'>
         Interests
       </h1>
       <section className='Interest-items'>
-        {Interests.map(item => (
-          <p key={item} className='Interest-item'>
+        {interest.map((item, index) => (
+          <p key={index} className='Interest-item'>
             {item}
           </p>
         ))}
