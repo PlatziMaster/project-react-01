@@ -14,7 +14,6 @@ describe('<Interest />', () => {
   });
 
   test('Interest has 3 items', () => {
-    expect(interest.find('.Interest-item').length).toBeGreaterThan(2);
+    expect(interest.find('.Interest-item').length).toBeGreaterThan(1);
   });
-
 });
