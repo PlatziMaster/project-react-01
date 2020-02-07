@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
-import Profile from '../components/Profile';
+import Profile from '../components/About';
 import Experience from '../components/Experience';
 import Academic from '../components/Academic';
 import Skills from '../components/Skills';
@@ -22,7 +22,7 @@ const App = () => {
       <Interest />
       <Languages />
     </>
-  )
+  );
 };
 
 export default App;
