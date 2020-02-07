@@ -2,7 +2,7 @@ import React from 'react';
 import Item from './Item';
 import '../styles/components/Experience.styl';
 
-const experience = [
+/*const experience = [
   {
     id: 1,
     position: 'Full Stack Developer',
@@ -28,9 +28,10 @@ const experience = [
       'Building collection Process & Reports.',
     ],
   },
-];
+];*/
 
-const Experience = () => {
+const Experience = (props) => {
+
   return (
     <div className='Experience'>
       <h3 className='Experience-title'>Experience</h3>

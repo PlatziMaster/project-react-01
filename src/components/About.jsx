@@ -9,14 +9,21 @@ const header = {
   address: 'Presa Santa Teresa 134, Col. Irrigación, 11500',
 };
 
-const About = () => {
+const About = (props) => {
+  const {
+    profession,
+    address,
+    email,
+    website,
+    phone,
+  } = props;
   return (
     <div className='About'>
-      <p className='About-title'>{header.jobTitle}</p>
-      <p className='About-item'>{header.phone}</p>
-      <p className='About-item'>{header.email}</p>
-      <p className='About-item'>{header.webSite}</p>
-      <p className='About-item'>{header.address}</p>
+      <p className='About-title'>{profession}</p>
+      <p className='About-item'>{phone}</p>
+      <p className='About-item'>{email}</p>
+      <p className='About-item'>{website}</p>
+      <p className='About-item'>{address}</p>
     </div>
   );
 };

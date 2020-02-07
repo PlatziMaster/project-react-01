@@ -2,11 +2,7 @@ import React from 'react';
 import '../styles/components/Header.styl';
 import profile from '../assets/static/profileimg.jpg';
 
-const header = {
-  title: 'Alejandro Demetrio Cortez Álvarez',
-};
-
-const Header = ({ children }) => {
+const Header = ({ children, name }) => {
   return (
     <div className='Header'>
       <div className='Header__img'>
@@ -16,7 +12,7 @@ const Header = ({ children }) => {
       </div>
       <div className='Header__about'>
         <h1 className='Header-title'>
-          {header.title}
+          {name}
         </h1>
         {children}
       </div>
