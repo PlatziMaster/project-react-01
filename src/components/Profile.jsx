@@ -1,15 +1,15 @@
 import React from 'react';
 import '../styles/components/Profile.styl';
 
-const Profile = () => {
+const Profile = (props) => {
 
   return (
     <div className="Profile">
       <div className="Profile-title">
-        Profile-title
+        About me
       </div>
       <div className="Profile-desc">
-        Profile-desc
+        {props.Profile}
       </div>
     </div>
   );

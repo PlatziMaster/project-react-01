@@ -17,24 +17,23 @@ const App = () => {
     getData(API)
       .then(response => setData(response));
   }, []);
-  console.log(data);
+  //console.log(data);
 
   return (
     <>
-      <Header>
-        <About />
+      <Header {...data}>
+        <About {...data}/>
       </Header>
-      <Profile />
-      <Experience />
+      <Profile {...data} />
+      <Experience {...data.experience} />
       <div className='Container'>
-        <Academic />
-        <Skills />
+        <Academic {...data.Academic} />
+        <Skills {...data.skills} />
       </div>
       <div className='Container'>
-        <Interest />
-        <Languages />
+        <Interest {...data.interest} />
+        <Languages {...data.languages} />
       </div>
-
     </>
   );
 };
