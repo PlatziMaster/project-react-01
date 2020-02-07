@@ -15,14 +15,15 @@ const App = () => {
       <Header>
         <About />
       </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <main>
+        <Profile />
+        <Experience />
+        <Academic />
+        <Skills />
+        <Interest />
+        <Languages />
+      </main>
     </>
-  )
+  );
 };
-
 export default App;
