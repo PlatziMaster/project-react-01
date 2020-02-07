@@ -5,15 +5,15 @@ const Profile = (props) => {
 
   const {
     profession,
-    Profile,
+    profile,
   } = props;
 
   return (
     <section className='Profile Box'>
-      <h1 className='Profile__title Subtitle'>
-        {profession}
+      <h1 className='Profile-title Subtitle'>
+        Profile
       </h1>
-      <p className='Profile__description'>{Profile}</p>
+      <p className='Profile-desc'>{profile}</p>
     </section>
   );
 };

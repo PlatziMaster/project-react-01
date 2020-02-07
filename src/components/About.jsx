@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMobileAlt, faEnvelope, faMapMarkerAlt, faGlobeAmericas } from '@fortawesome/free-solid-svg-icons';
 
 const About = (props) => {
-  console.log(props);
+
   const {
     name = 'Arantxa Giovanna Rosas del Valle',
     profession = 'Full Stack Developer',
@@ -15,28 +15,28 @@ const About = (props) => {
   } = props;
 
   return (
-    <section className='About '>
+    <section className='About-title '>
       <h1 className='About__title'>
         {name}
       </h1>
       <p className='About__job-title Subtitle'>{profession}</p>
       <section className='About__contact'>
-        <p className='About__contact-item About__phone'>
+        <p className='About-item'>
           <FontAwesomeIcon icon={faMobileAlt} />
           {' '}
           {phone}
         </p>
-        <p className='About__contact-item About__email'>
+        <p className='About-item'>
           <FontAwesomeIcon icon={faEnvelope} />
           {' '}
           {email}
         </p>
-        <p className='About__contact-item About__website'>
+        <p className='About-item'>
           <FontAwesomeIcon icon={faGlobeAmericas} />
           {' '}
           {website}
         </p>
-        <p className='About__contact-item About__address'>
+        <p className='About-item'>
           <FontAwesomeIcon icon={faMapMarkerAlt} />
           {' '}
           {address}

@@ -6,8 +6,8 @@
     "email": "ary.rosvall@gmail.com",
     "website": "aryrosvall.com",
     "phone": "55 6358 4267",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Soy una profesional apasionada por la tecnología, con experiencia en el desarrollo y gestión de productos y proyectos de tecnologías web y móviles.",
+    "avatar": "https://media-exp1.licdn.com/dms/image/C5603AQFVHF90Jjt00w/profile-displayphoto-shrink_200_200/0?e=1586390400&v=beta&t=hZGNbXqsb-_ylslUsoYgKbVBDQ8YtBlf0xst4rRST38",
+    "Profile": "I am a professional passionate about technology, with experience in the development and management of products and projects of web and mobile technologies.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,34 +24,55 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Master's degree",
+        "description": "Platzi Master",
+        "endDate": "Present",
+        "institution": "Platzi",
+        "startDate": "2020"
       },
       {
-        "degree": "blablabla",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Master's degree",
+        "description": "Project Management",
+        "endDate": "2019",
+        "institution": "Universidad Tecnológica de México",
+        "startDate": "2017"
+      },
+      {
+        "degree": "Bachelor degree",
+        "description": "Software Engineering",
+        "endDate": "2014",
+        "institution": "Universidad Autónoma del Estado de México",
+        "startDate": "2009"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "BlueMessaging",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Responsible for generating customer engagement with the business, creating added value to the customer.",
+        "jobTitle": "Operations Manager",
+        "startDate": "Apr 2017"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Iké Asistencia",
+        "endDate": "Apr 2017",
+        "jobDescription": "Develop and management of web application projects, stakeholder and project sponsors management.",
+        "jobTitle": "Project Leader",
+        "startDate": "Jan 2017"
+      },
+      {
+        "company": "Iké Asistencia",
+        "endDate": "Feb 2017",
+        "jobDescription": "Develop of web application projects.",
+        "jobTitle": "Web Developer",
+        "startDate": "May 2014"
+      },
+      {
+        "company": "Loomtek",
+        "endDate": "Feb 2014",
+        "jobDescription": "Airlynk project. Development of ERP to manage both operational and governmental costs airport, for the 65 airports in Mexico and abroad.",
+        "jobTitle": "Web Developer",
+        "startDate": "2012"
       }
     ],
     "skills": [
@@ -61,7 +82,7 @@
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "50%"
       },
       {
         "name": "JavaScript",
@@ -69,23 +90,20 @@
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "50%"
       }
     ],
     "interest": [
       "javascript",
-      "develop",
+      "project management",
       "backend",
-      "frontend"
+      "frontend",
+      "react"
     ],
     "languages": [
       {
         "name": "Spanish",
         "percentage": "90%"
-      },
-      {
-        "name": "Portuguese",
-        "percentage": "10%"
       },
       {
         "name": "English",
@@ -99,15 +117,15 @@
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/AryRosvall"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/AryRosvall"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/arantxarosas"
       }
     ]
   }

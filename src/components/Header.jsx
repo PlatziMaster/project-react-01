@@ -7,7 +7,7 @@ const Header = (props) => {
 
   return (
     <header className='Header Box'>
-      <img src={avatar} alt='' className='Header__profile-photo' />
+      <img src={avatar} alt='' className='Header-title' />
     </header>
   );
 };

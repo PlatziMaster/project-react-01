@@ -13,12 +13,12 @@ const Interest = (props) => {
 
   return (
     <section className='Interests Box'>
-      <h1 className='Interests__title Subtitle'>
+      <h1 className='Interest-title Subtitle'>
         Interests
       </h1>
-      <section className='Interests__items'>
+      <section className='Interest-items'>
         {Interests.map(item => (
-          <p key={item} className='Interests__item'>
+          <p key={item} className='Interest-item'>
             {item}
           </p>
         ))}

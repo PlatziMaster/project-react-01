@@ -16,6 +16,12 @@ const Experience = (props) => {
         'company': 'CatStore',
         'endDate': 'Jan 2016',
         'jobDescription': 'Meow in empty rooms lick left leg for ninety minutes, still dirty.',
+        'jobTitle': 'other',
+        'startDate': 'Sept 2019',
+      },
+      {
+        'endDate': 'Jan 2016',
+        'jobDescription': 'Meow in empty rooms lick left leg for ninety minutes, still dirty.',
         'jobTitle': 'Backend',
         'startDate': 'Sept 2019',
       },
@@ -24,11 +30,11 @@ const Experience = (props) => {
 
   return (
     <section className='Experience Box'>
-      <h1 className='Experience__title Subtitle'>
+      <h1 className='Experience-title Subtitle'>
         Experience
       </h1>
-      {experience.map(item => (
-        <section key={item.jobTitle} className='Experience__item'>
+      {experience.map((item, index) => (
+        <section key={index} className='Experience-item'>
           <p className='Experience__item-job-title Item__title'>
             {item.jobTitle}
             {' '}

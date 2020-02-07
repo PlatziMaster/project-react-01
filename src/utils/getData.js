@@ -1,6 +1,4 @@
-import { useState, useEffect } from 'react';
-
-export const getData = (url) => {
+const getData = (url) => {
   const data = fetch(url)
     .then(response => response.json())
     .then(json => json)
@@ -9,14 +7,5 @@ export const getData = (url) => {
   return data;
 };
 
-export const getState = (_URL) => {
-  const [state, setState] = useState([]);
-
-  useEffect(() => {
-    getData(_URL)
-      .then(initialState => setState(initialState));
-  }, []);
-
-  return state;
-};
+export default getData;
 
