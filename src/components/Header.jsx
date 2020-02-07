@@ -18,13 +18,13 @@ const Header = (props) => {
         </div>
         <div className='Header-container-data'>
           <div className='Header-phone'>
-            {props.profession}
+            {props.phone}
           </div>
           <div className='Header-email'>
             {props.email}
           </div>
           <div className='Header-website'>
-            {props.phone}
+            {props.website}
           </div>
         </div>
         <div className='Header-address'>

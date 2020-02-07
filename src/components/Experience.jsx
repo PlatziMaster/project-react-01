@@ -12,8 +12,8 @@ const Experience = (props) => {
       </div>
       <div className='Experience-items'>
         {props[0] ?
-        (Object.keys(props).map(item => <ExperienceItem key={i++} {...props[item]} />)) :
-        ( <div className='Experience-item-company'> Ninguna </div>) }
+          (Object.keys(props).map(item => <ExperienceItem key={i++} {...props[item]} />)) :
+          (<div className='Experience-item-company'> Ninguna </div>) }
       </div>
     </div>
   );

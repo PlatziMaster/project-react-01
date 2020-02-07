@@ -1,122 +1,154 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Luis Antonio Rodríguez García",
+    "profession": "Senior Full Stack Developer, Senior Bot Developer and System Security Expert",
+    "address": "Mexico City",
+    "email": "luis@luisrodriguezgarcia.com",
+    "website": "https://luisrodriguezgarcia.com",
+    "phone": "55-12345678",
+    "avatar": "https://pbs.twimg.com/profile_images/442983338/DSC00544_400x400.JPG",
+    "Profile": "I'm n experienced developer with extensive experience in Javascript, Php and Python with an amplied system security knowledge in Linux based systems with over 15 years of experience. ",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Jan 2009",
+        "description": "Web Development. ",
+        "institution": "UNAM",
+        "name": "Web Development"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "july 2016",
+        "description": "Backend Professional carreer",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Backend Professional"
+      },
+      {
+        "date": "April 2016",
+        "description": "Frontend Professional carreer",
+        "institution": "Platzi",
+        "name": "Frontend Professional"
+      },
+      {
+        "date": "june 2016",
+        "description": "Server Administration carreer",
+        "institution": "Platzi",
+        "name": "Server Administration"
+      },
+      {
+        "date": "june 2017",
+        "description": "System Security carreer",
+        "institution": "Platzi",
+        "name": "System Security"
+      },
+      {
+        "date": "November 2019",
+        "description": "Javascript carreer",
+        "institution": "Platzi",
+        "name": "Javascript School"
       }
+
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Specialty ",
+        "description": "Speciality in Computer Science ",
+        "endDate": "Sep 2008",
+        "institution": "CIC-IPN",
+        "startDate": "Jan 2010"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
-      },{
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Bachelor Degree",
+        "description": "Software Enginering. ",
+        "endDate": "July 2003",
+        "institution": "UPIICSA - IPN",
+        "startDate": "Sep 1999"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Fideicomiso para el Ahorro de Energía Electríca",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Process Manager in the Financial Area",
+        "jobTitle": "Team Leader",
+        "startDate": "July 2010"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "FemexFut",
+        "endDate": "July 2010",
+        "jobDescription": "Develop and management of AJAX aplications.",
+        "jobTitle": "Frontend Developer",
+        "startDate": "Dic 2009"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Luz y Fuerza del Centro",
+        "endDate": "Oct 2009",
+        "jobDescription": "Software Engineer.",
+        "jobTitle": "Engineer",
+        "startDate": "May 2001"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "100%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "100%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "100%"
       },
       {
         "name": "React",
         "percentage": "90%"
+      },
+      {
+        "name": "Servers",
+        "percentage": "90%"
+      },
+      {
+        "name": "PHP",
+        "percentage": "80%"
+      },
+      {
+        "name": "SQL",
+        "percentage": "100%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
       "backend",
-      "frontend"
+      "frontend",
+      "security"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://www.facebook.com/LuisAntRodriguezGarcia/"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/luis_rdz5"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/luisrdz5"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/luis-antonio-rodr%C3%ADguez-garc%C3%ADa-7ab584b5"
       }
     ]
   }
