@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Leonardo Casallas",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
+    "email": "leonardo.casallas.beltran@gmail.com",
+    "website": "www.lecode.dev",
     "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "avatar": "../assets/images/LeoPerfil.jpeg",
+    "Profile": "Experiencia de 12 años en la industria informática con énfasis en desarrollo de software para el sector de mensajería masiva, certificada y logística. Capacidad de liderazgo, trabajo en equipo y aprendizaje empírico.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -72,12 +72,7 @@
         "percentage": "90%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["javascript", "develop", "backend", "frontend"],
     "languages": [
       {
         "name": "Spanish",
