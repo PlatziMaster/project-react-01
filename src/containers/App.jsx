@@ -10,22 +10,14 @@ import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import getData from '../utils/getData';
 
-function getState(API) {
-  const [dataState, setData] = useState([]);
+const App = () => {
+  const API = 'http://localhost:3000/data';
+
+  const [dataCurriculum, setData] = useState([]);
 
   useEffect(() => {
     getData(API).then(data => setData(data));
   }, []);
-
-  return dataState;
-}
-
-const App = () => {
-  const API = 'http://localhost:3000/data';
-
-  const dataCurriculum = getState(API);
-
-  console.log(dataCurriculum);
 
   return (
     <>
