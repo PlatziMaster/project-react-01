@@ -1,14 +1,14 @@
 import React from 'react';
 
-const Interest = () => {
+const Interest = ({ name, description, experince, framework }) => {
   return (
     <>
-      <h1 className='Interest-title'> Interest</h1>
-      <ul>
-        <li className='Interest-item'>Interest-item</li>
-        <li className='Interest-item'>Interest-item</li>
-        <li className='Interest-item'>Interest-item</li>
-      </ul>
+    <h3 className='Interest-title'>{name}</h3>
+    <div className ='Interest-detail'>
+      <p className='Interest-item'>{framework}</p>
+      <p className='Interest-item'>{description}</p>
+      <p className='Interest-item'>{experince}</p>
+    </div>
     </>
   );
 };

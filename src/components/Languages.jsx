@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Languages = () => {
+const Languages = ({ name, percentage, experience }) => {
   return (
     <>
-      <h1 className='Languages-title'> Languages</h1>
-      <ul>
-        <li className='Languages-item'>Languages-item</li>
-        <li className='Languages-item'>Languages-item</li>
-        <li className='Languages-item'>Languages-item</li>
+      <h1 className='Languages-title'> {experience}</h1>
+      <ul className ='Languages-detail'>
+        <li className='Languages-item'>{name}</li>
+        <li className='Languages-item'>{percentage}</li>
+        <li className='Languages-item'>{experience}</li>
       </ul>
     </>
   );

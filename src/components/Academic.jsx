@@ -1,15 +1,13 @@
 import React from 'react';
 
-const Academic = () => {
+const Academic = ({institution, description, startDate, endDate}) => {
   return (
-    <>
-      <h1 className='Academic-title'> Academic</h1>
-      <ul>
-        <li className='Academic-item'>Academic-item</li>
-        <li className='Academic-item'>Academic-item</li>
-        <li className='Academic-item'>Academic-item</li>
-      </ul>
-    </>
+    <div>
+        <h3 className='Academic-title'> {institution}</h3>
+        <p className='Academic-item'>{ description }</p>
+        <p className='Academic-item'>{startDate}</p>
+        <p className='Academic-item'>{endDate}</p>
+    </div>
   );
 };
 

@@ -1,14 +1,16 @@
 import React from 'react';
 
-const Experience = () => {
+const Experience = ({company, jobTitle, jobDescription, startDate, endDate}) => {
   return (
     <>
-      <h1 className='Experience-title'> Experience</h1>
-      <ul>
-        <li className='Experience-item'>Experience-item</li>
-        <li className='Experience-item'>Experience-item</li>
-        <li className='Experience-item'>Experience-item</li>
-      </ul>
+      <h2 className='Experience-title'> {jobTitle}</h2>
+      <div className='Experience-detail'>
+        <div className='Experience-content'>
+            <div className='Experience-item'>{company} - {jobTitle}</div>
+            <div className='Experience-item'>{jobDescription}</div>
+            <div className='Experience-item'>{startDate} - {endDate}</div>
+          </div>
+      </div>
     </>
   );
 };

@@ -1,15 +1,14 @@
 import React from 'react';
 
-const Skills = () => {
+const Skills = ({ name, percentage, deatil, version }) => {
   return (
-    <>
-      <h1 className='Skills-title'> Skills</h1>
-      <ul>
-        <li className='Skills-item'>Skills-item</li>
-        <li className='Skills-item'>Skills-item</li>
-        <li className='Skills-item'>Skills-item</li>
-      </ul>
-    </>
+          <div className ='Skills-detail'>
+            <h3 className='Skills-title'>{name}</h3>
+             <p className='Skills-item'>{version}</p>
+             <p className='Skills-item'>{percentage}</p>
+             <p className='Skills-item'>{deatil}</p>
+          </div>
+        
   );
 };
 
