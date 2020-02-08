@@ -1,29 +1,7 @@
 import React from 'react';
 
-const Experience = () => {
-  const items = [
-    {
-      'company': 'PugStar',
-      'endDate': 'Present',
-      'jobDescription': 'scratch the furniture. Good now the other hand, too lay on arms while you\'re using the keyboard.',
-      'jobTitle': 'Frontend',
-      'startDate': 'Jan 2020',
-    },
-    {
-      'company': 'CatStore',
-      'endDate': 'Jan 2019',
-      'jobDescription': 'Meow in empty rooms lick left leg for ninety minutes, still dirty.',
-      'jobTitle': 'Backend',
-      'startDate': 'Sept 2016',
-    },
-    {
-      'company': 'My Home',
-      'endDate': 'Jan 2015',
-      'jobDescription': 'Baby in my house',
-      'jobTitle': 'Dormir',
-      'startDate': 'Jan 2000',
-    },
-  ];
+const Experience = ({ itemsArray }) => {
+  const items = itemsArray || Array(3).fill(1);
 
   return (
     <section>

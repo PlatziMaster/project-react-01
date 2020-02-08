@@ -1,24 +1,7 @@
 import React from 'react';
 
-const Skills = () => {
-  const items = [
-    {
-      'name': 'HTML5',
-      'percentage': '75%',
-    },
-    {
-      'name': 'CSS',
-      'percentage': '25%',
-    },
-    {
-      'name': 'JavaScript',
-      'percentage': '55%',
-    },
-    {
-      'name': 'React',
-      'percentage': '90%',
-    },
-  ];
+const Skills = ({ itemsArray }) => {
+  const items = itemsArray || Array(3).fill(1);
 
   return (
     <section>

@@ -1,13 +1,12 @@
 import React from 'react';
 
-const Header = ({ children }) => {
-  const profession = 'FrontEnd Developer';
+const Header = ({ children, name, profession, avatar }) => {
 
   return (
     <header>
-      <img src='https://arepa.s3.amazonaws.com/melissa.jpg' alt='avatar' />
+      <img src={avatar} alt='avatar' />
       <div className='Header-titles'>
-        <h1 className='Header-title'>Your Name</h1>
+        <h1 className='Header-title'>{name}</h1>
         <h3 className='Header-job-title'>{profession}</h3>
       </div>
       {children}

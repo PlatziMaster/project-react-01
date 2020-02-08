@@ -1,20 +1,7 @@
 import React from 'react';
 
-const Languages = () => {
-  const items = [
-    {
-      'name': 'Spanish',
-      'percentage': '90%',
-    },
-    {
-      'name': 'English',
-      'percentage': '50%',
-    },
-    {
-      'name': 'Japanese',
-      'percentage': '0.4%',
-    },
-  ];
+const Languages = ({ itemsArray }) => {
+  const items = itemsArray || Array(3).fill(1);
 
   return (
     <section>

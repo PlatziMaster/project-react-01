@@ -1,7 +1,7 @@
 {
   "data": {
     "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "profession": "My Profession",
     "address": "Bogotá, Colombia.",
     "email": "melissa@example.com",
     "website": "https://example.com",
@@ -36,6 +36,13 @@
         "endDate": "Decenber 2015",
         "institution": "Harvard",
         "startDate": "Jan 2017"
+      },
+      {
+        "degree": "Bachelor",
+        "description": "Easy School",
+        "endDate": "December 2017",
+        "institution": "Colegio de la Esquina",
+        "startDate": "Jan 2015"
       }
     ],
     "experience": [
@@ -52,6 +59,13 @@
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
         "jobTitle": "Backend",
         "startDate": "Sept 2019"
+      },
+      {
+        "company": "My Home",
+        "endDate": "Jan 2015",
+        "jobDescription": "Baby in my house",
+        "jobTitle": "Dormir",
+        "startDate": "Jan 2002"
       }
     ],
     "skills": [
@@ -86,6 +100,10 @@
       {
         "name": "English",
         "percentage": "50%"
+      },
+      {
+        "name": "Japanese",
+        "percentage": "0.4%"
       }
     ],
     "social": [

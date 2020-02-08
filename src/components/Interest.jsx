@@ -1,12 +1,7 @@
 import React from 'react';
 
-const Interest = () => {
-  const items = [
-    'javascript',
-    'develop',
-    'backend',
-    'frontend',
-  ];
+const Interest = ({ itemsArray }) => {
+  const items = itemsArray || Array(3).fill(1);
 
   return (
     <section>

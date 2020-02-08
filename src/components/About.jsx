@@ -1,15 +1,6 @@
 import React from 'react';
 
-const items = {
-  phone: 'my phone number',
-  email: 'my email',
-  website: 'my website',
-  address: 'my address',
-};
-
-const About = () => {
-  const { phone, email, website, address } = items;
-
+const About = ({ phone, email, website, address }) => {
   return (
     <article>
       <h3 className='About-title'>Contacto</h3>
