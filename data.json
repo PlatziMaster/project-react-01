@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Iván D. Sánchez",
+    "profession": "Software Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "cosmosoft.soluciones@gmail.com",
+    "website": "https://cosmosoftroot.github.io/",
+    "phone": "3142896128",
+    "avatar": "https://2.gravatar.com/avatar/b9c674ca7541ea962e68107fbc6cb335?s=400&d=mm",
+    "Profile": "I am a software developer with experience in integrating business models with information systems made according to project requirements",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,60 +24,76 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
+        "degree": "Systems technologist",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "endDate": "March 2011",
+        "institution": "Corporación universitaria UNITEC",
+        "startDate": ""
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "JavaScript Developer",
+        "description": "",
+        "endDate": "November 2019",
+        "institution": "Platzi - JavaScript School",
+        "startDate": ""
+      },
+      {
+        "degree": "Project Management",
+        "description": "",
+        "endDate": "August 2013",
+        "institution": "Universidad del Rosario",
+        "startDate": ""
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Cosmosoft Soluciones Informáticas",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
+        "jobDescription": "Development of software solutions through technologies how React, JavaScript, JQuery, PHP, Wordpress, Joomla, Java among others",
+        "jobTitle": "CEO",
         "startDate": "Jan 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Colegio Personalizado Pensamiento",
+        "endDate": "Nov 2018",
+        "jobDescription": "Information system developer, which automates the academic, administrative and other services management.",
+        "jobTitle": "Full-Stack Developer",
+        "startDate": "April 2014"
+      },
+      {
+        "company": "Funservicoop",
+        "endDate": "December 2019",
+        "jobDescription": "Audit of systems to cooperatives such as Coomagiscun, Coopmincom, Coopchipaque, Coopecol, Coopfragata, Coopminexteriores, Cooptraexxon, Corporate, Fondexo, Ustacoop among other",
+        "jobTitle": "Systems Auditor",
+        "startDate": "April 2014"
+      },
+      {
+        "company": "Fincomercio",
+        "endDate": "April 2014",
+        "jobDescription": "Development of the marketing information system for the automatic prospecting of credit quotas aligned with the internal policies of the cooperative",
+        "jobTitle": "Business Intelligence Analyst",
+        "startDate": "November 2012"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
+        "name": "JavaScript",
         "percentage": "75%"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "80%"
+      },
+      {
+        "name": "PHP",
+        "percentage": "70%"
+      },
+      {
+        "name": "CSS",
+        "percentage": "80%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["JavaScript", "Backend", "Fronted", "Devops"],
     "languages": [
       {
         "name": "Spanish",
@@ -86,6 +102,10 @@
       {
         "name": "English",
         "percentage": "50%"
+      },
+      {
+        "name": "Code",
+        "percentage": "100%"
       }
     ],
     "social": [
