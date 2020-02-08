@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
+    "name": "Jose Luis Campos Bautista",
+    "profession": "BackEnd Developer",
+    "address": "CDMX, México.",
+    "email": "bautistaj@hotmail.com",
+    "website": "https://github.com/bautistaj",
     "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "avatar": "https://static.platzi.com/media/avatars/avatars/luiscampos_20511356-9141-4077-bc76-142767e2f019.jpg",
+    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,6 +24,7 @@
     ],
     "Academic": [
       {
+        "id": 1,
         "degree": "Atomic Master",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
         "endDate": "Jan 2017",
@@ -31,6 +32,7 @@
         "startDate": "Jan 2018"
       },
       {
+        "id": 2,
         "degree": "Space Engineering",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
         "endDate": "Decenber 2015",
@@ -40,6 +42,7 @@
     ],
     "experience": [
       {
+        "id": 1,
         "company": "PugStar",
         "endDate": "Present",
         "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
@@ -47,6 +50,7 @@
         "startDate": "Jan 2020"
       },
       {
+        "id": 2,
         "company": "CatStore",
         "endDate": "Jan 2016",
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
@@ -56,52 +60,91 @@
     ],
     "skills": [
       {
+        "id": 1,
         "name": "HTML5",
         "percentage": "75%"
       },
       {
+        "id": 2,
         "name": "CSS",
         "percentage": "25%"
       },
       {
+        "id": 3,
         "name": "JavaScript",
         "percentage": "55%"
       },
       {
+        "id": 4,
         "name": "React",
         "percentage": "90%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      {
+        "id": 1,
+        "name":"javascript",
+        "framework": "Node, Angular",
+        "description":"",
+        "experince":""
+      },
+      {
+        "id": 2,
+        "name":"develop",
+        "framework": "",
+        "description":"",
+        "experince":""
+      },
+      {
+        "id": 3,
+        "name":"backend",
+        "framework": "",
+        "description":"",
+        "experince":""
+      },
+      {
+        "id": 4,
+        "name":"frontend",
+        "framework": "",
+        "description":"",
+        "experince":""
+      }
     ],
     "languages": [
       {
+        "id": 1,
         "name": "Spanish",
         "percentage": "90%"
       },
       {
+        "id": 2,
         "name": "English",
+        "percentage": "50%"
+      },
+      {
+        "id": 3,
+        "name": "French",
         "percentage": "50%"
       }
     ],
     "social": [
       {
+        "id": 1,
         "name": "facebook",
         "url": "https://facebook.com/"
       },
       {
+        "id": 2,
         "name": "twitter",
         "url": "https://twitter.com/"
       },
       {
+        "id": 3,
         "name": "github",
         "url": "https://github.com/"
       },
       {
+        "id": 4,
         "name": "linkedin",
         "url": "https://www.linkedin.com/"
       }
