@@ -1,9 +1,11 @@
+/* eslint-disable */
+
 import React from 'react';
 import { mount } from 'enzyme';
-import Skills from '../../components/Skills';
+import Skill from '../../components/Skill';
 
-describe('<Skills />', () => {
-  const skills = mount(<Skills />);
+describe('<Skill />', () => {
+  const skills = mount(<Skill />);
 
   test('Skills render', () => {
     expect(skills.length).toEqual(1);

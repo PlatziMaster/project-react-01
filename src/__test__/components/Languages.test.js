@@ -1,9 +1,11 @@
+/* eslint-disable */
+
 import React from 'react';
 import { mount } from 'enzyme';
-import Languages from '../../components/Languages';
+import Language from '../../components/Languagee';
 
-describe('<Languages />', () => {
-  const languages = mount(<Languages />);
+describe('<Language />', () => {
+  const languages = mount(<Language />);
 
   test('Languages render', () => {
     expect(languages.length).toEqual(1);
