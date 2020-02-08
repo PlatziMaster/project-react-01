@@ -7,6 +7,7 @@ Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate 
 ![react-cv](https://raw.githubusercontent.com/PlatziMaster/project-react-01/master/screenshot.png)
 
 ### Retos
+
 1. [Crear los componentes del proyecto](https://github.com/platzimaster/project-react-01/issues/1)
 2. [Añadir estilos](https://github.com/platzimaster/project-react-01/issues/2)
 3. [Crear función getData.js](https://github.com/platzimaster/project-react-01/issues/3)
@@ -15,40 +16,65 @@ Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate 
 6. [Documentar](https://github.com/platzimaster/project-react-01/issues/6)
 
 ### Instalación
-```
+
+```bash
 npm install
 ```
 
 ### Ejecución
-```
+
+```bash
 npm run start
 ```
 
 ### Server
-```
+
+```bash
 npm run server
 ```
 
 ### Compilar
-```
+
+```bash
 npm run build
 ```
 
 ### Pruebas Unitarias
-```
+
+```bash
 npm run test
 ```
 
 ### ESlint
-```
+
+```bash
 npm run lint
 ```
 
 ### Enviar solución de reto
+
 Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia este repositorio.
 
 ### Contribuir
+
 Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [project-react-01](https://github.com/platzimaster/project-react-01/)
 
 ### Licencia
+
 project-react-01 se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+
+## Solución de Retos
+
+### Issue-1
+
+![RETO-1](issue-1.png)
+
+### Issue-4
+
+![RETO-4](issue-4.png)
+
+### Issue-5
+
+Para lograr el último resultado es necesario ejecutar previamente `npm run build`.
+
+![RETO-5](issue-5.png)

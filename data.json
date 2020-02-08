@@ -1,82 +1,91 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Jorge H. Nemogá P.",
+    "profession": "FrontEnd Developer :V",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "jhnemogap@gmail.com",
+    "website": "https://nemo1co.space/",
+    "phone": "+573132338130",
+    "avatar": "https://avatars1.githubusercontent.com/u/50347390?s=400&u=4887b5ebb83b971e7eebc42ec691091fa79af242&v=4",
+    "profile": "Soy un ingeniero apasionado por el mundo de la programación y afines. Me gustaría hacer parte de un grupo de trabajo para el desarrollo de software, en esta nueva industria de la tecnología para mí y así aplicar la experiencia de programación lógica. Ya lo sé, no describo mi rol. Pero es que me falta mucho para si quiera decir soy Fronte...",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Noviembre 2019",
+        "description": "Visto bueno por asistír y presentar proyecto final usando el stack MERN",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Escuela de JavaScrip 2019"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "date": "Mayo 2019",
+        "description": "Una introducción general a al machine learning desde regresión lineal hasta modelos con neuronas alocadas.",
+        "institution": "Instituto de Extensión e Investigación IEI ",
+        "name": "Introducción al aprendizaje computacional (Machine Learning)"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Carrera de JavaScript",
+        "description": "Conocimientos generales en el stack MERN",
+        "endDate": "Noviembre 2019",
+        "institution": "Platzi",
+        "startDate": "Agosto 2019"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Ingeniería Mecatrónica",
+        "description": "Pues se de muchas cosas generales, pero no se nada al final.",
+        "endDate": "Antes pero 2015",
+        "institution": "Universidad Nacional de Colombia",
+        "startDate": "Creo 2007"
+      },
+      {
+        "degree": "Bachiller",
+        "description": "Bachiller académico a lo fácil.",
+        "endDate": "2006",
+        "institution": "Universidad Nacional de Colombia",
+        "startDate": "200x"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "MULTICONTROL Ltda.",
+        "endDate": "Enero 2019",
+        "jobDescription": "Desarrollo y gestión de proyectos/servicios en procesos de automatización industrial. Sectores como el de alimentos, plásticos, cerámicos, entre otros. \n* Objetivo Principal: asistir al cliente (en planta de producción) a solucionar inconvenientes o requerimientos nuevos en sus máquinas / procesos industriales. Por medio de seguimiento de código, edición o creación de nuevas rutinas. \n\nMarcas asociadas: Omron, Gefran, Rice Lake Weighing Systems, Optec.",
+        "jobTitle": "Ingeniero de proyecto / desarrollo industrial",
+        "startDate": "Octubre 2015"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Laboratorio Sala CAM-Mecatrónica - Unal",
+        "endDate": "Agosto 2015",
+        "jobDescription": "OBJETIVO: Desarrollar una librería para la plataforma de controladores de movimiento de la serie MP2000siec de Yaskawa que permita la ejecución de movimientos coordenados 3D y sincronizados para un robot de arquitectura SCARA.",
+        "jobTitle": "Ingeniero Auxiliar de automatización robot Scara - Controlador MP2300Siec Yaskawa",
+        "startDate": "Febrero 2015"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "85%"
       },
       {
-        "name": "CSS",
-        "percentage": "25%"
+        "name": "CSS3",
+        "percentage": "70%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "59%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "65%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
-      "backend",
-      "frontend"
+      "machine learning",
+      "frontend",
+      "baloncesto",
+      "video juegos"
     ],
     "languages": [
       {
@@ -85,7 +94,11 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "28%"
+      },
+      {
+        "name": "Japones",
+        "percentage": "0.8%"
       }
     ],
     "social": [
