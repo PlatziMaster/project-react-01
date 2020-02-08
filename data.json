@@ -1,82 +1,143 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Tonalli López",
+    "profession": "Frontend Developer",
+    "address": "Mexico City, Mexico",
+    "email": "contact@tuentyfaiv.com",
+    "website": "https://tuentyfaiv.com",
+    "phone": "55********",
+    "avatar": "https://static.platzi.com/media/avatars/avatars/Tonalli_9a27c2d3-545d-44bd-85d9-cf8c4b76671d.jpg",
+    "Profile": "I am currently studying online at Platzi.com and have completed some software development courses. I use React.js as my main Frontend development library, I know a little bit about style preprocessors, the one I liked the most is SASS, I also use webpack to package some of my projects and I'm starting to learn GraphQL, as well as fundamentals of relational and non-relational databases to complement my knowledge; and for mobile development I am learning technologies / languages ​​such as Flutter, React Native, Dart, Kotlin and Java, I still don't know much about mobile development but every day I am learning something new.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "Mar 2019",
+        "description": "A complete career to know the Frontend and its structure when creating a project from the layout to give the styles.",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Arquitectura FrontEnd"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "date": "May 2019",
+        "description": "The fastest way to get to know React and its technologies to create complete projects, manage states and routes in a SPA.",
         "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Frontend con React.js"
+      },
+      {
+        "date": "Oct 2019",
+        "description": "A complete race to learn how to use JavaScript in depth on both the Frontend and Backend sides.",
+        "institution": "Platzi",
+        "name": "JavaScript"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Escuela de Javascript",
+        "description": "Three intensive months to learn the MEARN stack.",
+        "endDate": "Nov 2019",
+        "institution": "Platzi",
+        "startDate": "Ago 2019"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Preparatoria",
+        "description": "Studies not completed at CECyT No.1",
+        "endDate": "---",
+        "institution": "IPN",
+        "startDate": "2015"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Estancia infantil y jardín de niños Colibrí",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "jobDescription": "I teach kindergarteners how to use a computer at a very basic level, explain what it is for and what basic care should be given to a computer. Also to have hand-eye coordination and improve your motor skills when using a mouse.",
+        "jobTitle": "Computer teacher.",
+        "startDate": "Ago 2018"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "80%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "78%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "68%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "68%"
+      },
+      {
+        "name": "Redux",
+        "percentage": "60%"
+      },
+      {
+        "name": "React Router",
+        "percentage": "60%"
+      },
+      {
+        "name": "Webpack",
+        "percentage": "50%"
+      },
+      {
+        "name": "NodeJS",
+        "percentage": "50%"
+      },
+      {
+        "name": "Git",
+        "percentage": "65%"
+      },
+      {
+        "name": "Stylus",
+        "percentage": "45%"
+      },
+      {
+        "name": "Sass",
+        "percentage": "45%"
+      },
+      {
+        "name": "Less",
+        "percentage": "45%"
+      },
+      {
+        "name": "Responsive Design",
+        "percentage": "68%"
+      },
+      {
+        "name": "Passport.js",
+        "percentage": "30%"
+      },
+      {
+        "name": "Express",
+        "percentage": "35%"
+      },
+      {
+        "name": "GraphQL",
+        "percentage": "46%"
+      },
+      {
+        "name": "Postman",
+        "percentage": "65%"
+      },
+      {
+        "name": "CSS in JavaScript",
+        "percentage": "55%"
+      },
+      {
+        "name": "Now",
+        "percentage": "60%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "JavaScript",
+      "Develop",
+      "Backend",
+      "Frontend",
+      "Movil development",
+      "VR"
     ],
     "languages": [
       {
@@ -90,20 +151,20 @@
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "Facebook",
+        "url": "https://facebook.com/tuentyfaivpage"
       },
       {
-        "name": "twitter",
-        "url": "https://twitter.com/"
+        "name": "Twitter",
+        "url": "https://twitter.com/TuentyFaiv"
       },
       {
-        "name": "github",
-        "url": "https://github.com/"
+        "name": "GitHub",
+        "url": "https://github.com/TuentyFaiv"
       },
       {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/tuentyfaiv"
       }
     ]
   }
