@@ -1,74 +1,112 @@
 {
   "data": {
     "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "profession": "Full Stack Developer",
     "address": "Bogotá, Colombia.",
     "email": "melissa@example.com",
     "website": "https://example.com",
     "phone": "3042034240",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "Profile": "Full-Stack developer with 5 years of experience in web application development using PHP language to develop back end and JavaScript Frameworks such as Angular, Vue JS, React to develop the front end. Currently, I am looking for an opportunity that allows me to turn around my life to keeping grow up,",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Aug 2018",
+        "description": "Building PHP API's and Services using Codeigniter and Slim frameworks.',\n      'Support from many Angular v8 apps built in-house.',\n      'Management code revision history using SorceTree & Bitbucket; use JIRA boards to manage Sprint tasks.',\n      'Developing an Angular onboarding from Claro Drive.",
+        "institution": "Ironbit / America Movil",
+        "name": "Full Stack Developer"
       },
       {
         "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "description": "Develop survey management system using Laravel 5.6 and VueJS v.2 to show a KPI's charts board.,\n      Building modules using ZendFramework for an operation in-house system.,\n      Affiliate management information analysis collection.,\n      Database administration (MySQL, MongoDB).,\n      Building collection Process & Reports.",
+        "institution": "Telasist",
+        "name": "Full Stack Developer"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
+        "degree": "Project Management Master",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "endDate": "Jul 2017",
+        "institution": "UNITEC Campus Sur",
+        "startDate": "Dec 2019"
       },
       {
-        "degree": "Space Engineering",
+        "degree": "Bachelor of Engineering in Computer Engineering",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "endDate": "Aug 2008",
+        "institution": "UPIICSA - IPN",
+        "startDate": "Dec 2013"
+      },
+      {
+        "degree": "Bachelor of Technic in Computer Engineering",
+        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
+        "endDate": "Aug 2004",
+        "institution": "CECyT No.5 - IPN",
+        "startDate": "Jun 2007"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Ironbit / America Movil",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Building PHP API's and Services using Codeigniter and Slim frameworks.',\n      'Support from many Angular v8 apps built in-house.',\n      'Management code revision history using SorceTree & Bitbucket; use JIRA boards to manage Sprint tasks.',\n      'Developing an Angular onboarding from Claro Drive.",
+        "jobTitle": "Full Stack Developer",
+        "startDate": "Aug 2018"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Telasist",
+        "endDate": "Feb 2017",
+        "jobDescription": "Develop survey management system using Laravel 5.6 and VueJS v.2 to show a KPI's charts board.,\n      Building modules using ZendFramework for an operation in-house system.,\n      Affiliate management information analysis collection.,\n      Database administration (MySQL, MongoDB).,\n      Building collection Process & Reports.",
+        "jobTitle": "Full Stack Developer",
+        "startDate": "Jul 2019"
+      },
+      {
+        "company": "Iké Asistencia",
+        "endDate": "May 2015",
+        "jobDescription": "Built PHP modules for an ERP in-house system.\nImproved database design to reduce query processing time. (MySQL, MSSQL).\nPlanning Requirements Analysis.\nImproved the performance of development & production servers.\nParticipated in site-wide front-end migration from pure HTML to Jquery & Bootstrap v.3.",
+        "jobTitle": "Full Stack Developer",
+        "startDate": "Jan 2017"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
         "percentage": "55%"
       },
       {
-        "name": "React",
+        "name": "CSS",
+        "percentage": "40%"
+      },
+      {
+        "name": "JavaScript",
+        "percentage": "80%"
+      },
+      {
+        "name": "Angular",
+        "percentage": "90%"
+      },
+      {
+        "name": "MongoDB",
+        "percentage": "80%"
+      },
+      {
+        "name": "MariaDB",
+        "percentage": "80%"
+      },
+      {
+        "name": "Redis",
+        "percentage": "70%"
+      },
+      {
+        "name": "Git",
+        "percentage": "70%"
+      },
+      {
+        "name": "NodeJS",
+        "percentage": "75%"
+      },
+      {
+        "name": "PHP",
         "percentage": "90%"
       }
     ],
@@ -86,6 +124,10 @@
       {
         "name": "English",
         "percentage": "50%"
+      },
+      {
+        "name": "Russian",
+        "percentage": "20%"
       }
     ],
     "social": [
@@ -95,15 +137,15 @@
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/ziker_on"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/zikeron"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/alejandro-cortez"
       }
     ]
   }
