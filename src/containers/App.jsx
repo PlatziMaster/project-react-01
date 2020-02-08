@@ -7,12 +7,14 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import ErrorMessage from '../components/ErrorMessage';
 
 import '../styles/components/App.styl';
 
 const App = () => {
   return (
     <>
+      <ErrorMessage />
       <Header>
         <About />
       </Header>
