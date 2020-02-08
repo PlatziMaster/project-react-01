@@ -18,12 +18,17 @@ const Languages = () => {
 
   return (
     <section>
-      <h1 className='Languages-title'>Habilidades</h1>
+      <h1 className='Languages-title'>Idiomas</h1>
       {items.map((item, index) => {
         const i = index + 1;
         return (
           <article className='Languages-item' key={i}>
-            <p>{item.name}</p>
+            <p>
+              <span>
+                {item.name}
+              </span>
+              <span />
+            </p>
             <p>{item.percentage}</p>
           </article>
         );

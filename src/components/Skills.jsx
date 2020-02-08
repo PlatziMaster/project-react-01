@@ -27,7 +27,12 @@ const Skills = () => {
         const i = index + 1;
         return (
           <article className='Skills-item' key={i}>
-            <p>{item.name}</p>
+            <p>
+              <span>
+                {item.name}
+              </span>
+              <span />
+            </p>
             <p>{item.percentage}</p>
           </article>
         );

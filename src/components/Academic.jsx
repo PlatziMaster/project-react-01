@@ -35,7 +35,7 @@ const Academic = () => {
             <h2>{item.degree}</h2>
             <h3>{item.institution}</h3>
             <p className='description'>{item.description}</p>
-            <small className='dates'>{`${item.endDate} - ${item.startDate}`}</small>
+            <span className='dates'>{`${item.endDate} - ${item.startDate}`}</span>
           </article>
         );
       })}

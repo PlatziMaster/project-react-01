@@ -35,7 +35,7 @@ const Experience = () => {
             <h2>{item.company}</h2>
             <h3>{item.jobTitle}</h3>
             <p className='description'>{item.jobDescription}</p>
-            <small className='dates'>{`${item.endDate} - ${item.startDate}`}</small>
+            <span className='dates'>{`${item.endDate} - ${item.startDate}`}</span>
           </article>
         );
       })}

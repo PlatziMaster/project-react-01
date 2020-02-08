@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';
@@ -8,6 +7,8 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+
+import '../styles/components/App.styl';
 
 const App = () => {
   return (
@@ -18,12 +19,15 @@ const App = () => {
       <main>
         <Profile />
         <Experience />
+      </main>
+      <aside>
         <Academic />
         <Skills />
         <Interest />
         <Languages />
-      </main>
+      </aside>
     </>
   );
 };
+
 export default App;
