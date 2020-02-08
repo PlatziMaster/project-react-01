@@ -18,8 +18,13 @@ const Experience = ({ experience }) => {
                 jobTitle={item.jobTitle}
                 startDate={item.startDate}
               />
-            ))) : null
-        }
+            ))) : (
+              <>
+                <div className='Experience-item' />
+                <div className='Experience-item' />
+                <div className='Experience-item' />
+              </>
+            )}
       </div>
     </div>
   );

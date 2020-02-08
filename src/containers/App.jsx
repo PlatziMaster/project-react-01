@@ -28,6 +28,7 @@ const App = () => {
     <>
       <Header
         name={initialState.name}
+        avatar={initialState.avatar}
       >
         <About
           profession={initialState.profession}
@@ -44,12 +45,12 @@ const App = () => {
         experience={initialState.experience}
       />
       <div className='Wrapper'>
-        <Academic academic={initialState.Academic} />
-        <Skills skills={initialState.skills} />
+        <Academic academic={initialState.Academic}/>
+        <Skills skills={initialState.skills}/>
       </div>
       <div className='Wrapper'>
-        <Interest interest={initialState.interest} />
-        <Languages languages={initialState.languages} />
+        <Interest interest={initialState.interest}/>
+        <Languages languages={initialState.languages}/>
       </div>
     </>
   );

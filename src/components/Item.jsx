@@ -12,10 +12,10 @@ const Item = (props) => {
 
   return (
     <div className='Item'>
-      <p className='Item__paragraph'>{company}</p>
-      <p className='Item__paragraph'>{jobTitle}</p>
-      <p className='Item__paragraph'>{`${startDate} / ${endDate}` }</p>
-      <p className='Item__paragraph'>Tasks</p>
+      <p className='.Experience-item'>{company}</p>
+      <p className='.Experience-item'>{jobTitle}</p>
+      <p className='.Experience-item'>{`${startDate} / ${endDate}` }</p>
+      <p className='.Experience-item'>Tasks</p>
       <div className='Item__tasks'>{jobDescription}</div>
     </div>
   );

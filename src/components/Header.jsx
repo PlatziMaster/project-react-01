@@ -1,13 +1,12 @@
 import React from 'react';
 import '../styles/components/Header.styl';
-import profile from '../assets/static/profileimg.jpg';
 
-const Header = ({ children, name }) => {
+const Header = ({ children, name, avatar }) => {
   return (
     <div className='Header'>
       <div className='Header__img'>
         <picture>
-          <img src={profile} alt='profile' />
+          <img src={avatar} alt='profile' />
         </picture>
       </div>
       <div className='Header__about'>

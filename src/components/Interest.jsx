@@ -5,13 +5,20 @@ const Interest = ({ interest }) => {
   return (
     <div className='Interest'>
       <h3 className='Interest-title'>Interests</h3>
-      <ul className='Interest-item'>
+      <ul>
         {
           (interest) ? (
             interest.map(item => (
-              <li key={item}> {item} </li>
+              <li className='Interest-item' key={item}>{item}</li>
             ))
-          ) : null
+          ) :
+            (
+              <>
+                <div className='Interest-item' />
+                <div className='Interest-item' />
+                <div className='Interest-item' />
+              </>
+            )
         }
       </ul>
     </div>

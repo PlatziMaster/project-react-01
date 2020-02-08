@@ -8,12 +8,19 @@ const Academic = ({ academic }) => {
       {
         (academic) ?
           academic.map(item => (
-            <ul key={item.degree}>
+            <ul className='Academic-item' key={item.degree}>
               <li>{item.degree}</li>
               <li>{item.institution}</li>
-              <li>{`${item.endDate} / ${item.startDate}` }</li>
+              <li>{`${item.endDate} / ${item.startDate}`}</li>
             </ul>
-          )) : null
+          )) :
+          (
+            <>
+              <div className='Academic-item' />
+              <div className='Academic-item' />
+              <div className='Academic-item' />
+            </>
+          )
       }
     </div>
   );
