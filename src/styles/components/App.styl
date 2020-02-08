@@ -1,2 +1,103 @@
-body
-  background-color blue
+@import './styles.styl'
+@import url('https://fonts.googleapis.com/css?family=Roboto|Open+Sans:300,400,900&display=swap')
+
+body 
+  font-family $font-family
+  font-size: 14px
+  @media $md
+    font-size: 16px
+
+  font-weight 300
+  margin 0
+  padding 0
+  top:0; 
+  left:0;
+  z-index:-1;
+  &::after
+    content ""
+    background $background
+    background-attachment fixed
+    position fixed
+    top 0 
+    left 0
+    height  100%
+    width  100%
+    z-index -1   
+
+#app
+  display grid
+  padding 1.5rem 2rem
+  grid-gap 1.5rem
+  grid-template-columns 1fr 
+  grid-template-areas "Header" "Profile" "Experience" "Academic" "Skills" "Interest" "Languages"
+
+  for $area in Header Profile Experience Academic Skills Interest Languages
+    .{$area} 
+      grid-area $area
+  
+  .Header 
+  .Profile 
+  .Experience 
+  .Academic 
+  .Skills 
+  .Interest 
+  .Languages 
+    mix-card()
+    padding-left 3rem
+    padding-right 3rem 
+
+@media $md
+  #app 
+    padding 2rem 3rem
+    grid-gap 2rem
+    grid-template-columns 1fr 1fr
+    grid-template-areas "Header Header" "Profile Profile" "Experience Experience" "Academic Skills" "Interest Languages"
+
+    .Header 
+    .Profile 
+    .Experience 
+    .Academic 
+    .Skills 
+    .Interest 
+    .Languages
+      padding-left 3rem
+      padding-right 3rem 
+
+[class$="title"]
+  font-family $font-family-title
+  font-weight 900
+  text-transform capitalize
+  font-size 1.5rem
+  color $color-4
+  margin-bottom 1rem
+
+[class$="item"]
+  margin-bottom .25rem
+
+@keyframes glow {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.loading-item 
+  width 100%
+  height 1.5rem
+  background $background-loading 
+  color transparent
+  display flex
+  align-items center
+  line-height 1rem
+  padding-left 16px
+
+  animation glow 1.5s ease-in-out infinite
+  cursor progress
+  display inline-block
+
+  &::after
+    content: "Loading ..."
+
