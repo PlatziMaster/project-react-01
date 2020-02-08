@@ -10,26 +10,26 @@ import {
 } from 'reactstrap';
 import { useSelector } from 'react-redux';
 
-const Academic = () => {
-  const studies = useSelector(state => state.user.Academic);
+const Experience = () => {
+  const experiences = useSelector(state => state.user.experience);
 
   return (
     <>
-      {studies ? (
-        <Col sm='6'>
+      {experiences ? (
+        <Col sm='12' className='mt-10'>
           <Card body>
             <CardTitle>
-              <h3> Academic Information</h3>
+              <h3> Experience</h3>
             </CardTitle>
             <ListGroup>
-              {studies.map(study => (
+              {experiences.map(experience => (
                 <ListGroupItem>
                   <ListGroupItemHeading>
-                    {`${study.degree} in ${study.institution}`}
+                    <h3>{experience.jobTitle}</h3>
+                    {`${experience.company} since ${experience.startDate} until ${experience.endDate}`}
                   </ListGroupItemHeading>
-                  <ListGroupItemText>{study.description}</ListGroupItemText>
                   <ListGroupItemText>
-                    {`${study.startDate}-- ${study.endDate}`}
+                    {experience.jobDescription}
                   </ListGroupItemText>
                 </ListGroupItem>
               ))}
@@ -37,10 +37,10 @@ const Academic = () => {
           </Card>
         </Col>
       ) : (
-        <p>There is no Information available</p>
+        <p>There is no information available</p>
       )}
     </>
   );
 };
 
-export default Academic;
+export default Experience;

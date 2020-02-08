@@ -1,13 +1,16 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Javier Fuentes Mora",
+    "profession": "FULL STACK Developer",
+    "address": "México, CDMX.",
+    "email": "javier.fuentesm@hotmail.com",
+    "website": "https://javier.fuentesm.tech",
+    "phone": "5513559665",
+    "avatar": "http://javierfuentesm.tech/img/yo.jpg",
+    "Profile": "Here you will know about me and you will be able to see some of my work experience",
+    "about": "Im a person , that is always passionate to learn something new , I enjoy coding because it gives you the power to create not just new things but soltions ",
+    "projects": "18",
+    "clients": "15",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,86 +27,84 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Ingeniería en sitemas computacionales",
+        "description": "I learned how to create complex systems , and to manage databases ",
+        "endDate": "Jul 2020",
+        "institution": "ESCOM",
+        "startDate": "Ag 2015"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Técnico en programación",
+        "description": "I learned Java, SQL, PHP, etc ",
+        "endDate": "Jul 2012",
+        "institution": "CeCyt 9",
+        "startDate": "Jun 2009"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Globant",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Im in charge to create a Web UI interface for many projects and cleints all over the world using different technologies",
+        "jobTitle": "Web UI Developer",
+        "startDate": "Dec 2019"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Global Hitss",
+        "endDate": "Dec 2019",
+        "jobDescription": "I was in charge to develop complex systems for the QA area.",
+        "jobTitle": "Fullstack",
+        "startDate": "Jun 2018"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%"
+        "name": "React",
+        "percentage": "85"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "75"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "80"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": " Angular",
+        "percentage": "70"
+      },
+      {
+        "name": " Express",
+        "percentage": "60"
       }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "90%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://facebook.com/javierfuentesmora94"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/javier_mora94"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/javierfuentesm"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://linkedin.com/in/javier-fuentes-mora-7a0b86a7/"
       }
     ]
   }

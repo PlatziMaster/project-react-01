@@ -4,6 +4,7 @@ import Info from '../components/Info';
 import Skill from '../components/Skill';
 import Academic from '../components/Academic';
 import Language from '../components/Language';
+import Experience from '../components/Experience';
 
 const Profile = () => (
   <>
@@ -23,14 +24,14 @@ const Profile = () => (
       </div>
     </section>
     <Container>
-
       <Row>
         <Academic />
         <Language />
-
+      </Row>
+      <Row>
+        <Experience />
       </Row>
     </Container>
-
   </>
 );
 

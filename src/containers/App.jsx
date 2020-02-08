@@ -1,24 +1,22 @@
 import React from 'react';
+import { Provider } from 'react-redux';
+import { createStore, compose } from 'redux';
 import Header from '../components/Header';
 import About from '../components/About';
 import Profile from './Profile';
-/*
-import Experience from '../components/Experience';
-import Academic from '../components/Academic';
-import Interest from '../components/Interest';
-import Languages from '../components/Languages';
- */
+import reducer from '../redux/reducers';
+
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const store = createStore(reducer, composeEnhancers());
+
 const App = () => {
   return (
     <>
-      <Header />
-      <About />
-      <Profile />
-      {/*
-      <Experience />
-      <Academic />
-      <Interest />
-      <Languages /> */}
+      <Provider store={store}>
+        <Header />
+        <About />
+        <Profile />
+      </Provider>
     </>
   );
 };

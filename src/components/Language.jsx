@@ -1,23 +1,43 @@
-
 import React from 'react';
-import { Card, Col, CardTitle, ListGroup, ListGroupItemHeading, ListGroupItem, ListGroupItemText } from 'reactstrap';
+import {
+  Card,
+  Col,
+  CardTitle,
+  ListGroup,
+  ListGroupItemHeading,
+  ListGroupItem,
+  ListGroupItemText,
+} from 'reactstrap';
+import { useSelector } from 'react-redux';
 
-const Language = () => (
+const Language = () => {
+  const languages = useSelector(state => state.user.languages);
 
-  <Col sm='6'>
-    <Card body>
-      <CardTitle><h3> Languages</h3></CardTitle>
-      <ListGroup>
-        <ListGroupItem active>
-          <ListGroupItemHeading>List group item heading</ListGroupItemHeading>
-          <ListGroupItemText>
-            Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.
-          </ListGroupItemText>
-        </ListGroupItem>
-      </ListGroup>
-    </Card>
-  </Col>
+  return (
+    <>
+      {languages ? (
+        <Col sm='6'>
+          <Card body>
+            <CardTitle>
+              <h3> Languages</h3>
+            </CardTitle>
+            <ListGroup>
+              {languages.map(language => (
+                <ListGroupItem>
+                  <ListGroupItemHeading>
+                    {`${language.name} --- ${language.percentage}`}
+                  </ListGroupItemHeading>
 
-);
+                </ListGroupItem>
+              ))}
+            </ListGroup>
+          </Card>
+        </Col>
+      ) : (
+        <p> There is no information available</p>
+      )}
+    </>
+  );
+};
 
 export default Language;
