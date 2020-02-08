@@ -1,14 +1,6 @@
 import React from 'react';
 import '../styles/components/About.styl';
 
-const header = {
-  jobTitle: 'Full-Stack developer',
-  phone: '+52 55 14 33 66',
-  email: 'acortez.dev@gmail.com',
-  webSite: 'www.zikeron.com',
-  address: 'Presa Santa Teresa 134, Col. Irrigación, 11500',
-};
-
 const About = (props) => {
   const {
     profession,

@@ -8,9 +8,10 @@ const Languages = ({ languages }) => {
       {
         (languages) ? (
           languages.map(item => (
-            <ul className='Languages-item' key={item.name}>
-              <li >{`${item.name}: ${item.percentage}`}</li>
-            </ul>
+            <div className='container'>
+              <p>{`${item.name}: ${item.percentage} `}</p>
+              <progress className='progress' value={parseInt(item.percentage.substring(-1))} max="100"></progress>
+            </div>
           ))
         ) : null
       }

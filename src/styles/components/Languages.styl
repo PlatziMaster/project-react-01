@@ -1,6 +1,6 @@
 .Languages
   background-color white
-  border 1px solid black
+  border 1px solid #307bbb
   border-radius 15px
   box-shadow 0 4px 8px 0 rgba(0,0,0,0.2)
   display column
@@ -13,3 +13,27 @@
 
 .Languages-title
   padding 0 10px
+  color #307bbb
+
+progress
+  width 90%
+  height 20px
+  margin 10px
+  display block
+  -webkit-appearance none
+  border none
+
+progress::-webkit-progress-bar
+  background #f0efef
+  border-radius 30px
+  padding 2px
+  box-shadow 0 1px 0px 0 rgba(255, 255, 255, 0.2)
+
+progress::-webkit-progress-value
+  border-radius 30px
+  box-shadow inset 0 1px 1px 0 rgba(255, 255, 255, 0.7)
+  background -webkit-linear-gradient(45deg, transparent, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%),
+  -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.2)),
+  -webkit-linear-gradient(left, #488b8f, #488b8f)
+  background-size 25px 14px, 100% 100%, 100% 100%
+  -webkit-animation move 5s linear 0 infinite

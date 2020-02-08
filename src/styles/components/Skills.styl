@@ -1,6 +1,6 @@
 .Skills
   background-color white
-  border 1px solid black
+  border 1px solid #307bbb
   border-radius 15px
   box-shadow 0 4px 8px 0 rgba(0, 0, 0, 0.2)
   display column
@@ -10,63 +10,36 @@
 
 .Skills-title
   padding 0 10px
+  color #307bbb
 
-.Skillshover
+
+.Skills:hover
   box-shadow 0 8px 16px 0 rgba(0, 0, 0, 0.2)
 
-.Skills-list
-  list-style square
-  padding-left 30px
+.progress:last-child
+  margin-bottom 15px
 
-.Skills-list > *
-  display list-item
-  width 33%
-  float left
+progress
+  width 90%
+  height 20px
+  margin 10px
+  display block
+  -webkit-appearance none
+  border none
 
-.Skills-listafter
-  content ''
+progress::-webkit-progress-bar
+  background #f0efef
+  border-radius 30px
+  padding 2px
+  box-shadow 0 1px 0px 0 rgba(255, 255, 255, 0.2)
 
-.c100
-  position relative
-  font-size 18px
-  width 1em
-  height 1em
-  -webkit-border-radius 50%
-  -moz-border-radius 50%
-  -ms-border-radius 50%
-  -o-border-radius 50%
-  border-radius 50%
-  float left
-  margin 0 0.1em 0.1em 0
-  background-color #cccccc
-
-.c100 *
-.c100 * before
-.c100 * after
-  -webkit-box-sizing content-box
-  -moz-box-sizing content-box
-  box-sizing content-box
-
-.c100 .p55 .bar
-  -webkit-transform: rotate(198deg)
-  -moz-transform: rotate(198deg)
-  -ms-transform: rotate(198deg)
-  -o-transform: rotate(198deg)
-  transform: rotate(198deg)
-  
-.c100:hover 
-  cursor: default
-
-.c100:hover > span 
-  width: 3.33em
-  line-height: 3.33em
-  font-size: 0.3em
-  color: #307bbb
-
-.c100:hover:after 
-  top: 0.04em
-  left: 0.04em
-  width: 0.92em
-  height: 0.92em
+progress::-webkit-progress-value
+  border-radius 30px
+  box-shadow inset 0 1px 1px 0 rgba(255, 255, 255, 0.7)
+  background -webkit-linear-gradient(45deg, transparent, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%),
+          -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.2)),
+          -webkit-linear-gradient(left, #488b8f, #488b8f)
+  background-size 25px 14px, 100% 100%, 100% 100%
+  -webkit-animation move 5s linear 0 infinite
 
 

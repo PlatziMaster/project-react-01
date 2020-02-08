@@ -8,24 +8,10 @@ const Skills = ({ skills }) => {
       {
         (skills) ?
           (skills.map(item => (
-            <>
-              <div>
-                {' '}
-                {item.name}
-                {' '}
-              </div>
-              <div className='c100 p12 small'>
-                <span>
-                  {' '}
-                  {item.percentage}
-                  {' '}
-                </span>
-                <div className='slice'>
-                  <div className='bar' />
-                  <div className='fill' />
-                </div>
-              </div>
-            </>
+            <div className='container'>
+              <p>{`${item.name}: ${item.percentage} `}</p>
+              <progress className='progress' value={parseInt(item.percentage.substring(-1))} max="100"></progress>
+            </div>
           ))) : null
       }
     </div>
