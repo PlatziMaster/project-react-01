@@ -7,7 +7,7 @@ Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate 
 ![react-cv](https://raw.githubusercontent.com/PlatziMaster/project-react-01/master/screenshot.png)
 
 ### Solución
-https://raw.githubusercontent.com/Solej77/project-react-01/master/evidenciaProyecto1.png
+![react-cv](https://raw.githubusercontent.com/Solej77/project-react-01/master/evidenciaProyecto1.png)
 
 #### Reto 1
 Se crearon los siguientes componentes presentacionales
