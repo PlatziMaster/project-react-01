@@ -1,29 +1,30 @@
 import React from 'react';
 
-const Header = ({ children }) => {
+const Header = ({ name, profession, phone, email, website, address, children }) => {
+
   return (
     <div className='Header'>
       <img src='' alt='Solej77' />
       <div className='Header-content'>
         <h1 className='Header-title'>
-          Header
+          {name}
         </h1>
         <h3 className='Header-job-title'>
-          jobTitle
+          {profession}
         </h3>
         <div className='Header-contact'>
           <h3 className='Header-phone'>
-            phone
+            {phone}
           </h3>
           <h3 className='Header-email'>
-            email
+            {email}
           </h3>
           <h3 className='Header-website'>
-            website
+            {website}
           </h3>
         </div>
         <h3 className='Header-adress'>
-          address
+          {address}
         </h3>
       </div>
       {children}

@@ -1,23 +1,53 @@
 import React from 'react';
 
-const Experience = () => {
+const Experience = ({ experience }) => {
+
   return (
     <div className='Experience'>
       <div className='Experience-title'>
-        Experience
+        <h2>Experience</h2>
       </div>
       <div className='Experience-container'>
-        <div className='Experience-item'>
-          Item
-        </div>
-        <div className='Experience-item'>
-          Item
-        </div>
-        <div className='Experience-item'>
-          Item
-        </div>
+        {experience !== undefined ?
+          experience.map((exp) => {
+            return (
+              <ExperienceItem
+                key={exp.company}
+                {...exp}
+              />
+            );
+          }) : (
+            (
+              <>
+                <div className='Experience-item' />
+                <div className='Experience-item' />
+                <div className='Experience-item' />
+              </>
+            )
+          )}
       </div>
     </div>
+  );
+};
+
+const ExperienceItem = ({ company, jobTitle, jobDescription, startDate, endDate }) => {
+  return (
+    <>
+      <div className='Experience-item'>
+        {company}
+        -
+        {jobTitle}
+      </div>
+      <div className='Experience-item'>
+        {jobDescription}
+      </div>
+      <div className='Experience-item'>
+        {startDate}
+        -
+        {endDate}
+      </div>
+      <br />
+    </>
   );
 };
 

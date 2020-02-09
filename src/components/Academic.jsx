@@ -1,23 +1,50 @@
 import React from 'react';
 
-const Academic = () => {
+const Academic = ({ Academic }) => {
   return (
     <div className='Academic'>
       <div className='Academic-title'>
-        Academic
+        <h2>Academic</h2>
       </div>
       <div className='Academic-container'>
-        <div className='Academic-item'>
-          Item
-        </div>
-        <div className='Academic-item'>
-          Item
-        </div>
-        <div className='Academic-item'>
-          Item
-        </div>
+        {Academic !== undefined ?
+          Academic.map((item) => {
+            return (
+              <AcademicItem
+                key={item.institution}
+                {...item}
+              />
+            );
+          }) : (
+            <>
+              <div className='Academic-item' />
+              <div className='Academic-item' />
+              <div className='Academic-item' />
+            </>
+          )}
       </div>
     </div>
+  );
+};
+
+const AcademicItem = ({ degree, institution, description, startDate, endDate }) => {
+  return (
+    <>
+      <div className='Academic-item'>
+        {degree}
+        -
+        {institution}
+      </div>
+      <div className='Academic-item'>
+        {description}
+      </div>
+      <div className='Academic-item'>
+        {startDate}
+        -
+        {endDate}
+      </div>
+      <br />
+    </>
   );
 };
 

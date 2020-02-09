@@ -1,22 +1,38 @@
 import React from 'react';
 
-const Languages = () => {
+const Languages = ({ languages }) => {
   return (
     <div className='Languages'>
       <div className='Languages-title'>
-        Languages
+        <h2>Languages</h2>
       </div>
       <div className='Languages-container'>
-        <div className='Languages-item'>
-          Item
-        </div>
-        <div className='Languages-item'>
-          Item
-        </div>
-        <div className='Languages-item'>
-          Item
-        </div>
+        {languages !== undefined ?
+          languages.map((item) => {
+            return (
+              <LanguagesItem
+                key={item.name}
+                {...item}
+              />
+            );
+          }) : (
+            <>
+              <div className='Languages-item' />
+              <div className='Languages-item' />
+              <div className='Languages-item' />
+            </>
+          )}
       </div>
+    </div>
+  );
+};
+
+const LanguagesItem = ({ name, percentage }) => {
+  return (
+    <div className='Languages-item'>
+      {name}
+      -
+      {percentage}
     </div>
   );
 };

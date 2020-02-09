@@ -1,22 +1,36 @@
 import React from 'react';
 
-const Interest = () => {
+const Interest = ({ interest }) => {
   return (
     <div className='Interest'>
       <div className='Interest-title'>
-        Interest
+        <h2>Interest</h2>
       </div>
       <div className='Interest-container'>
-        <div className='Interest-item'>
-          Item
-        </div>
-        <div className='Interest-item'>
-          Item
-        </div>
-        <div className='Interest-item'>
-          Item
-        </div>
+        {interest !== undefined ?
+          interest.map((item) => {
+            return (
+              <InterestItem
+                key={item}
+                interest={item}
+              />
+            );
+          }) : (
+            <>
+              <div className='Interest-item' />
+              <div className='Interest-item' />
+              <div className='Interest-item' />
+            </>
+          )}
       </div>
+    </div>
+  );
+};
+
+const InterestItem = ({ interest }) => {
+  return (
+    <div className='Interest-item'>
+      <p>{interest}</p>
     </div>
   );
 };

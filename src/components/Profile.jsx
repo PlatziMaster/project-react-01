@@ -1,14 +1,14 @@
 import React from 'react';
 
-const Profile = () => {
+const Profile = ({ Profile }) => {
   return (
     <div className='Profile'>
-      <h1 className='Profile-title'>
-        Profile
-      </h1>
-      <h3 className='Profile-desc'>
-        desc
-      </h3>
+      <div className='Profile-title'>
+        <h2>Profile</h2>
+      </div>
+      <div className='Profile-desc'>
+        <p>{Profile}</p>
+      </div>
     </div>
   );
 };
