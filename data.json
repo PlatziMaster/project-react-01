@@ -1,109 +1,120 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
+    "name": "José Luis García López",
+    "profession": "BackEnd Developer",
+    "address": "CDMX, México.",
+    "email": "ing.josgalo@gmail.com",
+    "website": "https://github.com/Solej77",
+    "phone": "5532234989",
+    "avatar": "https://s.gravatar.com/avatar/6371f4360f3fd7260fce4b90deebbe73?s=200",
+    "Profile": "Soy Ingeniero en Sistemas Computacionales y amante por la programacióm (Dato curioso ya que odiaba esto de programar XD), me emociona el programar ya que puedes crear cosas increibles, y saber que tu trabajo genera valor para las demas personas es bastante grato, mi inteción es convertirme en FullStack, teniendo como Backend mi mejor Skill",
+    "about": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "description": "Jugar Futbol"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "description": "Jugar Videojuegos"
+      },
+      {
+        "description": "Hacer ejercicio"
       }
     ],
-    "Academic": [
+    "certificate": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "date": "Enero 2020",
+        "description": "Curso intensivo, donde los lerning path personalizados van enfocados a desarrollar habilidades de tu preferencia",
+        "institution": "Platzi",
+        "name": "Platzi Master (en curso)"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "date": "Noviembre 2019",
+        "description": "Curso mixto (presencial y en linea), donde aprendí tecnologias como NodeJS y React, donde creamos un proyecto desde cero llamado PlatziVideo.",
+        "institution": "Platzi",
+        "name": "Escuela de JavaScript"
+      }
+    ],
+    "academic": [
+      {
+        "degree": "Platzi Master",
+        "description": "Curso personalizado donde te preparan en el area de tu preferencia, gracias a los cursos donde te enseñan las ultimas tendencias que estan en la industria de la tecnología",
+        "endDate": "Enero 2020",
+        "institution": "Platzi",
+        "startDate": "Actual"
+      },
+      {
+        "degree": "Ingeniero en Sistemas Computaciononales",
+        "description": "Desarrolo academico donde te prepaparan con conocimientos de ingenieria, redes de computadoras, Bases de datos, Sistemas Operativos y Programación",
+        "endDate": "Diciembre 2008",
+        "institution": "Universidad Tecnológica de México",
+        "startDate": "Diciembre 2012"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Grupo Aeroportuario de la Ciudad de México, S.A. de C.V.",
+        "endDate": "Actual",
+        "jobDescription": "Encargado de llevar a cabo y dar mantenimiento a todos los sitemas inhouse, actividades como Analisis de requerimientos, Desarrollo, Validación y Deploy de los sistemas",
+        "jobTitle": "Ingeniero de Software",
+        "startDate": "Agosto 2017"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "company": "Citibanamex, S.A. de C.V.",
+        "endDate": "Julio 2017",
+        "jobDescription": "Enfocado en el desarrollo Backend de algunos sistemas, asi como el mantenimiento de estos sistemas",
         "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "startDate": "Julio 2016"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "70"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "25"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "90"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "70"
+      },
+      {
+        "name": "Node JS",
+        "percentage": "50"
       }
     ],
     "interest": [
       "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "ReactJS",
+      "Node",
+      "DevOps"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "90"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "20"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "Instagram",
+        "url": "https://www.instagram.com/solej_77"
       },
       {
-        "name": "twitter",
-        "url": "https://twitter.com/"
+        "name": "Twitter",
+        "url": "https://twitter.com/solej77"
       },
       {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "Github",
+        "url": "https://github.com/Solej77"
       }
     ]
   }
