@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Cristobal Vega",
+    "profession": "Java Developer",
+    "address": "Querétaro, México",
+    "email": "hi@cristobalvega.me",
+    "website": "cristobalvega.me",
+    "phone": "55 555 55 55",
+    "avatar": "https://avatars3.githubusercontent.com/u/16980304?s=460&v=4",
+    "Profile": "Java and JavaScript developer just to realize JavaScript isn’t Java. ",
     "certificate": [
       {
         "date": "Jan 2021",

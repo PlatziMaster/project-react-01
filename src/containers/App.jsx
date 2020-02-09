@@ -8,6 +8,7 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import Certificate from '../components/Certificate';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Skills />
       <Interest />
       <Languages />
+      <Certificate />
     </>
   )
 };
