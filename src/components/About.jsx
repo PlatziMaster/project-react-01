@@ -1,35 +1,37 @@
 import React from 'react';
 
-const About = () => {
-  const about = [
-    { about: 'Jugar Futbol' },
-    { about: 'Jugar Videojuegos' },
-    { about: 'Hacer ejercicio' },
-  ];
+const About = ({ about }) => {
+  console.log(about);
   return (
     <div className='About'>
       <div className='About-title'>
-        About
+        <h2>About</h2>
       </div>
       <div className='About-container'>
-        {about &&
-        about.map((item) => {
-          return (
-            <AboutItem
-              key={item.about}
-              {...item}
-            />
-          );
-        })}
+        {about !== undefined ?
+          about.map((item) => {
+            return (
+              <AboutItem
+                key={item.description}
+                {...item}
+              />
+            );
+          }) : (
+            <>
+              <div className='About-item' />
+              <div className='About-item' />
+              <div className='About-item' />
+            </>
+          )}
       </div>
     </div>
   );
 };
 
-const AboutItem = ({ about }) => {
+const AboutItem = ({ description }) => {
   return (
     <div className='About-item'>
-      {about}
+      {description }
     </div>
   );
 };

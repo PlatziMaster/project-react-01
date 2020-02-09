@@ -21,7 +21,7 @@ const App = () => {
   return (
     <>
       <Header {...state}>
-        <About />
+        <About {...state} />
       </Header>
       <Profile {...state} />
       <Experience {...state} />

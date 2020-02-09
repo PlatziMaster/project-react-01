@@ -1,14 +1,14 @@
 import React from 'react';
 
-const Academic = ({ Academic }) => {
+const Academic = ({ academic }) => {
   return (
     <div className='Academic'>
       <div className='Academic-title'>
         <h2>Academic</h2>
       </div>
       <div className='Academic-container'>
-        {Academic !== undefined ?
-          Academic.map((item) => {
+        {academic !== undefined ?
+          academic.map((item) => {
             return (
               <AcademicItem
                 key={item.institution}

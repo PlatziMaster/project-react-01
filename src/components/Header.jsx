@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Header = ({ name, profession, phone, email, website, address, children }) => {
+const Header = ({ name, avatar, profession, phone, email, website, address, children }) => {
 
   return (
     <div className='Header'>
-      <img src='' alt='Solej77' />
+      <img src={avatar} alt='Solej77' />
       <div className='Header-content'>
         <h1 className='Header-title'>
           {name}
