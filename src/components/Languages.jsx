@@ -16,6 +16,10 @@ class Languages extends Component {
             'name': 'English',
             'percentage': '80%',
           },
+          {
+            'name': 'Geek',
+            'percentage': '80%',
+          },
         ],
       },
     };
