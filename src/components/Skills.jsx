@@ -1,4 +1,7 @@
 import React from 'react';
+import { Progress } from 'react-sweet-progress';
+import 'react-sweet-progress/lib/style.css';
+import '../styles/components/Skills.styl';
 
 const Skills = ({ skills }) => {
 
@@ -12,9 +15,12 @@ const Skills = ({ skills }) => {
           skills.map((item) => {
             return (
               <div key={item.name} className='Skills-item'>
+                <Progress
+                  type='circle'
+                  width={70}
+                  percent={item.percentage}
+                />
                 {item.name}
-                -
-                {item.percentage}
                 <br />
               </div>
             );

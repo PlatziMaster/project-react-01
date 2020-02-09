@@ -68,23 +68,23 @@
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "70%"
+        "percentage": "70"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "25"
       },
       {
         "name": "JavaScript",
-        "percentage": "90%"
+        "percentage": "90"
       },
       {
         "name": "React",
-        "percentage": "70%"
+        "percentage": "70"
       },
       {
         "name": "Node JS",
-        "percentage": "50%"
+        "percentage": "50"
       }
     ],
     "interest": [
@@ -96,11 +96,11 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "90"
       },
       {
         "name": "English",
-        "percentage": "20%"
+        "percentage": "20"
       }
     ],
     "social": [

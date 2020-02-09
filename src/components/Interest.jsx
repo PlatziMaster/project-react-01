@@ -1,4 +1,6 @@
 import React from 'react';
+import { Chip } from 'react-md';
+import '../styles/components/Interest.styl';
 
 const Interest = ({ interest }) => {
   return (
@@ -30,7 +32,7 @@ const Interest = ({ interest }) => {
 const InterestItem = ({ interest }) => {
   return (
     <div className='Interest-item'>
-      <p>{interest}</p>
+      <Chip label={interest} />
     </div>
   );
 };

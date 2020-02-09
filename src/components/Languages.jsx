@@ -1,4 +1,7 @@
 import React from 'react';
+import { Progress } from 'react-sweet-progress';
+import 'react-sweet-progress/lib/style.css';
+import '../styles/components/Languages.styl';
 
 const Languages = ({ languages }) => {
   return (
@@ -30,9 +33,19 @@ const Languages = ({ languages }) => {
 const LanguagesItem = ({ name, percentage }) => {
   return (
     <div className='Languages-item'>
+      <Progress
+        type='circle'
+        width={70}
+        percent={percentage}
+        status='languages'
+        theme={{
+          languages: {
+            color: '#fbc630',
+          },
+        }}
+      />
       {name}
-      -
-      {percentage}
+      <br />
     </div>
   );
 };

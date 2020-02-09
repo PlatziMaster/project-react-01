@@ -25,10 +25,14 @@ const App = () => {
       </Header>
       <Profile {...state} />
       <Experience {...state} />
-      <Academic {...state} />
-      <Skills {...state} />
-      <Interest interest={state.interest} />
-      <Languages languages={state.languages} />
+      <div className='App-container'>
+        <Academic {...state} />
+        <Skills {...state} />
+      </div>
+      <div className='App-container'>
+        <Interest interest={state.interest} />
+        <Languages languages={state.languages} />
+      </div>
     </>
   );
 };
