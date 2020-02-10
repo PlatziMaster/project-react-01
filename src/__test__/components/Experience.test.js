@@ -4,7 +4,7 @@ import Experience from '../../components/Experience';
 import { data } from '../../../data.json';
 
 describe('<Experience />', () => {
-  const experience = mount(<Experience experience={data.experience}/>);
+  const experience = mount(<Experience experience={data.experience} />);
 
   test('Experience render', () => {
     expect(experience.length).toEqual(1);

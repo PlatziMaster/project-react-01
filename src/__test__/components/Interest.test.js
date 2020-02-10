@@ -4,7 +4,7 @@ import Interest from '../../components/Interest';
 import { data } from '../../../data.json';
 
 describe('<Interest />', () => {
-  const interest = mount(<Interest interest={data.interest}/>);
+  const interest = mount(<Interest interest={data.interest} />);
 
   test('Interest render', () => {
     expect(interest.length).toEqual(1);

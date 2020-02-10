@@ -4,7 +4,7 @@ import Skills from '../../components/Skills';
 import { data } from '../../../data.json';
 
 describe('<Skills />', () => {
-  const skills = mount(<Skills skill={data.skills}/>);
+  const skills = mount(<Skills skill={data.skills} />);
 
   test('Skills render', () => {
     expect(skills.length).toEqual(1);

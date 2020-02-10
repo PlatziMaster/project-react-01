@@ -4,7 +4,7 @@ import Academic from '../../components/Academic';
 import { data } from '../../../data.json';
 
 describe('<Academic />', () => {
-  const academic = mount(<Academic academic={data.Academic}/>);
+  const academic = mount(<Academic academic={data.Academic} />);
 
   test('Academic render', () => {
     expect(academic.length).toEqual(1);

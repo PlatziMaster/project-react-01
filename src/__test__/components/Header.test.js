@@ -4,7 +4,7 @@ import Header from '../../components/Header';
 import { data } from '../../../data.json';
 
 describe('<Header />', () => {
-  const header = mount(<Header data={data}/>);
+  const header = mount(<Header data={data} />);
 
   test('Header render', () => {
     expect(header.length).toEqual(1);

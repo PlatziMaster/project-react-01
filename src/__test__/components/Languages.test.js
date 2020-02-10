@@ -4,7 +4,7 @@ import Languages from '../../components/Languages';
 import { data } from '../../../data.json';
 
 describe('<Languages />', () => {
-  const languages = mount(<Languages language={data.languages}/>);
+  const languages = mount(<Languages language={data.languages} />);
 
   test('Languages render', () => {
     expect(languages.length).toEqual(1);
