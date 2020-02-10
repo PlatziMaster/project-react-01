@@ -1,38 +1,24 @@
 import React from 'react'
 import '../styles/components/Languages.styl'
 
-const Languages = () => (
-    <>
+const Languages = ({language}) => {
+    const languages = language || [];
+    
+    return (
         <div className="languages">
             <h3 className="Languages-title">Idiomas</h3>
             <ul className="Languages-list">
-                <li className="Languages-item">
+            {languages.map((item, key) => (
+                <li key={key} className="Languages-item">
                     <div className="Languages-item__star">
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
+                        <p><b>{item.percentage}</b></p>
                     </div>
-                    <p>Español</p>
+                    <p>{item.name}</p>
                 </li>
-                <li className="Languages-item">
-                    <div className="Languages-item__star">
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                        <i className="fas fa-star"></i>
-                    </div>
-                    <p>Inglés</p>
-                </li>
-                <li className="Languages-item">
-                    <div className="Languages-item__star">
-                        <i className="fas fa-star"></i>
-                    </div>
-                    <p>Francés</p>
-                </li>
+            ))}
             </ul>
         </div>
-    </>
-);
+    )
+} 
 
 export default Languages;
