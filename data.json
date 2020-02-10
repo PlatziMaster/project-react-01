@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Frc Gustavo",
+    "profession": "Java script developer",
+    "address": "CDMX, México.",
+    "email": "frcgustavo@mail.com",
+    "website": "https://frcgustavo.com",
+    "phone": "5519343682",
+    "avatar": "https://avatars2.githubusercontent.com/u/20009195?s=460&v=4",
+    "Profile": "Llevo dos años aprendiendo y apenas un año ejerciendo en proyectos personales todo lo aprendido, me gusta el desarrollo con JavaScript ya que concidero es mi fuerte, pero de igual forma me gusta experimentar, y constantemente aprendo cosas nuevas.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,56 +24,67 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Full Stack Java Script",
+        "description": "Espeliziación en desarrollo de aplicaciones con java script",
+        "endDate": "Agosto 2019",
+        "institution": "Platzi",
+        "startDate": "Noviembre 2019"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Informatica",
+        "description": "Carrera tecnica en instituto politecnico nacional, nuca termine el curso",
+        "endDate": "Agosto 2015",
+        "institution": "Cecyt 5",
+        "startDate": "Agosto 2017"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Proyecto personal",
+        "endDate": "Marzo 2019",
+        "jobDescription": "Un lugar donde puedes encontrar eventos, festivales de musica alrededor del mundo o cerca de tu ciudad.",
+        "jobTitle": "NextParty",
+        "startDate": "Marzo 2019"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Proyecto personal",
+        "endDate": "Febrero 2019",
+        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobTitle": "Spoti App",
+        "startDate": "Febrero 2019"
+      },
+      {
+        "company": "Proyecto personal",
+        "endDate": "Enero 2019",
+        "jobDescription": "Infrastructure es la primera aplicación full stack que hice, es un sistemas para hacer pedidos a travez de internet.",
+        "jobTitle": "Infrastructure",
+        "startDate": "Enero 2019"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "80%",
+        "color": "#EA6228"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "75%",
+        "color": "#3295F8"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "55%",
+        "color": "#F0D91D"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "90%",
+        "color": "#F8AD02"
       }
     ],
     "interest": [
-      "javascript",
+      "Javascript",
       "develop",
       "backend",
       "frontend"
@@ -81,11 +92,13 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "99%",
+        "color": "#98C931"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "30%",
+        "color": "#BDCCDC"
       }
     ],
     "social": [

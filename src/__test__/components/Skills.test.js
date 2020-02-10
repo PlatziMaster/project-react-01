@@ -1,9 +1,11 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import Skills from '../../components/Skills';
+import { data } from '../../../data.json';
 
 describe('<Skills />', () => {
-  const skills = mount(<Skills />);
+  const { skills: skillss } = data;
+  const skills = mount(<Skills skills={skillss} />);
 
   test('Skills render', () => {
     expect(skills.length).toEqual(1);
