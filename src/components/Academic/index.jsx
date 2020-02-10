@@ -5,9 +5,9 @@ import DataContext from '../../contexts/DataContext';
 
 const Academic = () => {
   const { data, loading } = useContext(DataContext);
-  const initData = { academic: ['', '', ''] };
-  const { academic } = data || initData;
-  return <AcademicLayout loading={loading} academic={academic} />;
+  const initData = { academic: [''], certificate: ['', ''] };
+  const { academic, certificate } = data || initData;
+  return <AcademicLayout loading={loading} academic={academic} certificate={certificate} />;
 };
 
 export default Academic;

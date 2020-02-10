@@ -1,96 +1,97 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Wilson Romero",
+    "profession": "Software Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "me@wilsonromero.com",
+    "website": "https://wilsonromero.com",
+    "phone": "",
+    "avatar": "https://en.gravatar.com/userimage/179850942/b0d12f018537c53519536c9ecc50ff78.jpg?size=200",
+    "profile": "Software developer with engineering training. My work experience has focused on the implementation of solutions in the field of logistics, production and inventory for different companies. I am a good person, kind, social and committed to teamwork and the belief that the ability to learn is the fundamental factor of success.",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
+        "date": "2019",
+        "description": "Creation of applications with the MERN stack, layout of the app with HTML and CSS, integration with React, Mongo and Express until deployment in the Cloud",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
+        "name": "Carrera Javascript"
       }
     ],
     "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Systems engineer",
+        "description": "",
+        "endDate": "2007",
+        "institution": "Universidad Distrital Francisco José de Caldas",
+        "startDate": "1997"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "INR Inversiones Reinoso & Cía",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Mauris lectus dui, dapibus id aliquet vitae, pharetra vel risus. Sed auctor, purus ac congue sagittis",
+        "jobTitle": "IT Consultant",
+        "startDate": "January 2008"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
+        "company": "Quimirel SAS",
+        "endDate": "Present",
+        "jobDescription": "Consectetur adipiscing elit. Maecenas lacinia luctus nisl, vitae aliquet nibh iaculis et. ",
+        "jobTitle": "IT Consultant",
+        "startDate": "October 2016"
+      },
+      {
+        "company": "Redetrans SAS",
+        "endDate": "Present",
+        "jobDescription": "Scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobTitle": "Mail manager",
+        "startDate": "November 2016"
+      },
+      {
+        "company": "Comercializadora Bulira SAS",
+        "endDate": "Present",
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "jobTitle": "IT Consultant",
+        "startDate": "September 2012"
       }
     ],
     "skills": [
       {
-        "name": "HTML5",
-        "percentage": "75%",
-        "color": "#e44d26"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%",
-        "color": "#4a9fe2"
-      },
-      {
         "name": "JavaScript",
-        "percentage": "55%",
+        "percentage": "85%",
         "color": "#f4d000"
       },
       {
-        "name": "React",
+        "name": "Python",
+        "percentage": "80%",
+        "color": "#3773a5"
+      },
+      {
+        "name": "HTML5 & CSS",
         "percentage": "90%",
+        "color": "#e44d26"
+      },
+      {
+        "name": "React",
+        "percentage": "75%",
         "color": "#5ed4f4"
+      },
+      {
+        "name": "Databases SQL and NoSQL",
+        "percentage": "90%",
+        "color": "#b8b7f8"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["Machine Learning", "Javascript", "Develop", "Backend", "Frontend", "DevOps"],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%",
+        "percentage": "100%",
         "color": "#2271d6"
       },
       {
         "name": "English",
-        "percentage": "50%",
+        "percentage": "30%",
         "color": "#4a9fe2"
       }
     ],
