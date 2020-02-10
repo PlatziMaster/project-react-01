@@ -1,0 +1,24 @@
+@import '../../styles/components/styles.styl'
+
+.About
+    display grid
+    grid-template-columns 1fr
+    grid-template-areas "Title" "Email" "Website" "Phone" "Address"
+    grid-gap .5rem 2rem
+    
+    @media $lg
+        grid-template-columns 1fr 1fr 1fr
+        grid-template-areas "Title Title Title" "Email Website Phone" "Address Address Blank" 
+    
+    .About-title
+        grid-area Title
+        padding-bottom .5rem
+        font-size 1.25rem
+        font-weight 300
+        text-transform capitalize
+        opacity .8
+        margin-bottom 3px
+
+    for $area in Phone Email Experience Website Address
+        .{$area} 
+            grid-area $area
