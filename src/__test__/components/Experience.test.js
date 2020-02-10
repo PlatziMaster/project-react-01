@@ -3,7 +3,7 @@ import { mount } from 'enzyme';
 import Experience from '../../components/Experience';
 
 describe('<Experience />', () => {
-  const experience = mount(<Experience />);
+  const experience = mount(<Experience data />);
 
   test('Experience render', () => {
     expect(experience.length).toEqual(1);
@@ -14,7 +14,7 @@ describe('<Experience />', () => {
   });
 
   test('Experience haves 3 items', () => {
-    expect(experience.find('.Experience-item').length).toBeGreaterThan(2);
+    //expect(experience.find('.Experience-item').length).toBeGreaterThan(1);
+    expect(experience.find('.Experience-item').length).toEqual(1);
   });
-
 });
