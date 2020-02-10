@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Hélber Fabián Toro",
+    "profession": "Web Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
+    "email": "helber.toro@gmail.com",
+    "website": "https://www.linkedin.com/in/helber-fabian-toro/",
     "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "avatar": "https://drive.google.com/uc?export=view&id=1fb6E7R-aAjYkK4scU-wvuC0LrJeP-O1W",
+    "profile": "Nueve años de experiencia en el desarrollo web frontend y cinco años como backend utilizando Laravel. He participado en campañas de marketing digital desde el concepto hasta la puesta en marcha. Apoyo técnicamente la construcción de DarCélulas, un registro de donantes de células formadoras de la sangre con el cual se busca ayudar a pacientes con enfermedades graves de la sangre como la leucemia. Autodidacta apasionado por la educación online. Primera generación de la escuela JavaScript de <b>@Platzi</b>.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,57 +24,75 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
+        "degree": "Ingeniero de sistemas En curso",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
         "endDate": "Jan 2017",
-        "institution": "MIT",
+        "institution": "Universidad Nacional Abierta y a Distacia - UNAD",
         "startDate": "Jan 2018"
       },
       {
-        "degree": "Space Engineering",
+        "degree": "Diplomado en desarrollo de páginas web",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
         "endDate": "Decenber 2015",
-        "institution": "Harvard",
+        "institution": "Universidad Piloto de Colombia",
+        "startDate": "Jan 2017"
+      },
+      {
+        "degree": "Técnico profesional en sistemas y telecomunicaciones",
+        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
+        "endDate": "Decenber 2015",
+        "institution": "Fundación universitaria San Mateo",
         "startDate": "Jan 2017"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Instituto Distrital de Ciencia, Biotecnología e Innovación en Salud - IDCBIS",
+        "endDate": "Actualidad",
+        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "jobTitle": "Software Developer",
+        "startDate": "jun. de 2018"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
+        "company": "Motion Factory Studios",
+        "endDate": "Actualidad",
+        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobTitle": "Web Developer",
+        "startDate": "ene. de 2012"
+      },
+      {
+        "company": "Mobs Audiovisual",
+        "endDate": "Actualidad",
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "jobTitle": "Software Developer",
+        "startDate": "jun. de 2013"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%",
+        "icon": "fab fa-html5 fa-3x"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "90%",
+        "icon": "fab fa-css3-alt fa-3x"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "55%",
+        "icon": "fab fa-js fa-3x"
       },
       {
-        "name": "React",
-        "percentage": "90%"
+        "name": "PHP",
+        "percentage": "90%",
+        "icon": "fab fa-php fa-3x"
       }
     ],
     "interest": [
+      "laravel",
       "javascript",
-      "develop",
       "backend",
       "frontend"
     ],
@@ -86,6 +104,10 @@
       {
         "name": "English",
         "percentage": "50%"
+      },
+      {
+        "name": "French",
+        "percentage": "10%"
       }
     ],
     "social": [

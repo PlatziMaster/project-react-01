@@ -1,18 +1,10 @@
-# project-react-01
+# project-react-01 @Platzi
 
-## React Curriculum vitae
+## Me React Curriculum vitae
 
-Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
+Curriculum vitae en React de Hélber Fabián Toro.
 
-![react-cv](https://raw.githubusercontent.com/PlatziMaster/project-react-01/master/screenshot.png)
-
-### Retos
-1. [Crear los componentes del proyecto](https://github.com/platzimaster/project-react-01/issues/1)
-2. [Añadir estilos](https://github.com/platzimaster/project-react-01/issues/2)
-3. [Crear función getData.js](https://github.com/platzimaster/project-react-01/issues/3)
-4. [Integrar API](https://github.com/platzimaster/project-react-01/issues/4)
-5. [Personalizar API](https://github.com/platzimaster/project-react-01/issues/5)
-6. [Documentar](https://github.com/platzimaster/project-react-01/issues/6)
+![react-cv](https://drive.google.com/uc?export=view&id=17G2XrjqootkbafwmLBgo_0Qf3Arx3O7J)
 
 ### Instalación
 ```
@@ -43,12 +35,3 @@ npm run test
 ```
 npm run lint
 ```
-
-### Enviar solución de reto
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia este repositorio.
-
-### Contribuir
-Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [project-react-01](https://github.com/platzimaster/project-react-01/)
-
-### Licencia
-project-react-01 se lanza bajo la licencia [MIT](https://opensource.org/licenses/MIT).
