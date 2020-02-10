@@ -1,9 +1,10 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import About from '../../components/About';
+import { data } from '../../../data.json';
 
 describe('<About />', () => {
-  const about = mount(<About />);
+  const about = mount(<About social={data.social} />);
 
   test('About render', () => {
     expect(about.length).toEqual(1);
