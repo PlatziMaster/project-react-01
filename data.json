@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "name": "Yoshua Díaz",
+    "profession": "FullStack Dev | Writter | Creative | Stand-Up Comedian | Excentric Introvert",
+    "address": "Jalisco, México.",
+    "email": "contacto@yoshuadiaz.com",
+    "website": "https://yoshuadiaz.com",
+    "phone": "55******",
+    "avatar": "https://www.yoshuadiaz.com/static/50c33bc9eb8be5286ca9fc3876e18bdd/d278e/yosh_avatar.jpg",
+    "Profile": "Yoshua has eight years of experience as a Front End Developer, currently he working on Intelligential like a FullStack Developer and Bedu like a Teacher, he use and teach tools like ES6, React, React Redux, Redux-Saga, React Native, Vue.js, Vuex, Node.JS, Express.JS, Babel, Parcel, Webpack, Apollo Server and Client, PostgreSQL, Neo4j, Git, GraphQL and SCRUM. He's worked in Grupo CARSO, Liverpool S.A. de C.V. and he was worked in projects in Globant for clients like Google, TOTVS, iSeatz, Aeris, IHG and American Express.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,86 +24,116 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Diseñador y Comunicador Visual",
+        "description": "I choose the orientation in Multimedia, I saw HTML5, CSS3, and JS and it was love at first sight",
+        "endDate": "DIC. 2012",
+        "institution": "UNAM",
+        "startDate": "JUL. 2008"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "FREEAGENT CRM",
+        "endDate": "PRESENT",
+        "jobDescription": "He colaborates creating frontend and backend code for a CRM App, he works with Apollo Node.JS, Sequelize, Apollo Client, React, Redux, graphql and postgreSQL.",
+        "jobTitle": "FULLSTACK DEVELOPER",
+        "startDate": "DIC. 2019"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "INTELLIGENTIAL",
+        "endDate": "DIC. 2019",
+        "jobDescription": "He colaborates creating frontend and backend code for a Financial Startup, he works with Apollo Server, Apollo Client, Vue, Vuex, graphql and postgreSQL.",
+        "jobTitle": "FULLSTACK DEVELOPER",
+        "startDate": "MAY. 2019"
+      },
+      {
+        "company": "BUSSI",
+        "endDate": "MAY. 2019",
+        "jobDescription": "He was work in the creation of Operation Dashboards, he is on charge of a team of developers and he doing the role of SCRUM Master, he uses on his day journey JavaScript, ES6, Node.JS, React, React Native, Redux, Redux Saga, Phoenix, Elixir, GitLab, Adonis.JS, Expres, Neo4j, PostgreSQL",
+        "jobTitle": "TECHNOLOGY MANAGER / FULLSTACK",
+        "startDate": "SEP. 2017"
+      },
+      {
+        "company": "GLOBANT",
+        "endDate": "SEP - 17",
+        "jobDescription": "He was worked in projects with our clients Google, TOTVS, Level 3, iSeatz, Aeris, IHG, American Express; he was worked in these projects with the role of Web UI Developer. JavaScript, ES6, React, Redux, Jest, Enzyme, HTML5, CSS3, Angular, Git, SourceTree, Visual Studio, Site Finity CMS, node.js, npm, Gulp.js, Bootstrap, browsersync, Vue, Vuex, Google Apps Script.",
+        "jobTitle": "WEB UI DEVELOPER",
+        "startDate": "DEC. 15"
+      },
+      {
+        "jobTitle": "FRONTEND DEVELOPER",
+        "company": "LIVERPOOL",
+        "startDate": "APR. 15",
+        "endDate": "DEC. 15",
+        "jobDescription": "He gave maintenance to the WAP version of the website  liverpool.com.mx  and developed the site “La mejor juguetería&quot; and develop the WAP prototype version for the sites Williams Sonoma, Pottery Barn and West Elm."
+      },
+      {
+        "jobTitle": "WEB DEVELOPER",
+        "company": "CARSO",
+        "startDate": "JAN. 2014",
+        "endDate": "MARCH 15",
+        "jobDescription": "He was develop sites and proyects by petition of Carlos Slim Domit for Grupo Carso, he developed sites like SuperCopa Telcel, Sivam, the site for the Rock band El Tri de México and other internal proyects, he worked with HTML5, CSS3, JavaScript, jQuery, Jade and Stylus; he developed themes with Wordpress."
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": 85
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": 85
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": 75
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": 90
+      },
+      {
+        "name": "Node.JS",
+        "percentage": 60
+      },
+      {
+        "name": "PostgreSQL",
+        "percentage": 30
+      },
+      {
+        "name": "Neo4J",
+        "percentage": 30
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "JavaScript / ES6", "SASS", "React", "React Redux", "Redux-Saga", "React Native", "Styled Components", "Babel", "Parcel", "Webpack", "Adonis.JS", "Elixir", "Phoenix", "PostgreSQL", "Neo4j", "Git", "Git-Flow", " SCRUM", "HTML5", "CSS 3", "Bootstrap", "Stylus", "Gulp", "React", "JSON", "AJAX", "REST", "GraphQL", "Webpack", "PHP", "Node.JS", "Atom", "Sketch", "Photoshop", "Illustrator", "InDesign", "Microsoft", "Windows", "OSX", "Linux", "Jira", "Gitlab", "Django", "Spanish (native speaker)", "English"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": 90
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": 60
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://facebook.com/yoshuaDiazDev"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/yoshuadiaz"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/yoshuadiaz"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/yoshua-diaz/"
       }
     ]
   }
