@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import InterestLayout from './InterestLayout';
 
+import DataContext from '../../contexts/DataContext';
+
 const Interest = () => {
-  const interest = ['item', 'item', 'item'];
-  return <InterestLayout loading interest={interest} />;
+  const { data, loading } = useContext(DataContext);
+  const initData = { interest: ['item', 'item', 'item'] };
+  const { interest } = data || initData;
+  return <InterestLayout loading={loading} interest={interest} />;
 };
 
 export default Interest;

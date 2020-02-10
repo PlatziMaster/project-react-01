@@ -81,7 +81,7 @@ const Avatar = ({ name, profilePic = null, size = 'small' }) => {
   };
 
   const letters = getLetters();
-  const bgColor = name ? colors[numberFromText(letters) % colors.length] : '#eee';
+  const bgColor = profilePic ? 'transparent' : name ? colors[numberFromText(letters) % colors.length] : '#eee';
   const className = `Avatar ${size}`;
 
   return (

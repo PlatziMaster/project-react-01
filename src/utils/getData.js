@@ -1,7 +1,12 @@
+
 const getData = (api) => {
-  return fetch(api)
-    .then(response => response.json)
-    .catch(error => error);
+  return new Promise((res, rej) => {
+    fetch(api)
+      .then((response) => {
+        res(response.json());
+      })
+      .catch(error => rej(error));
+  });
 };
 
 export default getData;

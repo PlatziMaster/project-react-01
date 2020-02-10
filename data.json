@@ -7,7 +7,7 @@
     "website": "https://example.com",
     "phone": "3042034240",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -22,7 +22,7 @@
         "name": "Backend Developer"
       }
     ],
-    "Academic": [
+    "academic": [
       {
         "degree": "Atomic Master",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
@@ -57,19 +57,23 @@
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "75%",
+        "color": "#e44d26"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "25%",
+        "color": "#4a9fe2"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "55%",
+        "color": "#f4d000"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "90%",
+        "color": "#5ed4f4"
       }
     ],
     "interest": [
@@ -81,11 +85,13 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "90%",
+        "color": "#2271d6"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "50%",
+        "color": "#4a9fe2"
       }
     ],
     "social": [

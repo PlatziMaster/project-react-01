@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import AcademicLayout from './AcademicLayout';
 
+import DataContext from '../../contexts/DataContext';
+
 const Academic = () => {
-  const academic = ['item', 'item', 'item'];
-  return <AcademicLayout loading academic={academic} />;
+  const { data, loading } = useContext(DataContext);
+  const initData = { academic: ['', '', ''] };
+  const { academic } = data || initData;
+  return <AcademicLayout loading={loading} academic={academic} />;
 };
 
 export default Academic;

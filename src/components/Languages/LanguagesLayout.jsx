@@ -1,18 +1,19 @@
 /* eslint-disable react/no-array-index-key */
 import React from 'react';
+import HorizontalBar from '../HorizontalBar';
 
 import './index.styl';
 
-const Languages = ({ loading, title, languages }) => {
+const Languages = ({ loading, languages }) => {
   let className = '';
   if (loading) className = 'loading-item';
   return (
     <div className='Languages'>
-      <div className={`Languages-title ${className}`}>{title}</div>
+      <div className={`Languages-title ${className}`}>Languages</div>
       {
-        languages.map((item, index) => (
+        languages && languages.map((item, index) => (
           <div key={index} className={`Languages-item ${className}`}>
-            {item}
+            <HorizontalBar {...item} />
           </div>
         ))
       }
