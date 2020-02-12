@@ -1,5 +1,5 @@
 # project-react-01
-
+Estan los Retos uno - Tres y Cuatro ( se Elimino el Testing)
 ## React Curriculum vitae
 
 Crear tu curriculum vitae en React, analiza la estructura propuesta e inspirate para mostrar tu información.
