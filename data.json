@@ -1,12 +1,12 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Carlos Enrique Navia",
+    "profession": "Software Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
+    "email": "cenaviat@gmail.com",
+    "website": "https://navisoft.com",
+    "phone": "+57 3175124768",
+    "avatar": "https://lh3.googleusercontent.com/a-/AAuE7mAv5zGU_Eql4k8ZhmKZL1eW27SyPAAmyoQKIVzi=s96-cc-rg",
     "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
@@ -24,14 +24,14 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
+        "degree": "Master in Industry 4.0",
+        "description": " Developer of projects of Digital Tranformation, in Bussines",
+        "endDate": "Jan 2019",
+        "institution": "UNIR",
         "startDate": "Jan 2018"
       },
       {
-        "degree": "Space Engineering",
+        "degree": "Systems Engineering",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
         "endDate": "Decenber 2015",
         "institution": "Harvard",
@@ -40,14 +40,14 @@
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
+        "company": "SENA",
+        "endDate": "Dec 2019",
         "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobTitle": "Instructor",
+        "startDate": "Jan 2019"
       },
       {
-        "company": "CatStore",
+        "company": "ParqueSoft",
         "endDate": "Jan 2016",
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
         "jobTitle": "Backend",
@@ -57,11 +57,11 @@
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "95%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "50%"
       },
       {
         "name": "JavaScript",
@@ -69,14 +69,15 @@
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "30%"
       }
     ],
     "interest": [
       "javascript",
       "develop",
       "backend",
-      "frontend"
+      "frontend",
+      "UI/UX"
     ],
     "languages": [
       {
@@ -85,7 +86,7 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "10%"
       }
     ],
     "social": [
