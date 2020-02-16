@@ -1,63 +1,63 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Jose Roberto Diaz Rodriguez",
+    "profession": "Data Base Administrator",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
+    "email": "diazrodriguez.jr@gmail.com",
+    "website": "https://github.com/jrdiazr",
+    "phone": "314 475 61 68",
+    "avatar": "https://avatars3.githubusercontent.com/u/43555167?s=460&v=4",
+    "Profile": "Ingeniero de sistemas con capacidad de aprender, asesorar, identificar, analizar y generar alternativas de solución a las necesidades de sistematización.",
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Escuela de JavaScript",
+        "description": "Programa orientado al desarrollo de habilidades en desarrollo basadas en el lenguage JavaScript",
+        "endDate": "Nov 2019",
+        "institution": "Platzi",
+        "startDate": "Aug 2019"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Ingeniero de sistemas",
+        "description": "Titulo con enfasis en desarrollo de software",
+        "endDate": "Dec 2017",
+        "institution": "Uniminuto",
+        "startDate": "Jan 2011"
+      },
+      {
+        "degree": "Analista y programador de sistemas",
+        "description": "Titulo con enfasis en analisis y desarrollo de software",
+        "endDate": "Dec 2007",
+        "institution": "Uniminuto",
+        "startDate": "Jan 2006"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Entrega Inmediata Segura S.A.S.",
+        "endDate": "Actualmente",
+        "jobDescription": "Administrador y diseñador de base de datos",
+        "jobTitle": "Desarrollador de software",
+        "startDate": "Apr 2010"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Platzi",
+        "endDate": "Nov 2019",
+        "jobDescription": "Desarrollo del proyecto Buberfy, basado en la aplicacion Uber",
+        "jobTitle": "Backend Developer",
+        "startDate": "Aug 2019"
+      },
+      {
+        "company": "Cibercol",
+        "endDate": "Aug 2008",
+        "jobDescription": "Desarrollo de funciones en plpgsql",
+        "jobTitle": "Database Developer",
+        "startDate": "Apr 2010"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "60%"
       },
       {
         "name": "CSS",
@@ -65,27 +65,52 @@
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "50%"
       },
       {
         "name": "React",
+        "percentage": "40%"
+      },
+      {
+        "name": "SQL",
         "percentage": "90%"
+      },
+      {
+        "name": "PostgreSQL",
+        "percentage": "90%"
+      },
+      {
+        "name": "BIRT Report",
+        "percentage": "90%"
+      },
+      {
+        "name": "Node",
+        "percentage": "20%"
+      },
+      {
+        "name": "Php",
+        "percentage": "20%"
       }
     ],
     "interest": [
       "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "app mobile developtment",
+      "backend with node",
+      "frontend with React",
+      "apps security"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "95% - Nativo"
       },
       {
         "name": "English",
         "percentage": "50%"
+      },
+      {
+        "name": "Japanese",
+        "percentage": "5%"
       }
     ],
     "social": [
