@@ -38,7 +38,7 @@ const App = () => {
       <Skills {...skills} />
       }
       {interest !== undefined &&
-      <Interest {...interest} />
+      <Interest {...state} />
       }
       {languages !== undefined &&
       <Languages {...languages} />

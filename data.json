@@ -1,16 +1,16 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "Luis Alberto Parra Pulido",
+    "profession": "JavaScript Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "luis.parra.pulido@gmail.com",
+    "website": "luisparrapulido.com",
+    "phone": "3155888701",
+    "avatar": "https://reactcurrilulumvitaeluis.s3.us-east-1.amazonaws.com/44244402.jpg?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEA0aCXVzLWVhc3QtMSJHMEUCIQCSc6CI84GdC%2BbMmVjjQ7VX5B7hi%2Bj3smd5qAZjP5%2BynQIgRJ%2B3iyGcfFM4TK0QZGY%2BQblxQ%2FjeF45Sztv9fqcrZMQqggIIxv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw5MTc4Mzc2NzA4MTYiDEsmZEvLLZeT4xHzPSrWAeImy1FT16dSvKaLotVgqPDsEgKqePc5w%2FtZkUBZegP0%2FIcwRdD8y3fuqJonWwJUeQRE0G%2FGb2XWJrToTV%2FQZ0Clg%2FKFtczSPuyfyzZhxAN7EZIy7vYBOKZhkcVXykiv4VyU28gxe4mOJ42B0kg5zUc%2BXi5244r4K5tsxejorW%2FF69SJK9%2FUd9ZSrWPEvC6P9FZwp656F85rVppVkvFo9XZ0Km0j0U6qJWm%2B7luJOxQtKUEtCyIFot9CS8f61NY6dMZywV%2BZobvWs65h50sDqoF2imi8TwEwmvqr8gU69gK7jr2A5MDD6OfB6mhBsXlm%2FTWwV2XNlpoFToCdJYbmG57IkxjxJEbohKe%2BnxcOfFS8XktTiNQ%2F2uutHCrbwcU08Tmd1TYA5iyMCKg%2FeZ8K03jxXsc65nfOZwSMWt1lesiWACAreMmfUteRo3ojU9tU9dFbBAa%2BizjnLuPRwvRcF6r6SaSsg02lDxY8BrNBVKeVe6zIvPsc%2FCfnad7cq7h0pWO6IXqhcoQ4zjE4GD22cl9xqOa%2BgoN4XH23pmc0zCDDCdXNcZZYtFETLWnCKCp9OCV0S8OohDlzUgtx%2BPpcOFMd5F7OSq%2F3RUvbnkjvreaNeQMGgD3W8BhlUdrWuA2iN1Gr1RlOG6tx9aelgWHT98was21Bz9juQ1IpPNLAhdJIAniyqd3Gs0fhtLEB0ovfIVFEpI%2BWqXachujssWtsednpVTr1MegIkoTJVX1FEyaaW2OgV6jpXNff1eEZzQ8pZwDyoO31oVrn70eHgXEog80jCSxxjQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20200217T213932Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIA5LM3DNGQEYU66XIE%2F20200217%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=7a30d3d443e61ed1e89a92b47af0845678156011dff945dcaaed0f516d9b354d",
+    "Profile": "Environmental engineer and fullstack developer with JavaScript with experience in project generation and web technologies ",
     "certificate": [
       {
-        "date": "Jan 2021",
+        "date": " 2021",
         "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
         "institution": "Platzi",
         "name": "FrontEnd Developer"
@@ -24,34 +24,34 @@
     ],
     "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Environmental Engineer",
+        "description": "El Ingeniero Ambiental de la Universidad El Bosque está en capacidad de afrontar y resolver las exigencias en materia ambiental que la sociedad plantea",
+        "endDate": "Agosto 2018",
+        "institution": "Universidad El Bosque",
+        "startDate": "june 2013"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Platzi",
+        "description": "FullStack Developer ",
+        "endDate": "Noviembre 2019",
+        "institution": "Platzi",
+        "startDate": "Agosto 2019"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Freelance",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "Estudiante de tecnologias web",
+        "jobTitle": "Estudiante - FullStack JavaScript",
+        "startDate": "Enero 2019"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "UEB - Unidad de Gestión Ambiental",
+        "endDate": "Agosto 2018",
+        "jobDescription": "Crear y hacer seguimiento a proyectos con enfoque ambiental",
+        "jobTitle": "Ingeniero Ambiental",
+        "startDate": "Febrero 2018"
       }
     ],
     "skills": [
@@ -61,11 +61,11 @@
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "50%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "70%"
       },
       {
         "name": "React",
@@ -76,34 +76,31 @@
       "javascript",
       "develop",
       "backend",
-      "frontend"
+      "frontend",
+      "Maching Learning"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "60%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/LuisParraDv"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/LuisParraPulido"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "www.linkedin.com/in/luis-alberto-parra-pulido"
       }
     ]
   }
