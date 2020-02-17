@@ -1,0 +1,15 @@
+.Interest {
+  background-color: rgb(224, 244, 255);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 25px;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.Interest-item {
+  background-color: white;
+  border-radius: 25px;
+  margin: 20px 0px 20px 0px;
+  padding: 20px;
+}

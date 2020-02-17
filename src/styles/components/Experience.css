@@ -1,0 +1,23 @@
+.Experience {
+  padding: 20px;
+  background-color: rgb(224, 244, 255);
+  margin: 20px 0px 0px 0px;
+  border-radius: 25px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.Experience-item {
+  background-color: white;
+  border-radius: 25px;
+  margin: 20px 0px 20px 0px;
+  padding: 20px;
+}
+
+h3 {
+  margin: 0px;
+}
+h4 {
+  margin-top: 16px;
+  padding: 0%;
+}

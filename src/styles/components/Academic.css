@@ -1,0 +1,23 @@
+.Academic {
+  padding: 20px;
+  background-color: rgb(189, 241, 212);
+  margin-top: 20px;
+  border-radius: 25px;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.Academic-item {
+  background-color: white;
+  border-radius: 25px;
+  margin: 20px 0px 20px 0px;
+  padding: 20px;
+}
+
+h3 {
+  margin: 0px;
+}
+h4 {
+  margin-top: 16px;
+  padding: 0%;
+}

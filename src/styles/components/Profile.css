@@ -1,0 +1,18 @@
+.Profile {
+  /* width: 98%; */
+  padding: 20px;
+  background-color: rgb(189, 241, 212);
+  border-radius: 25px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+h2 {
+  margin: 0px;
+}
+
+p {
+  color: rgb(71, 82, 94);
+  margin: 16px 0px 0px 0px;
+  
+}

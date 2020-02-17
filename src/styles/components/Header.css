@@ -1,0 +1,39 @@
+.Header {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.Header-logo {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 25px;
+}
+
+.Header-title {
+  width: 100%;
+}
+
+.Header-title--name {
+  width: 100%;
+}
+
+.Header-title--name h1 {
+  margin: 0em;
+  padding-top: 20px;
+}
+
+.Header-title--job h2 {
+ margin: 0em;
+}
