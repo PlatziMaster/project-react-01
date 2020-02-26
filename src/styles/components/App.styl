@@ -4,9 +4,63 @@ body
   flex-direction colum
   max-width 1280px
   margin 0 auto
-  
+  font-family Arial
+  color #3B4358
+
+.title
+  font-weight bold
+  font-size 18px
+  text-transform uppercase
+
+.container-info
+  padding 20px 0px
+  border-bottom 1px solid #8230df
+
+.container-detail
+  display flex
+  padding 10px 0px
+  flex-flow wrap
+
+.Card
+  display flex
+  flex-direction column
+  border 1px solid #d3d3d3
+  width 24.9999999999%
+  padding 10px
+  border-radius 8px
+  box-shadow 0px 8px 16px -10px rgba(59,67,88,1)
+  margin-right 15px
+
+.item_company, .item_description, .item_date
+  font-size 12px
+
+.item_company
+  font-style italic
+
+.item_date
+  font-weight bold
+
+.col-4
+  width 33.3333333333%
+
+.col-5
+  width 41.6666666666667%
+
+.col-6
+  width 50%
+
+.col-7
+  width 58.3333333333333%
+
+.App-Container_detail
+  padding 10px 0px
+  display flex
+  justify-content space-between
+
 .Header-container
   display flex
+  border-bottom 1px solid #8230df
+  padding 20px 0px
 
 .Header-container__img
   padding 10px
@@ -21,16 +75,12 @@ body
   padding 10px
 
 .Header-title
-  font-size 36px
-  color #3B4358
-  font-family Arial
+  font-size 32px
   font-weight bold
   text-transform uppercase
 
 .Header-job-title
   font-size 20px
-  color #3B4358
-  font-family Arial
   text-transform uppercase
   padding 8px 0px
 
@@ -38,8 +88,52 @@ body
   display flex
   padding 8px 0px
   font-size 18pxx
-  color #3B4358
-  font-family Arial
 
 .Header-container__contact div
   padding-right 16px
+
+.About-title
+  font-weight bold
+  margin-top 5px
+  font-size 16
+
+.About-detail
+  display flex
+
+.About-item
+  margin-top 10px
+  margin-right 10px
+  font-size 14px
+
+.Profile-title
+  padding-bottom 10px
+
+.Experience-item span, .Academic-item span
+  margin-bottom 5px
+
+.skills_container
+  display flex
+  flex-direction column
+  width 100%
+  padding 10px 0px
+
+.Skills-title, .Skills-item, .Interest-title, .Interest-item, .Languages-title, .Languages-item
+  margin-bottom 15px
+
+.Skills-item, .Languages-item
+  display flex
+  justify-content space-between
+
+progress[value]
+  -webkit-appearance none
+  appearance none
+
+progress[value]::-webkit-progress-bar
+  background-color #f8f8f8
+  border-radius 3px
+  border 1px solid #d3d3d3
+  
+progress[value]::-webkit-progress-value
+  background-color #8230df
+  border-radius 3px
+  border 1px solid #8230df

@@ -2,10 +2,13 @@ import React, { Component } from 'react';
 
 class Profile extends Component {
   render() {
+    const { profile } = this.props;
     return (
       <>
-        <div className="Profile-title"></div>
-        <div className="Profile-desc"></div>
+        <div className="container-info">
+          <div className="Profile-title title">Perfil</div>
+          <div className="Profile-desc">{profile}</div>
+        </div>
       </>
     );
   }

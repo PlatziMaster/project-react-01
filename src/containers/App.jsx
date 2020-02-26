@@ -11,7 +11,7 @@ import Languages from '../components/Languages';
 import getData from '../utils/getData';
 
 const App = () => {
-  const API = 'http://localhost:3000/data';
+  const API = 'http://localhost:3080/data';
 
   const [dataCurriculum, setData] = useState([]);
 
@@ -22,14 +22,24 @@ const App = () => {
   return (
     <>
       <Header name={dataCurriculum.name} avatar={dataCurriculum.avatar}>
-        <About />
+        <About
+          profession={dataCurriculum.profession}
+          address={dataCurriculum.address}
+          email={dataCurriculum.email}
+          website={dataCurriculum.website}
+          phone={dataCurriculum.phone}
+        />
       </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <Profile profile={dataCurriculum.profile} />
+      <Experience data={dataCurriculum.experience} />
+      <div className="App-Container_detail">
+        <Academic data={dataCurriculum.Academic} />
+        <Skills data={dataCurriculum.skills} />
+      </div>
+      <div className="App-Container_detail">
+        <Interest data={dataCurriculum.interest} />
+        <Languages data={dataCurriculum.languages} />
+      </div>
     </>
   );
 };
