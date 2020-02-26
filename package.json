@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
-    "server": "json-server data.json",
+    "server": "json-server data.json --port 3080",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
     "test": "jest"
@@ -44,6 +44,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.18.2",
+    "file-loader": "^5.0.2",
     "husky": "^2.7.0",
     "jest": "^25.1.0",
     "json-server": "^0.15.1",
