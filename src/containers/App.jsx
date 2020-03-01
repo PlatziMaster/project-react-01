@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/components/App.css';
+import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';
@@ -11,17 +11,19 @@ import Languages from '../components/Languages';
 
 const App = () => {
   return (
-    <React.Fragment className='prueba'>
+    <>
       <Header>
         <About />
       </Header>
       <Profile />
       <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
-    </React.Fragment>
+      <section>
+        <Academic />
+        <Skills />
+        <Interest />
+        <Languages />
+      </section>
+    </>
   );
 };
 

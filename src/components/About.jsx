@@ -1,18 +1,18 @@
 import React from 'react';
-import '../styles/components/About.css';
+import '../styles/components/About.styl';
 
 const About = () => {
   return (
-    <div className='contact__container'>
-      <div>
-        <h1>Luis Daniel Caraballo</h1>
-        <p>Ingeniero de Sistemas</p>
+    <div className='About-container'>
+      <div className='About-title-container'>
+        <h1 className='About-title'>Nombre Completo</h1>
+        <h2>Profesion</h2>
       </div>
-      <ul>
-        <li>Celular: 3186899160</li>
-        <li>Email: luisred61@gmail.com</li>
-        <li>Website: lcaraballo.com.co</li>
-        <li>Direccion: Calle 146 Nro. 7F-80, Bogota, Colombia</li>
+      <ul className='About-item-container'>
+        <li className='About-item'>Celular: XXXXXXXXX</li>
+        <li className='About-item'>Email: example@gmail.com</li>
+        <li className='About-item'>Website: example.com.co</li>
+        <li className='About-item'>Direccion: Calle 100 # 100-20 Pais</li>
       </ul>
     </div>
   );
