@@ -1,0 +1,14 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  background-color: green;
+}
+
+.header__container--img {
+  width: 200px;
+  text-align: center;
+}
+
+.header__container--img img {
+  border-radius: 50%;
+}
