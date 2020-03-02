@@ -1,91 +1,91 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "César Galindo",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "email": "Cesar@example.com",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
+    "phone": "304 3 124 200",
+    "avatar": "https://pbs.twimg.com/profile_images/1055299470148227072/xeEopDm__400x400.jpg",
     "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "date": "Nov 2009",
+        "description": "work about supply and progress of buy",
+        "institution": "Javeriana",
+        "name": "supply"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
+        "date": "Jan 2010",
+        "description": "set segurity in interm sistem",
+        "institution": "Cali",
         "name": "Backend Developer"
       }
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "ingeniera industrial",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+        "endDate": "Jan 2015",
+        "institution": "Konrad",
+        "startDate": "Jan 2010"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
+        "degree": "psicology",
+        "description": "I try to learn about the cat",
         "endDate": "Decenber 2015",
-        "institution": "Harvard",
+        "institution": "Xaveriana",
         "startDate": "Jan 2017"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Javeriana",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobDescription": "Lorem ipsum dolor sit amet consectetur",
         "jobTitle": "Frontend",
         "startDate": "Jan 2020"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
+        "company": "Javeriana Cali",
+        "endDate": "Jan 2013",
+        "jobDescription": "created data bases",
         "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "startDate": "Sept 2010"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "80%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "50%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "60%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "80%"
       }
     ],
     "interest": [
-      "javascript",
+      "react",
       "develop",
-      "backend",
+      "javascript",
       "frontend"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "85%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "40%"
       }
     ],
     "social": [

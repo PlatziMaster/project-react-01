@@ -2,12 +2,31 @@ import React, { Component } from 'react';
 
 export default class About extends Component {
   render() {
+    const { phone, email, website, address } = this.props;
     return (
-      <div className='about'>
-        <div className='header-phone'>22 33 33 3</div>
-        <div className='header-email'>cesar@hotmail.com</div>
-        <div className='header-website'>www.hola.com</div>
-        <div className='header-adress'>Bogota</div>
+      <div className='About'>
+        <div className='About-title'>
+          <h2>
+            Información de contacto
+          </h2>
+        </div>
+
+        <div className='About-phone About-item'>
+          {phone}
+        </div>
+
+        <div className='About-email About-item'>
+          {email}
+        </div>
+
+        <div className='About-website About-item'>
+          {website}
+        </div>
+
+        <div className='About-address'>
+          {address}
+        </div>
+
       </div>
     );
   }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import Languages from '../../components/Languages';
+import Languages from '../../componets/Languages';
 
 describe('<Languages />', () => {
   const languages = mount(<Languages />);

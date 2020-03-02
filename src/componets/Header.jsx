@@ -2,19 +2,20 @@ import React, { Component } from 'react';
 
 export default class Header extends Component {
   render() {
+    const { name, avatar, profession } = this.props ;
     return (
-      <div className='header containter'>
-        <div className='header-img'>
-          <img src='' alt='' />
+      <div className='Header containter'>
+        <div className='Header-img'>
+          <img src={avatar} alt='' />
         </div>
-        <div className='header-title'>
+        <div className='Header-title'>
           <h1>
-            Lorem ipsum dolor sit amet consectetur
+            {name}
           </h1>
         </div>
-        <div className='header-job-title'>
+        <div className='Header-job-title'>
           <h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit
+            {profession}
           </h3>
         </div>
       </div>

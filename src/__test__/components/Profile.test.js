@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import Profile from '../../components/Profile';
+import Profile from '../../componets/Profile';
 
 describe('<Profile />', () => {
   const profile = mount(<Profile />);
