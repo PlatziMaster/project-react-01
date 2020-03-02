@@ -6,7 +6,7 @@ const Academic = ({ courses }) => {
   return (
     <div className='Academic-container'>
       <div className='Academic-title'>
-        <h1>Academic</h1>
+        <h1>Estudios Académicos</h1>
       </div>
       {items.map((item, index) => {
         const i = index + 1;

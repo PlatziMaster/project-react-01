@@ -12,7 +12,9 @@ const Skills = ({ skills }) => {
         const i = index + 1;
         return (
           <div className='Skills-item' key={i}>
-            <p>{`${item.name} - ${item.percentage}`}</p>
+            <span>{item.name}</span>
+            <span>____________</span>
+            <span>{item.percentage}</span>
           </div>
         );
       })}

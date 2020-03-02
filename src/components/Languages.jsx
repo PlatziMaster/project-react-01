@@ -6,14 +6,15 @@ const Languages = ({ languages }) => {
   return (
     <div className='Languages-container'>
       <div className='Languages-title'>
-        <h2>Languages</h2>
+        <h1>Idiomas</h1>
       </div>
       {items.map((item, index) => {
         const i = index + 1;
         return (
           <div className='Languages-item' key={i}>
-            <h2>{item.name}</h2>
-            <h2>{item.percentage}</h2>
+            <span>{item.name}</span>
+            <span>____________</span>
+            <span>{item.percentage}</span>
           </div>
         );
       })}

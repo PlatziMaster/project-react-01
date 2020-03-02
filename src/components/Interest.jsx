@@ -6,16 +6,19 @@ const Interest = ({ hobbies }) => {
   return (
     <div className='Interest-container'>
       <div className='Interest-title'>
-        <h2>Interests</h2>
+        <h1>Intereses</h1>
       </div>
-      {items.map((item, index) => {
-        const i = index + 1;
-        return (
-          <div className='Interest-item' key={i}>
-            <h2>{item}</h2>
-          </div>
-        );
-      })}
+      <div className='Interest-item-container'>
+        {items.map((item, index) => {
+          const i = index + 1;
+          return (
+            <div className='Interest-item' key={i}>
+              <p>{item}</p>
+            </div>
+          );
+        })}
+      </div>
+
     </div>
   );
 };

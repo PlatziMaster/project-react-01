@@ -6,7 +6,7 @@ const Experience = ({ info }) => {
   return (
     <div className='Experience-container'>
       <h1 className='Experience-title'>
-        Experience
+        Experiencia
       </h1>
       <div className='Experience-item-container'>
         {experience.map((item, index) => {
