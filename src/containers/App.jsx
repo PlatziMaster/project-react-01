@@ -1,20 +1,19 @@
 import React from 'react';
 import '../styles/components/App.styl';
-import Header from '../components/Header';
-import About from '../components/About';
-import Profile from '../components/Profile';
-import Experience from '../components/Experience';
-import Academic from '../components/Academic';
-import Skills from '../components/Skills';
-import Interest from '../components/Interest';
-import Languages from '../components/Languages';
+import Header from '../componets/Header';
+import About from '../componets/About';
+import Profile from '../componets/Profile';
+import Experience from '../componets/Experience';
+import Academic from '../componets/Academic';
+import Skills from '../componets/Skill';
+import Interest from '../componets/Interest';
+import Languages from '../componets/Languages';
 
 const App = () => {
   return (
     <>
-      <Header>
-        <About />
-      </Header>
+      <Header />
+      <About />
       <Profile />
       <Experience />
       <Academic />
@@ -22,7 +21,7 @@ const App = () => {
       <Interest />
       <Languages />
     </>
-  )
+  );
 };
 
 export default App;
