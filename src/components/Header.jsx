@@ -1,11 +1,11 @@
 import React from 'react';
 import '../styles/components/Header.styl';
 
-const Header = ({ children }) => {
+const Header = ({ children, avatar }) => {
   return (
     <div className='Header-container'>
       <div className='Header-img'>
-        <img src='https://arepa.s3.amazonaws.com/melissa.jpg' alt='Profile' />
+        <img src={avatar} alt='Profile' />
       </div>
       <div className='About-container Header-title'>
         {children}

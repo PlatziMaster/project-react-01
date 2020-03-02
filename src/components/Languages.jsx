@@ -1,24 +1,22 @@
 import React from 'react';
 import '../styles/components/Languages.styl';
 
-const Languages = () => {
+const Languages = ({ languages }) => {
+  const items = languages || Array(3).fill(1);;
   return (
     <div className='Languages-container'>
       <div className='Languages-title'>
         <h2>Languages</h2>
       </div>
-      <div className='Languages-item'>
-        <p>Language1</p>
-      </div>
-      <div className='Languages-item'>
-        <p>Language2</p>
-      </div>
-      <div className='Languages-item'>
-        <p>Language3</p>
-      </div>
-      <div className='Languages-item'>
-        <p>Language4</p>
-      </div>
+      {items.map((item, index) => {
+        const i = index + 1;
+        return (
+          <div className='Languages-item' key={i}>
+            <h2>{item.name}</h2>
+            <h2>{item.percentage}</h2>
+          </div>
+        );
+      })}
     </div>
   );
 };

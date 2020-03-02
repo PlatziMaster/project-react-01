@@ -1,24 +1,24 @@
 import React from 'react';
 import '../styles/components/Academic.styl';
 
-const Academic = () => {
+const Academic = ({ courses }) => {
+  const items = courses || Array(3).fill(1);;
   return (
     <div className='Academic-container'>
       <div className='Academic-title'>
-        <h2>Academic</h2>
+        <h1>Academic</h1>
       </div>
-      <div className='Academic-item'>
-        <h2>Titulo</h2>
-        <p>Probando</p>
-      </div>
-      <div className='Academic-item'>
-        <h2>Titulo</h2>
-        <p>Probando</p>
-      </div>
-      <div className='Academic-item'>
-        <h2>Titulo</h2>
-        <p>Probando</p>
-      </div>
+      {items.map((item, index) => {
+        const i = index + 1;
+        return (
+          <div className='Academic-item' key={i}>
+            <h2>{item.degree}</h2>
+            <p>{item.institution}</p>
+            <p>{item.description}</p>
+            <p>{`${item.startDate} - ${item.endDate}`}</p>
+          </div>
+        );
+      })}
     </div>
   );
 };
