@@ -11,18 +11,32 @@ import Languages from '../components/Languages';
 
 const App = () => {
   return (
-    <>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
-    </>
-  )
+    <div className='main-grid'>
+      <div className='item1'>
+        <Header>
+          <About />
+        </Header>
+      </div>
+      <div className='item2'>
+        <Profile />
+      </div>
+      <div className='item3'>
+        <Experience />
+      </div>
+      <div className='item4'>
+        <Academic />
+      </div>
+      <div className='item5'>
+        <Skills />
+      </div>
+      <div className='item6'>
+        <Interest />
+      </div>
+      <div className='item7'>
+        <Languages />
+      </div>
+    </div>
+  );
 };
 
 export default App;
