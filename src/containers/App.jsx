@@ -17,10 +17,10 @@ const App = () => {
       <About />
       <Profile />
       <Experience />
-      {/* <Academic />
+      <Academic />
       <Skills />
       <Interest />
-      <Languages /> */}
+      {/* <Languages /> */}
     </InformationContext.Provider>
   );
 };

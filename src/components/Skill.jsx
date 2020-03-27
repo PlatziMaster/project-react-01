@@ -6,31 +6,19 @@ export default function Skill() {
   return (
     <div className="Skills containter">
       <div className="Skills-title">
-        <h2>Lorem ipsum dolor sit amet consectetur</h2>
+        <h2>Skills</h2>
       </div>
       <div className="Skills-item">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-          aliquid facilis eos beatae. Quis, illum debitis illo reiciendis id,
-          unde soluta asperiores praesentium, in error quibusdam. Fuga
-          temporibus cum similique.
-        </p>
+        <p>{Information.skills[0].name}</p>
       </div>
       <div className="Skills-item">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-          aliquid facilis eos beatae. Quis, illum debitis illo reiciendis id,
-          unde soluta asperiores praesentium, in error quibusdam. Fuga
-          temporibus cum similique.
-        </p>
+        <p>{Information.skills[1].name}</p>
       </div>
       <div className="Skills-item">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-          aliquid facilis eos beatae. Quis, illum debitis illo reiciendis id,
-          unde soluta asperiores praesentium, in error quibusdam. Fuga
-          temporibus cum similique.
-        </p>
+        <p>{Information.skills[2].name}</p>
+      </div>
+      <div className="Skills-item">
+        <p>{Information.skills[3].name}</p>
       </div>
     </div>
   );

@@ -41,6 +41,13 @@ export const Information = {
         institution: 'Xaveriana',
         startDate: 'Jan 2017',
       },
+      {
+        degree: 'psicology',
+        description: 'I try to learn about the cat',
+        endDate: 'Decenber 2015',
+        institution: 'Xaveriana',
+        startDate: 'Jan 2017',
+      },
     ],
     experience: [
       {
@@ -80,10 +87,15 @@ export const Information = {
       },
       {
         name: 'React',
-        percentage: '80%',
+        percentage: '70%',
       },
     ],
-    interest: ['react', 'develop', 'javascript', 'frontend'],
+    interest: [
+      { name: 'react' },
+      { name: 'develop' },
+      { name: 'javascript' },
+      { name: 'frontend' },
+    ],
     languages: [
       {
         name: 'Spanish',
@@ -91,6 +103,10 @@ export const Information = {
       },
       {
         name: 'English',
+        percentage: '40%',
+      },
+      {
+        name: 'portuguese',
         percentage: '40%',
       },
     ],

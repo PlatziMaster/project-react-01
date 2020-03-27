@@ -7,28 +7,19 @@ export default function Academic() {
   return (
     <div className="Academic containter">
       <div className="Academic-title">
-        <h2>Lorem ipsum dolor sit</h2>
+        <h2>Academic</h2>
       </div>
+
       <div className="Academic-item">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem id, eum molestias iure quo et deserunt rerum amet totam
-          cum fuga nisi. Odit eum repudiandae, fugiat in fuga nulla asperiores.
-        </p>
+        <p>{Information.Academic[0].description}</p>
       </div>
+
       <div className="Academic-item">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem id, eum molestias iure quo et deserunt rerum amet totam
-          cum fuga nisi. Odit eum repudiandae, fugiat in fuga nulla asperiores.
-        </p>
+        <p>{Information.Academic[1].description}</p>
       </div>
+
       <div className="Academic-item">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem id, eum molestias iure quo et deserunt rerum amet totam
-          cum fuga nisi. Odit eum repudiandae, fugiat in fuga nulla asperiores.
-        </p>
+        <p>{Information.Academic[2].description}</p>
       </div>
     </div>
   );

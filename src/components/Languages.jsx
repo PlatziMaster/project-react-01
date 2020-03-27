@@ -9,28 +9,13 @@ export default function Languages() {
         <h2>Lorem, ipsum dolor sit</h2>
       </div>
       <div className="Languages-item">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-          necessitatibus ab provident magnam minus cumque et quaerat vitae quae
-          perferendis quas, saepe explicabo veritatis voluptas, tempore
-          voluptate commodi iure quia.
-        </p>
+        <p>{Information.languages[0].name}</p>
       </div>
       <div className="Languages-item">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-          necessitatibus ab provident magnam minus cumque et quaerat vitae quae
-          perferendis quas, saepe explicabo veritatis voluptas, tempore
-          voluptate commodi iure quia.
-        </p>
+        <p>{Information.languages[1].name}</p>
       </div>
       <div className="Languages-item">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-          necessitatibus ab provident magnam minus cumque et quaerat vitae quae
-          perferendis quas, saepe explicabo veritatis voluptas, tempore
-          voluptate commodi iure quia.
-        </p>
+        <p>{Information.languages[2].name}</p>
       </div>
     </div>
   );
