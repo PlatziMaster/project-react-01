@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import Skills from '../../componets/Skill';
+import Skills from '../../components/Skill';
 
 describe('<Skills />', () => {
   const skills = mount(<Skills />);
@@ -16,5 +16,4 @@ describe('<Skills />', () => {
   test('Skills has 3 items', () => {
     expect(skills.find('.Skills-item').length).toBeGreaterThan(2);
   });
-
 });

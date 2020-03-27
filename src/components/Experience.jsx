@@ -7,31 +7,19 @@ export default function Experience() {
   return (
     <div className="Experience containter">
       <div className="Experience-title">
-        <h2>Lorem, ipsum dolor sit</h2>
+        <h2>Experiencia</h2>
       </div>
+
       <div className="Experience-item">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-          consectetur
-        </p>
+        <p>{Information.experience[0].company}</p>
       </div>
+
       <div className="Experience-item">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-          consectetur
-        </p>
+        <p>{Information.experience[1].company}</p>
       </div>
+
       <div className="Experience-item">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-          consectetur
-        </p>
-      </div>
-      <div className="Experience-item">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-          consectetur
-        </p>
+        <p>{Information.experience[2].company}</p>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import Experience from '../../componets/Experience';
+import Experience from '../../components/Experience';
 
 describe('<Experience />', () => {
   const experience = mount(<Experience />);

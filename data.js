@@ -57,6 +57,13 @@ export const Information = {
         jobTitle: 'Backend',
         startDate: 'Sept 2010',
       },
+      {
+        company: 'Sodimec',
+        endDate: 'Jan 2013',
+        jobDescription: 'created data bases',
+        jobTitle: 'Backend',
+        startDate: 'Sept 2010',
+      },
     ],
     skills: [
       {

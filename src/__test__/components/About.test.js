@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import About from '../../componets/About';
+import About from '../../components/About';
 
 describe('<About />', () => {
   const about = mount(<About />);
