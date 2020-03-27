@@ -1,35 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import '../styles/components/App.styl';
-import Header from '../componets/Header';
-import About from '../componets/About';
-import Profile from '../componets/Profile';
-import Experience from '../componets/Experience';
-import Academic from '../componets/Academic';
-import Skills from '../componets/Skill';
-import Interest from '../componets/Interest';
-import Languages from '../componets/Languages';
-import getData from '../utils/getData';
+import Header from '../components/Header';
+import About from '../components/About';
+import Profile from '../components/Profile';
+import Experience from '../components/Experience';
+import Academic from '../components/Academic';
+import Skills from '../components/Skill';
+import Interest from '../components/Interest';
+import Languages from '../components/Languages';
+import InformationContext, { Information } from '../../data';
 
 const App = () => {
-
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    getData('http://localhost:3000/data')
-      .then(res => setData(res));
-  }, []);
-
   return (
-    <>
-      <Header data={data} />
+    <InformationContext.Provider value={Information.data}>
+      <Header />
       <About />
       <Profile />
       <Experience />
-      <Academic />
+      {/* <Academic />
       <Skills />
       <Interest />
-      <Languages />
-    </>
+      <Languages /> */}
+    </InformationContext.Provider>
   );
 };
 
