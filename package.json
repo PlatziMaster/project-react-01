@@ -9,7 +9,16 @@
     "server": "json-server data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
-    "test": "jest"
+    "test": "jest",
+    "test:data": "jest src/__test__/Utils/AgetData.test.js",
+    "test:header": "jest src/__test__/components/Header.test.js",
+    "test:about": "jest src/__test__/components/About.test.js",
+    "test:profile": "jest src/__test__/components/Profile.test.js",
+    "test:experience": "jest src/__test__/components/Experience.test.js",
+    "test:academic": "jest src/__test__/components/Academic.test.js",
+    "test:skills": "jest src/__test__/components/Skills.test.js",
+    "test:interest": "jest src/__test__/components/Interest.test.js",
+    "test:lenguages": "jest src/__test__/components/Lenguages.test.js"
   },
   "keywords": [
     "react",

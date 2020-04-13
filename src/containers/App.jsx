@@ -7,20 +7,28 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import Data from '../../data.json';
 import '../styles/components/App.styl';
 
 const App = () => {
+  const info = Data.data
   return (
     <>
-      <Header>
-        <About />
+      <Header title={info.name}>
+        <About
+          title={info.profession}
+          phone={info.phone}
+          address={info.address}
+          email={info.email}
+          website={info.website}
+        />
       </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <Profile title='Profile' description={info.Profile} />
+      <Experience title='Experience' items={info.experience} />
+      <Academic title='Academic' items={info.Academic} />
+      <Skills title='skills' items={info.skills} />
+      <Interest title='interest' items={info.interest} />
+      <Languages  title='languages' items={info.languages} />
     </>
   )
 };

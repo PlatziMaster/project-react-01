@@ -1,8 +1,11 @@
 import React from 'react';
 
-const Profile = () => {
-  return(
-    <h1>Profile</h1>
+const Profile = ({ title, description }) => {
+  return (
+    <section className='Profile'>
+      <h2 className='Profile-title'>{title}</h2>
+      <p className='Profile-desc'>{description}</p>
+    </section>
   )
 }
 

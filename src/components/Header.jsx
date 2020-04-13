@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
-const Header = () => {
-  return(
-    <h1>Header</h1>
+
+const Header = ({ children, title }) => {
+  return (
+    <>
+      <h1 className='Header-title'>{title}</h1>
+      {children}
+    </>
   )
 }
 
