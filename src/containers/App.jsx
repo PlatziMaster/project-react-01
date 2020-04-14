@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';
@@ -7,11 +7,19 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
-import Data from '../../data.json';
+import getData from '../utils/getData';
 import '../styles/components/App.styl';
 
 const App = () => {
-  const info = Data.data
+
+  const API = 'http://localhost:3000/data';
+  const [info, setInfo] = useState({});
+
+  useEffect(() => {
+    getData(API)
+      .then((data) => setInfo(data))
+  }, [])
+  
   return (
     <>
       <Header title={info.name}>
@@ -28,7 +36,7 @@ const App = () => {
       <Academic title='Academic' items={info.Academic} />
       <Skills title='skills' items={info.skills} />
       <Interest title='interest' items={info.interest} />
-      <Languages  title='languages' items={info.languages} />
+      <Languages title='languages' items={info.languages} />
     </>
   )
 };

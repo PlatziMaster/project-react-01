@@ -1,6 +1,6 @@
 const getData = api => (
   fetch(api)
-    .then(data => (data))
+    .then(data => (data.json()))
     .catch(error => console.log(error))
 );
 
