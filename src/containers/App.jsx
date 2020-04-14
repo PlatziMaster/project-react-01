@@ -22,7 +22,7 @@ const App = () => {
   
   return (
     <>
-      <Header title={info.name} img={info.avatar} >
+      <Header title={String(info.name).toUpperCase()} img={info.avatar} >
         <About
           title={info.profession}
           phone={info.phone}
@@ -31,12 +31,12 @@ const App = () => {
           website={info.website}
         />
       </Header>
-      <Profile title='Profile' description={info.Profile} />
-      <Experience title='Experience' items={info.experience} />
-      <Academic title='Academic' items={info.Academic} />
-      <Skills title='skills' items={info.skills} />
-      <Interest title='interest' items={info.interest} />
-      <Languages title='languages' items={info.languages} />
+      <Profile title='PROFILE' description={info.Profile} />
+      <Experience title='EXPERIENCE' items={info.experience} />
+      <Academic title='ACADEMIC' items={info.Academic} />
+      <Skills title='SKILLS' items={info.skills} />
+      <Interest title='INTEREST' items={info.interest} />
+      <Languages title='LANGUAGES' items={info.languages} />
     </>
   )
 };

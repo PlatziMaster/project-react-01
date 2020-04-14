@@ -5,7 +5,7 @@ const templateItem = [{ name: 1 }, { name: 2 }, { name: 3 }]
 const Skills = ({ title, items = templateItem }) => {
   return(
     <section className='Skills'>
-      <h3 className='Skills-title'>{title}</h3>
+      <h2 className='Skills-title'>{title}</h2>
       <div className='Skills-items'>
         {
           items.map((item) => (

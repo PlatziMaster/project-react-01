@@ -5,7 +5,7 @@ const templateItem = [{ degree: 1 }, { degree: 2 }, { degree: 3 }]
 const Academic = ({ title, items = templateItem }) => {
   return(
     <section className='Academic'>
-      <h3 className='Academic-title'>{title}</h3>
+      <h2 className='Academic-title'>{title}</h2>
       <div className='Academic-items'>
         {
           items.map((item) => (
