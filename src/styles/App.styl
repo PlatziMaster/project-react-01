@@ -1,0 +1,17 @@
+@import "variable"
+@import "./components/Header"
+@import "./components/Profile"
+@import "./components/Experience"
+@import "./components/Academic"
+@import "./components/Skills"
+@import "./components/Interest"
+@import "./components/Languages"
+
+body
+  margin: 0
+#app
+  min-height: 100vh
+  max-width: 100vw
+  display: grid
+  grid-template-areas: "header header" "profile profile" "experience experience" "academic skills" "interest languages"
+  grid-template-columns: repeat(2,1fr)

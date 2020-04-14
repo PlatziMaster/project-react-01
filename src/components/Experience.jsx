@@ -4,7 +4,7 @@ const templateItem = [{ jobTitle: 1 }, { jobTitle: 2 }, { jobTitle: 3 }]
 
 const Experience = ({ title, items = templateItem }) => {
   return (
-    <section className='Experence'>
+    <section className='Experience'>
       <h3 className='Experience-title'>{title}</h3>
       <div className='Experience-items'>
         {

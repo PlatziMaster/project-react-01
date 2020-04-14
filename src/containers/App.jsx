@@ -8,7 +8,7 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import getData from '../utils/getData';
-import '../styles/components/App.styl';
+import '../styles/App.styl';
 
 const App = () => {
 
