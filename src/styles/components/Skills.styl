@@ -1,2 +1,13 @@
 .Skills
+  margin: 2% 0%
   grid-area: skills
+  display: grid
+  grid-template-areas: "title" "content"
+  grid-template-rows: 30% 70%
+  justify-items: center
+  align-items: center
+  &-items
+    width 80%
+  &-item
+    display: flex
+    justify-content: space-between

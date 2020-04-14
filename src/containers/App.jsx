@@ -22,7 +22,7 @@ const App = () => {
   
   return (
     <>
-      <Header title={info.name}>
+      <Header title={info.name} img={info.avatar} >
         <About
           title={info.profession}
           phone={info.phone}

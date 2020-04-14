@@ -1,2 +1,13 @@
 .Profile
+  height 100px
   grid-area: profile
+  display: grid
+  grid-template-areas: "title" "text"
+  grid-template-rows: 30% 70%
+  justify-items: center
+  align-items: center
+  &-title
+    grid-area: title
+  &-desc
+    grid-area: text
+    align-self: flex-start

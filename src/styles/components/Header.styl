@@ -1,2 +1,26 @@
 .Header
   grid-area: header
+  display: grid
+  align-content: center
+  justify-items: center
+  grid-template-areas: "img title" "img subtitle" "img about"
+  grid-template-columns: 200px auto
+  & > img 
+    grid-area: img
+    width 128px
+    border-radius: 50%
+  &-title
+    grid-area: title
+    width 30%
+    justify-items: center
+
+.About
+  &-title
+    grid-area: subtitle
+    width 30%
+    justify-items: center
+  &-items
+    grid-area: about 
+    display: flex
+    justify-content: space-around
+    width 60%

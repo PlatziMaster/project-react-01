@@ -1,2 +1,28 @@
 .Experience
+  margin: 2% 0%
   grid-area: experience
+  display: grid
+  grid-template-areas: "title" "content"
+  grid-template-rows: 30% 70%
+  justify-items: center
+  align-items: center
+  &-items
+    grid-area: content
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+  &-item
+    height 100px
+    display: grid
+    grid-template-areas: "date title" "date company" "description description"
+    grid-template-columns: 20% 80%
+    justify-content: center
+    align-items: center
+    &-title
+      grid-area: title
+    &-company
+      grid-area: company
+    &-date
+      grid-area: date
+    &-description
+      grid-area: description

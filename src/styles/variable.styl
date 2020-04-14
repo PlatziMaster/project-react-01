@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 @import url('https://fonts.googleapis.com/css2?family=Oswald');
 
-primary-color = #FF565C
+primary-color = #D7B0FF
+segundary-color = #B0A0E8
+contrast-color = #BDC0FF
 dark-color = #1D1F24;
-light-color = #FFFFFF
-shadow-color = #EBEBEB
+light-color = #A0B7E8
+shadow-color = #B0DEFF
 
 h1, h2, h3, h4, h5, h6, p, li
   font-family: 'Lato', sans-serif;
@@ -46,6 +48,22 @@ h1, h2, h3, h4, h5, h6, p, li
 
 .text-Primary
   color: primary-color
+
+.shadon-primary
+  -webkit-box-shadow: 10px 10px 5px 0px transparentify(primary-color, 0.25);
+  -moz-box-shadow: 10px 10px 5px 0px transparentify(primary-color, 0.25);
+  box-shadow: 10px 10px 5px 0px transparentify(primary-color, 0.25);
+  border-radius: 30px
+  border 1px solid primary-color
+  margin: 2% 0%
+
+.shadon-segundary
+  -webkit-box-shadow: 10px 10px 5px 0px transparentify(segundary-color, 0.25);
+  -moz-box-shadow: 10px 10px 5px 0px transparentify(segundary-color, 0.25);
+  box-shadow: 10px 10px 5px 0px transparentify(segundary-color, 0.25);
+  border-radius: 30px
+  border 1px solid segundary-color
+  margin: 2% 0%
 
 @media (max-width: 960px)
   h1
