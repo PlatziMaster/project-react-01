@@ -1,26 +1,63 @@
 .Header
+  position: relative
+  height 222px
   grid-area: header
   display: grid
-  align-content: center
+  grid-template-areas: "title" "subtitle" "about"
+  grid-template-rows: auto auto 20%
+  grid-template-columns: 100%;
   justify-items: center
-  grid-template-areas: "img title" "img subtitle" "img about"
-  grid-template-columns: 200px auto
-  & > img 
-    grid-area: img
-    width 128px
-    border-radius: 50%
+  &-banner
+    grid-row-start: 1
+    grid-row-end: 3
+    grid-column-start: 1
+    grid-column-end: 3
+    object-fit: cover
+    z-index -2
+    width 100%
+  &-avatar
+    position absolute
+    display: grid
+    grid-template-areas: "photo"
+    justify-items: center
+    align-items: center
+    text-align: center
+    left 10%
+    &-marco
+      grid-area: photo
+      z-index -1
+    &-photo
+      grid-area: photo
+      border-radius: 50%
+      @extend .shadon-dark
   &-title
     grid-area: title
-    width 34%
-    justify-items: center
+    align-self end
+    text-shadow:
+      -1.5px -1.5px 0 light-color,  
+      1.5px -1.5px 0 light-color,
+      -1.5px 1.5px 0 light-color,
+      1.5px 1.5px 0 light-color;
 
 .About
   &-title
     grid-area: subtitle
-    width 34%
     justify-items: center
+    font-weight: 400
+    font-style: normal
   &-items
     grid-area: about 
     display: flex
-    justify-content: space-around
-    width 60%
+    justify-content: space-between;
+    align-items: center
+    width 80%
+  &-item
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-left 10px;
+    & > p
+      font-size: 17px
+      font-weight: 300
+      font-style: italic
+      margin-left 5px;

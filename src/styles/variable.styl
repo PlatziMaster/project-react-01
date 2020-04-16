@@ -1,31 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato');
-@import url('https://fonts.googleapis.com/css2?family=Oswald');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,700&display=swap')
 
-primary-color = #D7B0FF
-segundary-color = #B0A0E8
-contrast-color = #BDC0FF
+primary-color = #E748F2
+segundary-color = #742479
 dark-color = #1D1F24;
-light-color = #A0B7E8
-shadow-color = #B0DEFF
+light-color = #FFFFFF
 
 h1, h2, h3, h4, h5, h6, p, li
-  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif
   margin: 0
 
-  h1
-    font-size: 30px
-  h2
-    font-size: 25px
-  h3
-    font-size: 20px
-  h4
-    font-size: 18px
-  h5
-    font-size: 16px
-  h6
-    font-size: 14px
-  p
-    font-size: 14px
+h1
+  font-size: 40px
+  font-weight: 700
+  font-style: italic
+h2
+  font-size: 30px
+  font-weight: 700
+  font-style: italic
+h3
+  font-size: 20px
+h4
+  font-size: 18px
+h5
+  font-size: 16px
+h6
+  font-size: 14px
+p
+  font-size: 14px
 
 .styleScroll {
   overflow-y: scroll;
@@ -65,24 +66,18 @@ h1, h2, h3, h4, h5, h6, p, li
   border 1px solid segundary-color
   margin: 2% 0%
 
-@media (max-width: 960px)
-  h1
-    font-size: 40px
+.shadon-light
+  -webkit-box-shadow: 10px 10px 5px 0px transparentify(light-color, 0.25);
+  -moz-box-shadow: 10px 10px 5px 0px transparentify(light-color, 0.25);
+  box-shadow: 10px 10px 5px 0px transparentify(light-color, 0.25);
+  border-radius: 30px
+  border 1px solid segundary-color
+  margin: 2% 0%
 
-  h2
-    font-size: 35px
-  h3
-    font-size: 30px
-  h4
-    font-size: 25px
-  h5
-    font-size: 20px
-  h6
-    font-size: 18px
-  p
-    font-size: 16px
-
-
-a
-  text-decoration: none
-  color: light-color
+.shadon-dark
+  -webkit-box-shadow: 10px 10px 5px 0px transparentify(dark-color, 0.25);
+  -moz-box-shadow: 10px 10px 5px 0px transparentify(dark-color, 0.25);
+  box-shadow: 10px 10px 5px 0px transparentify(dark-color, 0.25);
+  border-radius: 30px
+  border 1px solid segundary-color
+  margin: 2% 0%
