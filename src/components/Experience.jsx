@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from './Card';
 
 const templateItem = [{ jobTitle: 1 }, { jobTitle: 2 }, { jobTitle: 3 }]
 
@@ -10,13 +11,13 @@ const Experience = ({ title, items = templateItem }) => {
         {
           items.map((item) => (
             <div className='Experience-item' key={item.jobTitle}>
-              <h3 className='Experience-item-title'>{item.jobTitle}</h3>
-              <h4 className='Experience-item-company'>{item.company}</h4>
-              <div className='Experience-item-date'>
-                <p>{item.endDate}</p>
-                <p>{item.startDate}</p>
-              </div>
-              <p className='Experience-item-description'>{item.jobDescription}</p>
+              <Card
+                title={item.jobTitle}
+                subtitle={item.company}
+                dateStart={item.startDate}
+                dateEnd={item.endDate}
+                description={item.jobDescription}
+              />
             </div>
           ))
         }
