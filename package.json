@@ -68,7 +68,8 @@
   "jest": {
     "verbose": true,
     "moduleNameMapper": {
-      "\\.(styl|css)$": "<rootDir>/src/__mocks__/styleMock.js"
+      "\\.(styl|css)$": "<rootDir>/src/__mocks__/styleMock.js",
+      "\\.(svg)$": "<rootDir>/src/__mocks__/styleMock.js"
     },
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"
