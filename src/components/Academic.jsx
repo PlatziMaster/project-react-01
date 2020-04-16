@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from './Card';
 
 const templateItem = [{ degree: 1 }, { degree: 2 }, { degree: 3 }]
 
@@ -10,14 +11,15 @@ const Academic = ({ title, items = templateItem }) => {
         {
           items.map((item) => (
             <div className='Academic-item' key={item.degree}>
-              <h3 className='Academic-item-title'>{item.degree}</h3>
-              <h4 className='Academic-item-institution'>{item.institution}</h4>
-              <div className='Academic-item-date'>
-                <p>{item.endDate}</p>
-                <p>{item.startDate}</p>
+              <Card
+                key={item.degree}
+                title={item.degree}
+                subtitle={item.institution}
+                dateStart = {item.startDate} 
+                dateEnd ={item.endDate}
+                description={item.description} 
+                />
               </div>
-              <p className='Academic-item-description'>{item.description}</p>
-            </div>
           ))
         }
       </div>
