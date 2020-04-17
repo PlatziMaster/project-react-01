@@ -1,6 +1,7 @@
 .Header
   position: relative
   height 222px
+  width 100%
   grid-area: header
   display: grid
   grid-template-areas: "title" "subtitle" "about"
@@ -61,3 +62,47 @@
       font-weight: 300
       font-style: italic
       margin-left 5px;
+
+@media (max-width: 769px)
+  .Header
+    height max-content
+    grid-template-rows: auto auto auto
+    height 290px
+    &-avatar
+      left 5%
+  .About
+    &-items
+      grid-area: about
+      display: block
+      -webkit-column-count: 2; /* Chrome, Safari, Opera */
+      -moz-column-count: 2; /* Firefox */
+      column-count: 2;
+      grid-gap: 18%
+    &-item
+      display: flex
+      justify-content: center
+      align-items: center
+      margin-left 10px;
+      & > p
+        font-size: 17px
+        font-weight: 300
+        font-style: italic
+        margin-left 5px;
+
+@media (max-width: 690px)
+ .Header
+    height max-content
+    grid-template-areas: "avatar" "title" "subtitle" "about"
+    height max-content
+    &-avatar
+      position: relative
+      grid-area: avatar
+      justify-self: center
+  .About
+    &-items
+      grid-area: about
+      display: block
+      -webkit-column-count: 1/* Chrome, Safari, Opera */
+      -moz-column-count: 1; /* Firefox */
+      column-count: 1;
+      grid-gap: 18%
