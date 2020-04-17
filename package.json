@@ -9,7 +9,16 @@
     "server": "json-server data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
-    "test": "jest"
+    "test": "jest",
+    "test:data": "jest src/__test__/Utils/AgetData.test.js",
+    "test:header": "jest src/__test__/components/Header.test.js",
+    "test:about": "jest src/__test__/components/About.test.js",
+    "test:profile": "jest src/__test__/components/Profile.test.js",
+    "test:experience": "jest src/__test__/components/Experience.test.js",
+    "test:academic": "jest src/__test__/components/Academic.test.js",
+    "test:skills": "jest src/__test__/components/Skills.test.js",
+    "test:interest": "jest src/__test__/components/Interest.test.js",
+    "test:lenguages": "jest src/__test__/components/Lenguages.test.js"
   },
   "keywords": [
     "react",
@@ -44,11 +53,14 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.18.2",
+    "file-loader": "^6.0.0",
     "husky": "^2.7.0",
     "jest": "^25.1.0",
     "json-server": "^0.15.1",
     "mini-css-extract-plugin": "^0.7.0",
     "prettier": "^1.19.1",
+    "s": "^1.0.0",
+    "save": "^2.4.0",
     "style-loader": "^0.23.1",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2"
@@ -56,7 +68,8 @@
   "jest": {
     "verbose": true,
     "moduleNameMapper": {
-      "\\.(styl|css)$": "<rootDir>/src/__mocks__/styleMock.js"
+      "\\.(styl|css)$": "<rootDir>/src/__mocks__/styleMock.js",
+      "\\.(svg)$": "<rootDir>/src/__mocks__/styleMock.js"
     },
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"

@@ -1,0 +1,115 @@
+.Header
+  position: relative
+  height 222px
+  width 100%
+  grid-area: header
+  display: grid
+  grid-template-areas: "title" "subtitle" "about"
+  grid-template-rows: auto auto 20%
+  grid-template-columns: 100%;
+  justify-items: center
+  &-banner
+    grid-row-start: 1
+    grid-row-end: 3
+    grid-column-start: 1
+    grid-column-end: 3
+    object-fit: cover
+    z-index -2
+    width 100%
+  &-avatar
+    position absolute
+    display: grid
+    grid-template-areas: "photo"
+    justify-items: center
+    align-items: center
+    text-align: center
+    left 10%
+    &-marco
+      grid-area: photo
+      z-index -1
+    &-photo
+      grid-area: photo
+      border-radius: 50%
+      @extend .shadon-dark
+  &-title
+    grid-area: title
+    align-self end
+    text-shadow:
+      -1.5px -1.5px 0 light-color,  
+      1.5px -1.5px 0 light-color,
+      -1.5px 1.5px 0 light-color,
+      1.5px 1.5px 0 light-color;
+
+.About
+  &-title
+    grid-area: subtitle
+    justify-items: center
+    font-weight: 400
+    font-style: normal
+  &-items
+    grid-area: about 
+    display: flex
+    justify-content: space-between;
+    align-items: center
+    width 80%
+  &-item
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-left 10px;
+    & > p
+      font-size: 17px
+      font-weight: 300
+      font-style: italic
+      margin-left 5px;
+
+@media (max-width: 769px)
+  .Header
+    height max-content
+    grid-template-rows: auto auto auto
+    height 290px
+    &-avatar
+      left 5%
+  .About
+    &-items
+      grid-area: about
+      display: block
+      -webkit-column-count: 2; /* Chrome, Safari, Opera */
+      -moz-column-count: 2; /* Firefox */
+      column-count: 2;
+      grid-gap: 18%
+    &-item
+      display: flex
+      justify-content: center
+      align-items: center
+      margin-left 10px;
+      & > p
+        font-size: 17px
+        font-weight: 300
+        font-style: italic
+        margin-left 5px;
+
+@media (max-width: 690px)
+ .Header
+    height max-content
+    grid-template-areas: "avatar" "title" "subtitle" "about"
+    height max-content
+    &-avatar
+      position: relative
+      grid-area: avatar
+      justify-self: center
+    &-banner
+      height 100%
+      grid-row-start: 1
+      grid-row-end: 3
+      grid-column-start: 1
+      grid-column-end: 1
+      object-fit: cover;
+  .About
+    &-items
+      grid-area: about
+      display: block
+      -webkit-column-count: 1/* Chrome, Safari, Opera */
+      -moz-column-count: 1; /* Firefox */
+      column-count: 1;
+      grid-gap: 18%

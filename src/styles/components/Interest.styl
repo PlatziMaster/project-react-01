@@ -1,0 +1,17 @@
+.Interest
+  margin: 2% 0%
+  grid-area: interest
+  display: grid
+  grid-template-areas: "title" "content"
+  grid-template-rows: 30% 70%
+  justify-items: center
+  align-items: center
+  &-title
+    grid-area: title
+  &-items
+    text-align: center
+    width 80%
+    grid-area: content
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;

@@ -1,0 +1,20 @@
+.Academic
+  width: 75%
+  margin: 2% 0%
+  margin-right: 6%
+  grid-area: academic
+  justify-self: right
+  display: grid
+  grid-template-areas: "title" "content"
+  justify-items: center
+  align-items: center
+  &-item
+    display: flex
+    margin: 5% 0%
+
+@media (max-width: 769px)
+  .Academic
+    width: 80%
+    margin-right: 0%
+    justify-self: center
+    justify-content: center

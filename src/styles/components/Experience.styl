@@ -1,0 +1,30 @@
+.Experience
+  margin: 2% 0%
+  width: 80%
+  grid-area: experience
+  display: grid
+  grid-template-areas: "title" "content"
+  justify-self: center
+  justify-items: center
+  align-items: center
+  &-items
+    margin-top: 2%
+    grid-area: content
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    grid-column-gap: 13%
+
+@media (max-width: 769px)
+  .Experience
+      margin: 8% 0%
+      &-items
+        grid-area: content
+        -webkit-column-count: 1; /* Chrome, Safari, Opera */
+        -moz-column-count: 1; /* Firefox */
+        column-count: 1;
+      &-item
+        margin-bottom: 5%
+  @media (max-width: 450px)
+    .Experience
+        margin: 40% 0%

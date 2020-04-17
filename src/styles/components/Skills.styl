@@ -1,0 +1,22 @@
+.Skills
+  grid-area: skills
+  display: grid
+  grid-template-areas: "title" "content"
+  grid-template-rows: min-content;
+  justify-items: center
+  align-items: center
+  justify-content: center
+  &-items
+    grid-area: content
+    width 100%
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    grid-gap: 18%
+
+@media (max-width: 520px)
+  .Skills
+    &-items
+      -webkit-column-count: 1; /* Chrome, Safari, Opera */
+      -moz-column-count: 1; /* Firefox */
+      column-count: 1;

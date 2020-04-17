@@ -1,0 +1,26 @@
+@import "variable"
+@import "./components/Header"
+@import "./components/Profile"
+@import "./components/Card"
+@import "./components/Progress"
+@import "./components/Experience"
+@import "./components/Academic"
+@import "./components/Skills"
+@import "./components/Interest"
+@import "./components/Languages"
+
+body
+  margin: 0
+
+  @media (max-width: 769px)
+    #app
+      grid-template-areas: "header" "profile" "experience" "skills" "academic"  "languages" "interest"
+      grid-template-columns: 100%
+
+#app
+  min-height: 100vh
+  max-width: 100vw
+  display: grid
+  grid-template-areas: "header header" "profile profile" "experience experience" "academic skills" "languages interest"
+  grid-template-columns: repeat(2,1fr)
+  grid-row-gap: 1%;

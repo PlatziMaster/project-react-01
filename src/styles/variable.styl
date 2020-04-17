@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,700&display=swap')
+
+primary-color = #E748F2
+segundary-color = #742479
+dark-color = #1D1F24;
+light-color = #FFFFFF
+text-color = #707070 
+degradado = linear-gradient(to bottom, primary-color , segundary-color)
+
+h1, h2, h3, h4, h5, h6, p, li
+  font-family: 'Poppins', sans-serif
+  margin: 0
+
+h1
+  font-size: 40px
+  font-weight: 700
+  font-style: italic
+h2
+  font-size: 30px
+  font-weight: 700
+  font-style: italic
+h3
+  font-size: 20px
+h4
+  font-size: 18px
+h5
+  font-size: 16px
+h6
+  font-size: 14px
+p
+  font-size: 14px
+
+.styleScroll {
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    width: 8px;
+    height: 8px;
+    background: fade-out(primary-color, 0.8);
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    display: block;
+    box-shadow: 0 0 2px 1px fade-out(dark-color, 0.5);
+    background: primary-color;
+  }
+}
+
+.text-Primary
+  color: primary-color
+
+.shadon-primary
+  -webkit-box-shadow: 10px 10px 5px 0px transparentify(primary-color, 0.25);
+  -moz-box-shadow: 10px 10px 5px 0px transparentify(primary-color, 0.25);
+  box-shadow: 10px 10px 5px 0px transparentify(primary-color, 0.25);
+  border-radius: 30px
+  border 1px solid primary-color
+  margin: 2% 0%
+
+.shadon-segundary
+  -webkit-box-shadow: 10px 10px 5px 0px transparentify(segundary-color, 0.25);
+  -moz-box-shadow: 10px 10px 5px 0px transparentify(segundary-color, 0.25);
+  box-shadow: 10px 10px 5px 0px transparentify(segundary-color, 0.25);
+  border-radius: 30px
+  border 1px solid segundary-color
+  margin: 2% 0%
+
+.shadon-light
+  -webkit-box-shadow: 10px 10px 5px 0px transparentify(light-color, 0.25);
+  -moz-box-shadow: 10px 10px 5px 0px transparentify(light-color, 0.25);
+  box-shadow: 10px 10px 5px 0px transparentify(light-color, 0.25);
+  border-radius: 30px
+  border 1px solid segundary-color
+  margin: 2% 0%
+
+.shadon-dark
+  -webkit-box-shadow: 10px 10px 5px 0px transparentify(dark-color, 0.25);
+  -moz-box-shadow: 10px 10px 5px 0px transparentify(dark-color, 0.25);
+  box-shadow: 10px 10px 5px 0px transparentify(dark-color, 0.25);
+  border-radius: 30px
+  border 1px solid segundary-color
+  margin: 2% 0%

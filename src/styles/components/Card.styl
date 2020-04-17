@@ -1,0 +1,38 @@
+.Card
+  padding: 1%
+  width: 100%;
+  height: 200px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px 0 transparentify(segundary-color, 0.64);
+  border: solid 1px primary-color;
+  background-color: light-color;
+  display: grid
+  grid-template-areas: "start title end" "subtitle subtitle subtitle" ". description ."
+  grid-template-columns: 70px auto 70px
+  justify-content: center
+  justify-items: center
+  align-items: center
+  &-title
+    grid-area: title
+    color primary-color
+    font-size: 20px;
+  &-subtitle
+    grid-area: subtitle
+    font-size: 17px;
+    font-style: italic
+    font-weight: 300
+  &-description
+    grid-area: description
+  &-start
+    grid-area: start
+  &-end
+    grid-area: end
+  &-date
+    text-align: center
+    &-title
+      color primary-color
+
+@media (max-width: 520px)
+  .Card
+    padding: 1%
+    height: 300px;
