@@ -34,12 +34,12 @@ const App = () => {
           website={info.website}
         />
       </Header>
-      <Profile title='PROFILE' description={info.Profile} />
-      <Experience title='EXPERIENCE' items={info.experience} />
-      <Academic title='ACADEMIC' items={info.Academic} />
-      <Skills title='SKILLS' items={info.skills} />
-      <Interest title='INTEREST' items={info.interest} />
-      <Languages title='LANGUAGES' items={info.languages} />
+      <Profile title='Profile' description={info.Profile} />
+      <Experience title='Experence' items={info.experience} />
+      <Academic title='Academic' items={info.Academic} />
+      <Skills title='Skills' items={info.skills} />
+      <Languages title='Languages' items={info.languages} />
+      <Interest title='Interest' items={info.interest} />
     </>
   )
 };

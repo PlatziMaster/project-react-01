@@ -1,4 +1,5 @@
 import React from 'react';
+import Progress from './Progress'
 
 const templateItem = [{ name: 1 }, { name: 2 }, { name: 3 }]
 
@@ -10,8 +11,10 @@ const Languages = ({ title, items = templateItem }) => {
         {
           items.map((item) => (
             <div className='Languages-item' key={item.name}>
-              <h3 className='Languages-item-title'>{item.name}</h3>
-              <h4 className='Languages-item-percentage'>{item.percentage}</h4>
+            <Progress
+                title={item.name}
+                porcent={item.percentage}
+              />
             </div>
           ))
         }

@@ -6,10 +6,13 @@
   grid-template-rows: 30% 70%
   justify-items: center
   align-items: center
+  justify-content: center
   &-title
     grid-area: title
   &-items
-    width 80%
-  &-item
-    display: flex
-    justify-content: space-between
+    grid-area: content
+    width 100%
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    grid-gap: 18%
