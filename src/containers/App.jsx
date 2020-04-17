@@ -13,16 +13,14 @@ import '../styles/App.styl';
 
 const App = () => {
 
-/*   const API = 'http://localhost:3000/data';
+  const API = 'http://localhost:3000/data';
   const [info, setInfo] = useState({});
 
   useEffect(() => {
     getData(API)
       .then((data) => setInfo(data))
-  }, []) */
+  }, [])
   
-  const info = data.data
-
   return (
     <>
       <Header title={String(info.name).toUpperCase()} img={info.avatar} >
