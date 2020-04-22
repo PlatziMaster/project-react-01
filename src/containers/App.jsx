@@ -6,23 +6,33 @@ import Profile from '../components/Profile';
 import Experience from '../components/Experience';
 import Academic from '../components/Academic';
 import Skills from '../components/Skills';
-import Interest from '../components/Interest';
+import Interests from '../components/Interest'
 import Languages from '../components/Languages';
 
+import getData from '../utils/getData';
+const API = 'http://localhost:3000/data';
+
 const App = () => {
-  return (
+  const info = getData(API);
+  return info.length === 0 ? (
+    <h1>loading...</h1>
+  ) : (
     <>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
+      <div className="App">
+        {[1, 2, 3].map(data => (
+          <Header {...data}>
+            <About {...data} />
+          </Header>
+        ))}
+        <Profile {...data}/>
+        <Experience {...data}/>
+        <Academic {...data}/>
+        <Skills {...data}/>
+        <Interests {...data}/>
+        <Languages {...data}/>
+      </div>
     </>
-  )
+  );
 };
 
 export default App;

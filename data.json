@@ -1,11 +1,11 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
+    "name": "David Mosquera",
+    "profession": "Frontend Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
+    "email": "mosqueradvd@gmail.com",
+    "website": "https://mosqueradvd.tech",
+    "phone": "3442034240",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
     "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
@@ -13,7 +13,7 @@
         "date": "Jan 2021",
         "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
         "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "name": "Frontend Developer"
       },
       {
         "date": "Jan 2021",
