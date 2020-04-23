@@ -5,24 +5,26 @@ import About from '../components/About';
 import Profile from '../components/Profile';
 import Experience from '../components/Experience';
 import Academic from '../components/Academic';
-import Skills from '../components/Skills';
+import Skills from '../components/Skill';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import InformationContext, { Information } from '../../data';
 
 const App = () => {
   return (
-    <>
-      <Header>
-        <About />
-      </Header>
+    <InformationContext.Provider value={Information.data}>
+      <Header />
+      <About />
       <Profile />
       <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
-    </>
-  )
+      <div className="cuatro">
+        <Academic />
+        <Skills />
+        <Interest />
+        <Languages />
+      </div>
+    </InformationContext.Provider>
+  );
 };
 
 export default App;
