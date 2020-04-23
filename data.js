@@ -3,15 +3,15 @@ import React from 'react';
 export const Information = {
   data: {
     name: 'César Galindo',
-    profession: 'FrontEnd Developer',
+    profession: 'Frontend Developer',
     address: 'Bogotá, Colombia.',
-    email: 'Cesar@example.com',
-    website: 'https://example.com',
-    phone: '304 3 124 200',
+    email: 'csgalindos@hotmail.com',
+    website: 'http://cesargalindos.com',
+    phone: '300 365 85 68',
     avatar:
       'https://pbs.twimg.com/profile_images/1055299470148227072/xeEopDm__400x400.jpg',
     profile:
-      "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+      "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly",
     certificate: [
       {
         date: 'Nov 2009',
