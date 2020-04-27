@@ -1,11 +1,22 @@
-@import './Vars'
+@import '../Vars'
 
 .skills
   grid-area: 4 / 3 / 5 / 5
-  background-color: $back-color
-  color: $text-color
-  display: flex
-  justify-content: flex-start;
-  align-items: center
+  background-color: $back-color-light
+  color: $text-color-light
+  height: $main-height
+  text-align: center;
   border-radius: $main-border
   box-shadow: $shadow
+  &-content
+    margin: 4px
+    img
+      width: 20px
+      display inline-block
+    p
+      display: inline-block
+
+.dark-mode-skills
+  @extend .skills
+  background-color: $back-color-dark
+  color: $text-color-dark

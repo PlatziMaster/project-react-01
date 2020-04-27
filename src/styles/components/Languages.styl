@@ -1,8 +1,21 @@
-@import './Vars'
+@import '../Vars'
 
 .languages
   grid-area: 5 / 3 / 6 / 5
-  color: $text-color
+  color: $text-color-light
+  height: $main-height
+  display: flex
+  align-items: center
   box-shadow: $shadow
-  background-color: $back-color
+  background-color: $back-color-light
   border-radius: $main-border
+  &-content
+    margin: 5px
+  h1
+	  margin-left: 20px
+
+
+.dark-mode-languages
+  @extend .languages
+  background-color:$back-color-dark
+  color: $text-color-dark

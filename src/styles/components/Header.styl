@@ -1,20 +1,39 @@
-@import './Vars'
+@import '../Vars'
 
 .header
   grid-area: 1 / 1 / 2 / 5
   display: flex
   justify-content: flex-start
   align-items: center
-  color: $text-header-color
+  color: $text-color-light
   box-shadow: $shadow
-  background-color: $back-header-color
+  background-color: $back-color-light
   padding: 52px 0px 52px 0px
   border-top: 6px solid #79d0ff
+  figure
+    display: inline-block
+  img
+    border-radius: 50em
+    width: 110px
+    height:110px
+    box-shadow: $shadow
+  &-button--lights
+      margin: 0 0 auto
+      border: none;
+      padding: 0.4em;
+      cursor: pointer
+      background-color: $back-color-dark
+      color: $text-color-dark
+      border-radius: 4px
+  &-button--lang
+      @extend .header-button--lights
+      margin: 0 10px auto
+      background-color: #c6ebff
+      color: rgba(53,184,255, 1)
 
-figure
-  display: inline-block
-
-img
-  border-radius: 50em
-  width: 80px
-  height: 80px
+.dark-mode-header
+  @extend .header
+  background-color: $back-color-dark
+  color: $text-color-dark
+  a
+    color: $text-color-dark

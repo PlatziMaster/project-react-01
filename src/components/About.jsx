@@ -1,16 +1,16 @@
 import React from 'react';
 import '../styles/components/About.styl';
 
-const About = ({ name, profession, address, email, website, phone }) => {
+const About = ({ about }) => {
   return (
     <>
-      <div className="About">
-        <h1>{name}</h1>
-        <p>{profession}</p>
-        <p>{website}</p>
-        <p>{address}</p>
-        <p>{email}</p>
-        <p>{phone}</p>
+      <div className="about">
+        <h1>{about.name}</h1>
+        <p>{about.phone}</p>
+        <p>{about.address}</p>
+        <p>{about.email}</p>
+        <a href={about.website} target="_blank">Website (@mosqueradvd)</a>
+        <p>{about.phone}</p>
       </div>
     </>
   );

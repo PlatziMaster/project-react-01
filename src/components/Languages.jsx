@@ -1,15 +1,20 @@
-import React from 'react';
-import '../styles/components/Languages.styl'
+import React, { useContext } from 'react';
+import '../styles/components/Languages.styl';
+import ThemeContext from '../context/ThemeContext';
 
-const Languages = () => {
+const Languages = ({ title, languages = [] }) => {
+  const { dark, toggle } = useContext(ThemeContext);
+
   return (
     <>
-      <div className="languages">
-        <h1>.Language-title</h1>
-        <p>.Language-title</p>
-        <p>.Language-title</p>
-        <p>.Language-title</p>
-      </div>
+      <section className={dark ? 'languages' : 'dark-mode-languages'}>
+        <h1>{title}</h1>
+        <div className="languages-content">
+          {languages.map(lang => (
+            <p key={lang.name}>{lang.name}</p>
+          ))}
+        </div>
+      </section>
     </>
   );
 };

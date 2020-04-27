@@ -1,15 +1,22 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import '../styles/components/Interest.styl';
+import ThemeContext from '../context/ThemeContext';
 
-const Interest = () => {
+const Interest = ({ title, interest = [] }) => {
+  const { dark, toggle } = useContext(ThemeContext);
+
   return (
     <>
-      <div className="interests">
-        <h1>.Interest-title</h1>
-        <p>.Interest-item</p>
-        <p>.Interest-item</p>
-        <p>.Interest-item</p>
+    <section className={dark ? 'interests' : 'dark-mode-interests'}>
+      <h1>{title}</h1>
+      <div className="interests-content">
+        {interest.map(item => (
+          <h4 key={item} >
+            {item}
+          </h4>
+        ))}
       </div>
+    </section>
     </>
   );
 };

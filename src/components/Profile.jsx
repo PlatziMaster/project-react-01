@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import '../styles/components/Profile.styl';
+import ThemeContext from '../context/ThemeContext';
 
-const Profile = ({ name }) => {
+const Profile = ({ title, description }) => {
+  const { dark, toggle } = useContext(ThemeContext);
+
   return (
     <>
-      <div className="profile">
-        <h1>{name}</h1>
-        <p>{name}</p>
+      <div className={dark ? 'profile' : 'dark-mode-profile'}>
+        <div className="profile-content">
+          <h1>{title}</h1>
+          <p>{description}</p>
+        </div>
       </div>
     </>
   );

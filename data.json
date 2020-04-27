@@ -4,10 +4,10 @@
     "profession": "Frontend Developer",
     "address": "Bogotá, Colombia.",
     "email": "mosqueradvd@gmail.com",
-    "website": "https://mosqueradvd.tech",
+    "website": "https://twitter.com/mosqueradvd",
     "phone": "3442034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "avatar": "https://static.platzi.com/media/avatars/avatars/mosqueradvd_645d120b-c4c9-4597-8234-fbc62d5c1096.png",
+    "profile": "Hola, soy David. Estudiante en #PlatziMaster y Frontend Dev en preparación. ",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -22,19 +22,19 @@
         "name": "Backend Developer"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Platzi Master",
+        "description": "3 Years full of experience with the best people in the tech world",
+        "endDate": "Mar 2023",
+        "institution": "Platzi",
+        "startDate": "Mar 2020"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
+        "degree": "U. Central",
+        "description": "Systems Engineering ",
+        "endDate": "December 2023",
+        "institution": "U.Central",
         "startDate": "Jan 2017"
       }
     ],
@@ -57,53 +57,43 @@
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "image": "https://media-public.canva.com/MADnA86aYCk/1/thumbnail_large.png"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "image": "https://media-public.canva.com/MADnA996b1c/1/thumbnail_large.png"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "image": "https://media-public.canva.com/4C8YI/MAD2UZ4C8YI/1/tl.png"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "image": "https://media-public.canva.com/MADnBiOBpZQ/3/thumbnail_large.png"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["JavaScript", "Design", "Frontend"],
     "languages": [
       {
-        "name": "Spanish",
-        "percentage": "90%"
+        "name": "Spanish"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "Intermediate"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/mosqueradvd"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/mosqueradvd"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/mosqueradvd"
       }
     ]
   }

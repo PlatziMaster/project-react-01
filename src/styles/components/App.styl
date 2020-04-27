@@ -1,11 +1,22 @@
-@import './Vars'
+@import '../Vars'
 
 .App
 	display: grid
 	gap: 10px
-	background-color: #f2f2f2
 	grid-template-rows: repeat(5, auto)
-	grid-template-colums: repeat(4, 1fr)
+	grid-template-columns: repeat(4, 230px)
 	justify-content: center
 	align-items: center
-	font-family: sans-serif
+	background-color: #FBFCFC
+	font-family: $main-font
+	h1
+		font-size: 26px
+
+.App-dark-mode
+	@extend .App
+	background-color: #1A1D21
+
+@media screen and (max-width: 768px)
+	.App
+		display: block
+		grid-template-columns: repeat(1, 1fr)

@@ -1,10 +1,20 @@
-@import './Vars'
+@import '../Vars'
 
 .academic
   grid-area: 4 / 1 / 5 / 3
-  background-color: $back-color
-  color: $text-color
+  color: $text-color-light
+  text-align: center
   box-shadow: $shadow
-  display: flex
-  justify-content: center;
-  align-items: center
+  height: $main-height
+  padding-bottom: 10px
+  border-radius: $main-border
+  background-color: $back-color-light
+  &-content
+    margin: 4px
+  h1
+    display inline-block
+
+.dark-mode-academic
+  @extend .academic
+  background-color: $back-color-dark
+  color: $text-color-dark
