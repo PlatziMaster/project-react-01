@@ -1,12 +1,12 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Cristian F. Tovar",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "email": "cristian00tovar@gmail.com",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
+    "phone": "3195443680",
+    "avatar": "https://github.com/crizy182/CV/blob/master/static/img/cover.jpg",
     "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
@@ -91,19 +91,19 @@
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://facebook.com/cristianfam"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/cristian182"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/crizy182"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/cristhiam-tovar"
       }
     ]
   }
