@@ -1,0 +1,27 @@
+@import '../Vars'
+
+.experience
+  grid-area: 3 / 1 / 4 / 5
+  background-color: $back-color-light
+  color: $text-color-light
+  border-radius: $main-border
+  box-shadow: $shadow
+  height: $main-height
+  display: flex-start
+  justify-content: space-evenly;
+  align-items: center
+  &-content
+    margin: 15px
+    padding: 15px
+    border-left: 4px solid #62f4fb
+  h2
+    margin-left: 20px
+
+.dark-mode-experience
+  @extend .experience
+  background-color: #3F0E40
+  color: rgb(188,171,188)
+  
+.dark-mode-experience--content
+    @extend .experience-content
+    border-left: 4px solid $text-color-dark

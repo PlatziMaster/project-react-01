@@ -1,0 +1,24 @@
+@import '../Vars'
+
+.interests
+  grid-area: 5 / 1 / 6 / 3
+  color: $text-color-light
+  display: flex
+  height: $main-height
+  justify-content: center
+  align-items: center
+  border-radius: $main-border
+  box-shadow: $shadow
+  background-color: $back-color-light
+  &-content
+    margin: 4px
+    h4
+      display: inline-block
+      margin-right: 5px
+  h1
+    margin: 10px
+
+.dark-mode-interests
+  @extend .interests
+  background-color: $back-color-dark
+  color: $text-color-dark
