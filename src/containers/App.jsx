@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import getData from '../utils/getData';
+import React from 'react';
+import useGetData from '../utils/getData';
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 // import About from '../components/About';
@@ -10,27 +10,18 @@ import Header from '../components/Header';
 // import Interest from '../components/Interest';
 // import Languages from '../components/Languages';
 
-const getState = (url) => {
-  const [state, setState] = useState([]);
-
-  useEffect(() => {
-    const initialState = getData(url);
-    setState(initialState);
-  }, []);
-
-  return state;
-};
-
 const App = () => {
 
-  const URL = 'http://localhost:3000/data';
-  const state = getState(URL);
-
+  const API = 'http://localhost:3000/data';
+  const state = useGetData(API);
+  console.log(imagen.data.avatar);
+  console.log(state.avatar);
   return (
     <>
-      <div>hola</div>
-      <Header avatar={state.avatar} />
-       {/* <About />
+      <h1>{state.name}</h1>
+      <Header />
+      <img src={state.avatar} alt='nothing :(' />
+      {/* <About />
       <Profile />
       <Experience />
       <Academic />
