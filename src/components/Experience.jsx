@@ -1,15 +1,14 @@
 import React from 'react';
 import '../styles/components/Experience.styl';
 
-const Experience = ({experience}) => {
+const Experience = ({experiences = [{"jobTitle":'Frontend Developer'}, {"jobTitle":'Backend Developer'}, {"jobTitle":'Fullstack Developer'}]}) => {
     return (
         <section className="Experience">
             <h3 className="Experience-title">Experience</h3>
             <ul className="Experience-list">
-                <li className="Experience-item">{experience[0].jobTitle}</li>
-                <li className="Experience-item">{experience[1].jobTitle}</li>
-                <li className="Experience-item">{experience[2].jobTitle}</li>
-                <li className="Experience-item">{experience[3].jobTitle}</li>
+                {experiences.map((experience, index) => {
+                    return(<li key={"Experience " + (index + 1)} className="Experience-item">{experience.jobTitle}</li>)
+                })}
             </ul>
         </section>
     );

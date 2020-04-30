@@ -1,13 +1,5 @@
-import { useState, useEffect } from 'react';
-
-const getData = (API) => {
-  const [data, setData] = useState([]);
-  useEffect(() => {
-    fetch(API)
-      .then(response => response.json())
-      .then(data => setData(data));
-  }, []);
-  return data;
+const getData = (API = 'https://google.com') => {
+  return window.fetch(API).then(res => res.json());
 };
 
 export default getData;

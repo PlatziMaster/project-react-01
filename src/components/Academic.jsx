@@ -1,14 +1,14 @@
 import React from 'react';
 import '../styles/components/Academic.styl';
 
-const Academic = ({academic}) => {
+const Academic = ({academics = [{"degree":'Arquitecto Frontend'}, {"degree":'Ingles Profesional'}, {"degree":'Enginnering'}]}) => {
     return (
         <section className="Academic">
             <h3 className="Academic-title">Academic</h3>
             <ul className="Academic-list">
-                <li className="Academic-item">{academic[0].degree}</li>
-                <li className="Academic-item">{academic[1].degree}</li>
-                <li className="Academic-item">{academic[2].degree}</li>
+                {academics.map((academic, index) => {
+                    return(<li key={"Academic " + (index + 1)} className="Academic-item">{academic.degree}</li>)
+                })}
             </ul>
         </section>
     );
