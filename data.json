@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Erick Mata",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "CDMX, México.",
+    "email": "erickowski@example.com",
+    "website": "https://erickowski.github.io",
+    "phone": "5536727867",
+    "avatar": "https://static.platzi.com/media/avatars/avatars/erickowski_ab77264c-8e13-4de1-8a69-b4dc0b57e4a0.jpeg",
+    "Profile": "Me gusta aprender cada dia un poco más.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,21 +24,21 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
+        "degree": "Arquitecto Frontend",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
         "endDate": "Jan 2017",
         "institution": "MIT",
         "startDate": "Jan 2018"
       },
       {
-        "degree": "Space Engineering",
+        "degree": "Frontend Developer",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
         "endDate": "Decenber 2015",
         "institution": "Harvard",
         "startDate": "Jan 2017"
       },
       {
-        "degree": "Space Engineering",
+        "degree": "Systems and Communications Engineering",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
         "endDate": "Decenber 2015",
         "institution": "Harvard",
@@ -50,28 +50,28 @@
         "company": "PugStar",
         "endDate": "Present",
         "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
+        "jobTitle": "Fullstack Developer",
         "startDate": "Jan 2020"
       },
       {
         "company": "CatStore",
         "endDate": "Jan 2016",
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
+        "jobTitle": "Backend Developer",
         "startDate": "Sept 2019"
       },
       {
         "company": "PugStar",
         "endDate": "Present",
         "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
+        "jobTitle": "Frontend Developer",
         "startDate": "Jan 2020"
       },
       {
         "company": "CatStore",
         "endDate": "Jan 2016",
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
+        "jobTitle": "Web Developer",
         "startDate": "Sept 2019"
       }
     ],
@@ -89,15 +89,15 @@
         "percentage": "55%"
       },
       {
-        "name": "React",
+        "name": "ReactJS",
         "percentage": "90%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Javascript",
+      "Develop",
+      "Backend",
+      "Frontend"
     ],
     "languages": [
       {
@@ -109,7 +109,7 @@
         "percentage": "50%"
       },
       {
-        "name": "English",
+        "name": "Portuguese",
         "percentage": "50%"
       }
     ],
