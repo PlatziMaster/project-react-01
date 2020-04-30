@@ -14,13 +14,10 @@ const App = () => {
 
   const API = 'http://localhost:3000/data';
   const state = useGetData(API);
-  console.log(imagen.data.avatar);
-  console.log(state.avatar);
+
   return (
     <>
-      <h1>{state.name}</h1>
-      <Header />
-      <img src={state.avatar} alt='nothing :(' />
+      <Header data={state} />
       {/* <About />
       <Profile />
       <Experience />

@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --host 0.0.0.0 --open --mode development",
-    "server": "json-server data.json",
+    "server": "json-server --watch --host 0.0.0.0 data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
     "test": "jest"
