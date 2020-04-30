@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 {
   "hooks": {
   }
 }
+=======
+{
+  "hooks": {
+    "pre-commit": "npm run lint && npm run test"
+  }
+}
+>>>>>>> sinPruebas
