@@ -1,9 +1,27 @@
+body = linear-gradient(to top,#e6e9f0 0%, #eef1f5 100%)
+title-color = #027DE1
+header-color = #8ec5fc
+cards-color = linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0,0,0,0.02) 50%, rgba(255,255,255,0.02) 61%, rgba(0,0,0,0.02) 73%), linear-gradient(33deg, rgba(255,255,255,0.20) 0%, rgba(0,0,0,0.20) 100%);
+
 body
   margin 0px
   border 0px
   padding 0px
+  background body
   .cards
     display flex
     flex-flow wrap
     width 100%
-    justify-content: space-between
+    justify-content space-between
+
+.title
+  color title-color
+
+.section2
+  width 95vw    
+  height 15vh
+  padding 15px
+  background cards-color
+  border-radius 30px
+  margin 15px
+  font-size .5rem

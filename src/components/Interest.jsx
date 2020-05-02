@@ -14,8 +14,7 @@ const Interests = ({ data }) => {
   }
   return (
     <div className='Interest section3'>
-      {}
-      <h1>Interests</h1>
+      <h1 className='Interest title'>Interests</h1>
       <div className='flexbox'>
         {items.map((item) => {
           return (

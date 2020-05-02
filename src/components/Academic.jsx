@@ -14,7 +14,7 @@ const Academic = ({ data }) => {
   }
   return (
     <div className='Academic section3'>
-      <h1>Academic</h1>
+      <h1 className='Academic title'>Academic</h1>
       <div className='flexbox'>
         {items.map((acad) => {
 

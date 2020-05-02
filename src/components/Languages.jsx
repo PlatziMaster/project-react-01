@@ -14,7 +14,7 @@ const Languages = ({ data }) => {
   }
   return (
     <div className='Languages section3'>
-      <h1>Languages</h1>
+      <h1 className='Languges title'>Languages</h1>
       <div className='flexbox'>
         {items.map((item) => {
           return (

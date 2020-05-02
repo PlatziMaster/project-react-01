@@ -18,6 +18,8 @@ const Header = (props) => {
         </div>
         <h2 className='Header-address'>{address}</h2>
       </div>
+      <div></div>
+      <div></div>
     </header>
   );
 };

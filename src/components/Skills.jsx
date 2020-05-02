@@ -14,7 +14,7 @@ const Skills = ({ data }) => {
   }
   return (
     <div className='Skills section3'>
-      <h1>Skills</h1>
+      <h1 className='Skills title'>Skills</h1>
       <div className='flexbox'>
         {items.map((item) => {
           return (
