@@ -85,7 +85,11 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "80%"
+      },
+      {
+        "name": "German",
+        "percentage": "30%"
       }
     ],
     "social": [

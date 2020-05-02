@@ -18,7 +18,10 @@ const Languages = ({ data }) => {
       <div className='flexbox'>
         {items.map((item) => {
           return (
-            <h2 key={item.name}>{item.name}</h2>
+            <div className=''>
+              <h2 key={item.name}>{item.name}</h2>
+              <progress value={parseInt(item.percentage, 10)} max='100' />
+            </div>
           );
         })}
       </div>
