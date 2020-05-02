@@ -1,12 +1,12 @@
 import React from 'react';
-import '../styles/components/profile.styl';
+import '../styles/components/Profile.styl';
 
 const Profile = (props) => {
-  const { data: { title, description } } = props;
+  const { data: { Profile } } = props;
   return (
-    <div className='Profile'>
-      <h1>{title}</h1>
-      <h2>{description}</h2>
+    <div className='Profile section2'>
+      <h1>Profile</h1>
+      <h2>{Profile}</h2>
     </div>
   );
 };

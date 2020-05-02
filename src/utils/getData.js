@@ -6,11 +6,10 @@ const useGetData = (url) => {
   useEffect(() => {
     const any = async () => {
       try {
-        console.log(url);
         const data = await fetch(url);
         initialState = await data.json();
       } catch (err) {
-        alert(err);
+        // alert(err);
       }
       setState(initialState);
     };
