@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/components/Card.styl';
 
 const Languages = ({ data }) => {
-  const items = data || ['Loading Data'];
+  const items = data || [{ 'percentage': '0%' }];
 
   if (data === 0) {
     return (
@@ -15,16 +15,17 @@ const Languages = ({ data }) => {
   return (
     <div className='Languages section3'>
       <h1 className='Languges title'>Languages</h1>
-      <div className='flexbox'>
-        {items.map((item) => {
+      <ul>
+        {items.map((item, id) => {
+          
           return (
-            <div className=''>
-              <h2 key={item.name}>{item.name}</h2>
+            <li key={id.toString()}>
+              <h2>{item.name}</h2>
               <progress value={parseInt(item.percentage, 10)} max='100' />
-            </div>
+            </li>
           );
         })}
-      </div>
+      </ul>
     </div>
   );
 

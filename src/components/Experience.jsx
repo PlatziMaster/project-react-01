@@ -6,11 +6,13 @@ const Experience = ({ experience }) => {
   return (
     <div className='Experience section2'>
       <h1 className='Experience title'>Experience</h1>
-      {items.map((exp) => {
-        return (
-          <h2 key={exp.endDate}>{exp.company}</h2>
-        );
-      })}
+      <div className="flexbox">
+        {items.map((exp) => {
+          return (
+            <h2 key={exp.endDate}>{exp.company}</h2>
+          );
+        })}
+      </div>
     </div>
   );
 

@@ -16,9 +16,9 @@ const Skills = ({ data }) => {
     <div className='Skills section3'>
       <h1 className='Skills title'>Skills</h1>
       <div className='flexbox'>
-        {items.map((item) => {
+        {items.map((item, id) => {
           return (
-            <h2 key={item.name}>{item.name}</h2>
+            <h2 key={id.toString()}>{item.name}</h2>
           );
         })}
       </div>

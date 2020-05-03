@@ -8,6 +8,7 @@ import Academic from '../components/Academic';
 import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
+import About from '../components/About';
 
 const App = () => {
 
@@ -27,6 +28,7 @@ const App = () => {
         <Interest data={state.interest} />
         <Languages data={state.languages} />
       </div>
+      <About data={state.social} />
 
     </>
   );

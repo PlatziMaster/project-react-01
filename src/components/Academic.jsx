@@ -15,14 +15,15 @@ const Academic = ({ data }) => {
   return (
     <div className='Academic section3'>
       <h1 className='Academic title'>Academic</h1>
-      <div className='flexbox'>
-        {items.map((acad) => {
-
+      <ul>
+        {items.map((item, id) => {
           return (
-            <h2 key={acad.endDate}>{acad.degree}</h2>
+            <li key={id.toString()}>
+              <h1>{item.degree}</h1>
+            </li>
           );
         })}
-      </div>
+      </ul>
     </div>
   );
 };

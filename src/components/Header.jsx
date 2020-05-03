@@ -14,12 +14,12 @@ const Header = (props) => {
         <div className='container__horizontal'>
           <h2 className='Header-phone'>{phone}</h2>
           <h2 className='Header-email'>{email}</h2>
-          <h2 className='Header-website'>{website}</h2>
+          <h2 className='Header-website'> <a href="http://crizy182.github.io/CV"> {website} </a></h2>
         </div>
         <h2 className='Header-address'>{address}</h2>
       </div>
-      <div></div>
-      <div></div>
+      <div> </div>
+      <div> </div>
     </header>
   );
 };
