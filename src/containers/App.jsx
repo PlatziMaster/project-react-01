@@ -1,5 +1,5 @@
 import React from 'react';
-import useGetData from '../utils/getData';
+import useGetData from '../Hooks/useGetData';
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import Profile from '../components/Profile';
@@ -10,9 +10,10 @@ import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import About from '../components/About';
 
+const API = 'http://localhost:3000/data';
+
 const App = () => {
 
-  const API = 'http://localhost:3000/data';
   const state = useGetData(API);
 
   return (

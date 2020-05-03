@@ -20,15 +20,17 @@ const About = ({ data }) => {
   return (
     <div className='About section2'>
       <h1 className='About-title'> </h1>
-      <div className='flexbox'>
+      <ul className='About-item list'>
         {items.map((item, id) => {
           return (
-            <a href={item.url} key={id.toString()} className=''>
-              <FontAwesomeIcon icon={['fab', `${item.name}`]} />
+            <a href={item.url} key={id.toString()} className='About-item anchor'>
+              <li className='About-item item'>
+                <FontAwesomeIcon icon={['fab', `${item.name}`]} />
+              </li>
             </a>
           );
         })}
-      </div>
+      </ul>
     </div>
   );
 

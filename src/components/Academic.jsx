@@ -14,12 +14,12 @@ const Academic = ({ data }) => {
   }
   return (
     <div className='Academic section3'>
-      <h1 className='Academic title'>Academic</h1>
-      <ul>
+      <h1 className='Academic-title title'>Academic</h1>
+      <ul className='Academic-item list'>
         {items.map((item, id) => {
           return (
-            <li key={id.toString()}>
-              <h1>{item.degree}</h1>
+            <li key={id.toString()} className='Academic-item item'>
+              <h1 className='Academic-item degree'>{item.degree}</h1>
             </li>
           );
         })}

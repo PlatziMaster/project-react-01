@@ -1,21 +1,12 @@
-import { useState, useEffect } from 'react';
-
-const useGetData = (url) => {
-  const [state, setState] = useState([]);
+const getData = async (url) => {
   let initialState;
-  useEffect(() => {
-    const any = async () => {
-      try {
-        const data = await fetch(url);
-        initialState = await data.json();
-      } catch (err) {
-        // alert(err);
-      }
-      setState(initialState);
-    };
-    any();
-  }, []);
-  return state;
+  try {
+    const data = await fetch(url);
+    initialState = await data.json();
+  } catch (err) {
+    console.error(err);
+  }
+  return initialState;
 };
 
-export default useGetData;
+export default getData;
