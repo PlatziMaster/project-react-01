@@ -2,17 +2,19 @@ import React from 'react';
 import '../styles/components/Profile.styl';
 
 const Experience = ({ experience }) => {
-  const items = experience || Array(0).fill('Loading Data');
+  const items = experience || ['Loading Data'];
   return (
     <div className='Experience section2'>
-      <h1 className='Experience title'>Experience</h1>
-      <div className="flexbox">
-        {items.map((exp) => {
+      <h1 className='Experience-title'>Experience</h1>
+      <ul className='Experience-item List'>
+        {items.map((exp, id) => {
           return (
-            <h2 key={exp.endDate}>{exp.company}</h2>
+            <li key={id.toString()} className='Experience-item'>
+              <h2 className='Experience-item' key={id.toString()}>{exp.company}</h2>
+            </li>
           );
         })}
-      </div>
+      </ul>
     </div>
   );
 

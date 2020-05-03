@@ -15,13 +15,15 @@ const Skills = ({ data }) => {
   return (
     <div className='Skills section3'>
       <h1 className='Skills title'>Skills</h1>
-      <div className='flexbox'>
+      <ul className='Skills-item List'>
         {items.map((item, id) => {
           return (
-            <h2 key={id.toString()}>{item.name}</h2>
+            <li key={id.toString()} className='Skills-item'>
+              <h2 className='Skills-item' key={id.toString()}>{item.name}</h2>
+            </li>
           );
         })}
-      </div>
+      </ul>
     </div>
   );
 

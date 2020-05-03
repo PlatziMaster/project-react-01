@@ -1,6 +1,6 @@
 import React from 'react';
 import useGetData from '../Hooks/useGetData';
-import '../styles/components/App.styl';
+import '../styles/App.styl';
 import Header from '../components/Header';
 import Profile from '../components/Profile';
 import Experience from '../components/Experience';
