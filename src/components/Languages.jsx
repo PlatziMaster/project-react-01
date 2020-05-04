@@ -17,7 +17,6 @@ const Languages = ({ data }) => {
       <h1 className='Languages-title'>Languages</h1>
       <ul className='Languages-item List'>
         {items.map((item, id) => {
-          
           return (
             <li key={id.toString()} className='Languages-item'>
               <h2 className='Languages-item'>{item.name}</h2>
