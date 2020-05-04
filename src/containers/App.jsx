@@ -19,8 +19,16 @@ const App = () => {
   return (
     <>
       <div>
-        <Header data={state} />
-        <Profile data={state} />
+        <Header
+          avatar={state.avatar}
+          name={state.name}
+          profession={state.profession}
+          phone={state.phone}
+          email={state.email}
+          website={state.website}
+          address={state.address}
+        />
+        <Profile data={state.profile} />
         <Experience experience={state.experience} />
       </div>
       <div className='cards'>

@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/components/Header.styl';
 
-const Header = (props) => {
-  const { data: { avatar, name, profession, phone, email, website, address } } = props;
+const Header = ({ avatar, name, profession, phone, email, website, address }) => {
+
   return (
     <header className='Header'>
       <div className='Header__image'>
