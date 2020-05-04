@@ -14,7 +14,11 @@ const Header = ({ avatar, name, profession, phone, email, website, address }) =>
         <div className='container__horizontal'>
           <h2 className='Header-phone'>{phone}</h2>
           <h2 className='Header-email'>{email}</h2>
-          <h2 className='Header-website'> <a href="http://crizy182.github.io/CV"> {website} </a></h2>
+          <h2 className='Header-website'>
+            <a href='http://crizy182.github.io/CV'>
+              {website}
+            </a>
+          </h2>
         </div>
         <h2 className='Header-address'>{address}</h2>
       </div>
