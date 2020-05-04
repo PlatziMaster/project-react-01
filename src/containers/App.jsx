@@ -28,7 +28,7 @@ const App = () => {
           website={state.website}
           address={state.address}
         />
-        <Profile data={state.profile} />
+        <Profile profile={state.Profile} />
         <Experience experience={state.experience} />
       </div>
       <div className='cards'>
