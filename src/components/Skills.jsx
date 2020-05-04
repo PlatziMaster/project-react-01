@@ -14,7 +14,7 @@ const Skills = ({ data }) => {
   }
   return (
     <div className='Skills section3'>
-      <h1 className='Skills title'>Skills</h1>
+      <h1 className='Skills-title'>Skills</h1>
       <ul className='Skills-item List'>
         {items.map((item, id) => {
           return (

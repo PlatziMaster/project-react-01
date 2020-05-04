@@ -14,14 +14,18 @@ const Languages = ({ data }) => {
   }
   return (
     <div className='Languages section3'>
-      <h1 className='Languges title'>Languages</h1>
-      <ul>
+      <h1 className='Languages-title'>Languages</h1>
+      <ul className='Languages-item List'>
         {items.map((item, id) => {
           
           return (
-            <li key={id.toString()}>
-              <h2>{item.name}</h2>
-              <progress value={parseInt(item.percentage, 10)} max='100' />
+            <li key={id.toString()} className='Languages-item'>
+              <h2 className='Languages-item'>{item.name}</h2>
+              <progress
+                className='Languages-item'
+                value={parseInt(item.percentage, 10)}
+                max='100'
+              />
             </li>
           );
         })}

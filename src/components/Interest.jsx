@@ -14,14 +14,16 @@ const Interests = ({ data }) => {
   }
   return (
     <div className='Interest section3'>
-      <h1 className='Interest title'>Interests</h1>
-      <div className='flexbox'>
-        {items.map((item) => {
+      <h1 className='Interest-title'>Interests</h1>
+      <ul className='Interest-item List'>
+        {items.map((item, id) => {
           return (
-            <h2 key={item}>{item}</h2>
+            <li key={id.toString()} className='Interest-item'>
+              <h2 key={id.toString()} className='Interest-item'>{item}</h2>
+            </li>
           );
         })}
-      </div>
+      </ul>
     </div>
   );
 
