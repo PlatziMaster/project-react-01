@@ -1,15 +1,31 @@
 import React from 'react';
 import '../styles/components/Academic.styl';
 
-const Academic = () => {
+const Academic = ({ info = [] }) => {
+  const itemKey = () => {
+    let count = 0;
+    return `academic-key${count++}`;
+  };
+
   return (
     <div className='Academic'>
       <h3 className='Academic-title'>Academic title</h3>
-      <div>
-        <p className='Academic-item'>Academic item 1</p>
-        <p className='Academic-item'>Academic item 2</p>
-        <p className='Academic-item'>Academic item 3</p>
-      </div>
+      {
+        info.map((item, index) => (
+          <p className='Academic-item' key={itemKey}>
+            <b>{ item.degree }</b>
+            <br />
+            { item.description }
+            <br />
+            { item.startDate }
+            {' '}
+            -
+            { item.endDate }
+            <br />
+            { item.institution }
+          </p>
+        ))
+      }
     </div>
   );
 };

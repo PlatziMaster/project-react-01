@@ -1,19 +1,20 @@
 import React from 'react';
 import '../styles/components/About.styl';
 
-const About = () => {
+const About = ({ name, job, phone, email, website, address }) => {
   return (
     <div className='About'>
-      <h1 className='About-title'>Raziel</h1>
-      <h3 className='About-job-title'>Job Title</h3>
+      <h1 className='About-title'>{ name }</h1>
+      <h3 className='About-job-title'>
+        { job }
+        {' '}
+      </h3>
       <p>
-        <span className='About-phone About-item'>Phone</span>
-        <span className='About-email About-item'>Email</span>
-        <span className='About-website About-item'>Website</span>
+        <span className='About-phone About-item'>{ name }</span>
+        <span className='About-email About-item'>{ email }</span>
+        <span className='About-website About-item'>{ website }</span>
       </p>
-      <p className='About-address'>
-        Address
-      </p>
+      <p className='About-address'>{ address }</p>
     </div>
   );
 };

@@ -1,14 +1,27 @@
 import React from 'react';
 import '../styles/components/Skills.styl';
 
-const Skills = () => {
+const Skills = ({ info = [] }) => {
+  const itemKey = () => {
+    let count = 0;
+    return `skill-key${count++}`;
+  };
+
   return (
     <div className='Skills'>
       <h3 className='Skills-title'>Skills title</h3>
       <div>
-        <p className='Skills-item'>Skills item 1</p>
-        <p className='Skills-item'>Skills item 2</p>
-        <p className='Skills-item'>Skills item 2</p>
+        {
+          info.map((item, index) => (
+            <p className='Skills-item' key={itemKey}>
+              { item.name }
+              {' '}
+              (
+              {item.percentage}
+              )
+            </p>
+          ))
+        }
       </div>
     </div>
   );

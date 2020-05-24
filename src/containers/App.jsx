@@ -24,17 +24,38 @@ const App = () => {
   console.log('data::', data)
   return (
     <>
-      <Header>
-        <About />
+      <Header
+        img={ data.avatar }
+      >
+        <About
+          name={ data.name }
+          job={ data.profession }
+          phone={ data.phone }
+          email={ data.email }
+          website={ data.website }
+          address={ data.address }
+        />
       </Header>
-      <Profile />
-      <Experience />
+      <Profile
+        description={ data.Profile }
+      />
+      <Experience
+        info={ data.experience }
+      />
       <div className="wrap-container">
-        <Academic />
-        <Skills />
+        <Academic
+          info={ data.Academic }
+        />
+        <Skills
+          info={ data.skills }
+        />
       </div>
-      <Interest />
-      <Languages />
+      <Interest
+        info={ data.interest }
+      />
+      <Languages
+        info={ data.languages }
+      />
     </>
   )
 };
