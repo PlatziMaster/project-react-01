@@ -3,8 +3,8 @@ import '../styles/components/Interest.styl';
 
 const Interest = ({ info = [] }) => {
   const itemKey = () => {
-    let count = 0;
-    return `interest-key${count++}`;
+    const count = 0;
+    return `interest-key${Math.random()}-${count}`;
   };
 
   return (
