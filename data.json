@@ -24,6 +24,7 @@
     ],
     "Academic": [
       {
+        "id": "academic-001",
         "degree": "Atomic Master",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
         "endDate": "Jan 2017",
@@ -31,6 +32,7 @@
         "startDate": "Jan 2018"
       },
       {
+        "id": "academic-002",
         "degree": "Space Engineering",
         "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
         "endDate": "Decenber 2015",
@@ -40,6 +42,7 @@
     ],
     "experience": [
       {
+        "id": "experience-001",
         "company": "PugStar",
         "endDate": "Present",
         "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
@@ -47,6 +50,7 @@
         "startDate": "Jan 2020"
       },
       {
+        "id": "experience-002",
         "company": "CatStore",
         "endDate": "Jan 2016",
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
@@ -56,18 +60,22 @@
     ],
     "skills": [
       {
+        "id": "skills-001",
         "name": "HTML5",
         "percentage": "75%"
       },
       {
+        "id": "skills-002",
         "name": "CSS",
         "percentage": "25%"
       },
       {
+        "id": "skills-003",
         "name": "JavaScript",
         "percentage": "55%"
       },
       {
+        "id": "skills-004",
         "name": "React",
         "percentage": "90%"
       }
@@ -80,10 +88,12 @@
     ],
     "languages": [
       {
+        "id": "languages-001",
         "name": "Spanish",
         "percentage": "90%"
       },
       {
+        "id": "languages-002",
         "name": "English",
         "percentage": "50%"
       }
