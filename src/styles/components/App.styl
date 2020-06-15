@@ -1,2 +1,23 @@
-body
-  background-color blue
+*{
+  box-sizing border-box
+  margin 0
+  font-family sans serif
+}
+
+.Container
+  display grid
+  grid-template-columns 1fr 1fr
+  grid-template-rows repeat(5,1fr)
+
+  grid-row-gap  10px
+  grid-column-gap  5px
+  padding 10px
+
+section
+  background-color #bdf1d4
+  padding 10px 0 0  10px
+  a
+    display block
+    color black 
+    text-decoration none
+    margin 10px 0 0 0
