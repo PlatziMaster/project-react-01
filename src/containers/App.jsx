@@ -10,13 +10,7 @@ import Languages from '../components/Languages';
 import useGetData from '../hooks/useGetData';
 
 import '../styles/components/App.styl';
-import '../styles/components/Academic.styl';
-import '../styles/components/Experience.styl';
-import '../styles/components/Header.styl';
-import '../styles/components/Interest.styl';
-import '../styles/components/Language.styl';
-import '../styles/components/Profile.styl';
-import '../styles/components/Skills.styl';
+
 
 const DATA_URL = 'http://localhost:3000/data/';
 
