@@ -1,16 +1,15 @@
 import React from 'react';
-import Header from '../components/Header';
-import About from '../components/About';
-import Profile from '../components/Profile';
-import Experience from '../components/Experience';
-import Academic from '../components/Academic';
-import Skills from '../components/Skills';
-import Interest from '../components/Interest';
-import Languages from '../components/Languages';
+import Header from '../components/Header.jsx';
+import About from '../components/About.jsx';
+import Profile from '../components/Profile.jsx';
+import Experience from '../components/Experience.jsx';
+import Academic from '../components/Academic.jsx';
+import Skills from '../components/Skills.jsx';
+import Interest from '../components/Interest.jsx';
+import Languages from '../components/Languages.jsx';
 import useGetData from '../hooks/useGetData';
 
 import '../styles/components/App.styl';
-
 
 const DATA_URL = 'http://localhost:3000/data/';
 
