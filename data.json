@@ -1,13 +1,14 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Dennis Allan Velez Quintanar",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Monterrey NL, Mexico",
+    "email": "den.velez@gmail.com",
+    "website": "https://denvelez.com",
+    "phone": "+52 81 2099 0183",
+    "avatar": "https://lh3.googleusercontent.com/ogw/ADGmqu_k0JXHqzJXJP7_MX-NHVImXk2HfUd7FKeLzcM=s32-c-mo",
+    "Profile": "I'm Developer who has 15 years experience on Logistics, planning, process, operations and I use all for make a great projects",
+    "ProfileTitle": "Automatization Engineer + FrontEnd Developer",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,68 +25,92 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "FrontEnd Developer",
+        "description": "Developer capable to create great projects and be a person who share his/her knowlegde with the community",
+        "endDate": "Present",
+        "institution": "Platzi Maser",
+        "startDate": "Jun 2020",
+        "id": "2"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Electronic and Automatization Engineer",
+        "description": "Enginners capable in automatic process control, instrumentation, automation, systems integration and with a systematic vision to solve problems related to this discipline ",
+        "endDate": "Jun 2007",
+        "institution": "UANL",
+        "startDate": "Agoust 2001",
+        "id": "1"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Freelance",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "jobDescription": "WebApp for orthodontics to make Diagnostics McNamara www.orthodx.mx",
+        "jobTitle": "OrthoDx",
+        "startDate": "Jul 2019",
+        "id": "4"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Freelance",
+        "endDate": "Present",
+        "jobDescription": "Create app for Mac and iOS for small business operations",
+        "jobTitle": "FileMakerDeveloper",
+        "startDate": "Jan 2018",
+        "id": "3"
+      },
+
+      {
+        "company": "Sana Sweet",
+        "endDate": "Jan 2018",
+        "jobDescription": "Owner and manager, get clients, purchases, administration ",
+        "jobTitle": "Owner, Developer",
+        "startDate": "Dic 2016",
+        "id": "2"
+      },
+      {
+        "company": "Promotora Sultana",
+        "endDate": "Nov 2016",
+        "jobDescription": "Supply chain manager, sales forecast, purchase forecast",
+        "jobTitle": "Logistic Manager",
+        "startDate": "Aug 2004",
+        "id": "1"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "90%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "70%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "60%"
+      },
+      {
+        "name": "FileMaker",
+        "percentage": "100%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["javascript", "algorithms", "frontend", "PWA"],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "native"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "75%"
+      },
+      {
+        "name": "German",
+        "percentage": "10%"
       }
     ],
     "social": [
