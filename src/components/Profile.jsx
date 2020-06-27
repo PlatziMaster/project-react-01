@@ -1,10 +1,15 @@
 import React from 'react';
 
-const Profile = ({ profile }) => (
-  <section className='Profile'>
-    <h1 className='Profile-title'>perfil</h1>
-    <p className='Profile-desc'>{profile}</p>
-  </section>
-);
+const Profile = ({ profile }) => {
+
+  return (
+    <section className='section Profile'>
+      <div className='Profile-container'>
+        <h3 className='Profile-title'>Profile</h3>
+        <p className='Profile-desc'>{profile}</p>
+      </div>
+    </section>
+  );
+};
 
 export default Profile;

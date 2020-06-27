@@ -10,33 +10,35 @@ import Languages from '../components/Languages';
 import useGetData from '../hooks/useGetData';
 
 import '../styles/components/App.styl';
-
-const DATA_URL = 'http://localhost:3000/data/';
+//TODO cambiar los datos del json server
+const DATA_URL = 'http://localhost:3000E/data/';
 
 const App = () => {
-  const info = useGetData(DATA_URL)
+  const info = useGetData(DATA_URL);
   return (
-    <div className='Container'>
-      <Header
-        name={info.name}
-        profession={info.profession}
-        avatar={info.avatar}
-      >
-        <About
-          phone={info.phone}
-          email={info.email}
-          website={info.website}
-          address={info.address}
-        />
-      </Header>
+    <div className='body'>
+      <div className='Container'>
+        <Header
+          name={info.name}
+          profession={info.profession}
+          avatar={info.avatar}
+        >
+          <About
+            phone={info.phone}
+            email={info.email}
+            website={info.website}
+            address={info.address}
+          />
+        </Header>
 
-      <Profile profile={info.profile} />
-      <Experience itemsArray={info.experience} />
+        <Profile profile={info.profile} />
+        <Experience itemsArray={info.experience} />
 
-      <Academic itemsArray={info.academic} />
-      <Skills itemsArray={info.skills} />
-      <Interest itemsArray={info.interest} />
-      <Languages itemsArray={info.languages} />
+        <Academic itemsArray={info.academic} />
+        <Skills itemsArray={info.skills} />
+        <Interest itemsArray={info.interest} />
+        <Languages itemsArray={info.languages} />
+      </div>
     </div>
   );
 };

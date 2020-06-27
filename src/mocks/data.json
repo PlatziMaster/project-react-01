@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "My Profession",
+    "name": "Stiven Jimnez",
+    "profession": "Frontend Developer ",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "sajqprogramming@gmail.com",
+    "website": "https://platzi.com/@stiven-jimenez-quintero/",
+    "phone": "3107406842",
+    "avatar": "https://static.platzi.com/media/avatars/avatars/stiven-jimenez-quintero_4938076b-8ea6-4958-8dfc-11262ffd79f7.jpg",
+    "profile": "Estoy formándome como desarrollador web, siempre en constante aprendizaje para obtener nuevas y mejores habilidades para afrontar nuevos retos. espero convertirme en JavaScript full stack developer. En el futuro quiero aprender Internet of Things, seguridad informática e Inteligencia artificial para mejorar y automatizar procesos cotidianos ayudando a la solución de los problemas de las personas ",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -36,13 +36,6 @@
         "endDate": "Decenber 2015",
         "institution": "Harvard",
         "startDate": "Jan 2017"
-      },
-      {
-        "degree": "Bachelor",
-        "description": "Easy School",
-        "endDate": "December 2017",
-        "institution": "Colegio de la Esquina",
-        "startDate": "Jan 2015"
       }
     ],
     "experience": [
@@ -64,19 +57,19 @@
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "https://www.w3.org/html/logo/downloads/HTML5_Badge_64.png"
       },
       {
         "name": "CSS",
-        "percentage": "40%"
+        "percentage": "https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-64.png"
       },
       {
         "name": "JavaScript",
-        "percentage": "50%"
+        "percentage": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-64.png"
       },
       {
         "name": "React",
-        "percentage": "50%"
+        "percentage": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-64.png"
       }
     ],
     "interest": [

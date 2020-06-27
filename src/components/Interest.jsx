@@ -1,10 +1,12 @@
 import React from 'react';
 
 
+
 const Interest = ({ itemsArray }) => {
   const items = itemsArray || Array(3).fill(1);
+
   return (
-    <section className='Interest'>
+    <section className='section Interest'>
       <h1 className='Interest-title'>Interest</h1>
       <ul>
         {items.map((item, index) => {

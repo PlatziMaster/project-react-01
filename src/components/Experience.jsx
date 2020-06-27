@@ -6,14 +6,14 @@ const Experience = ({ itemsArray }) => {
 
   return (
     <>
-      <section className='Experience'>
-        <h1 className='Experience-title'>Experience</h1>
+      <section className='section Experience'>
+        <h3 className='Experience-title'>Experience</h3>
         {items.map((item, index) => {
           const i = index + 1;
           return (
             <article className='Experience-item' key={i}>
-              <h2>{item.company}</h2>
-              <h3>{item.jobTitle}</h3>
+              <h3>{item.company}</h3>
+              <h4>{item.jobTitle}</h4>
               <p>{item.jobDescription}</p>
               <span>{`${item.endDate} - ${item.startDate}`}</span>
             </article>

@@ -12,9 +12,9 @@ const useGetData = (URL) => {
     dataPromise.then((response) => {
       if (response.name === 'Error') {
         console.error(response);
-        throw respond.name;
+        throw response.name;
       }
-      setTheData(respond);
+      setTheData(response);
     })
       .catch((error) => {
         console.error(`Error en useGetData: ${error}`);
