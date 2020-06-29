@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Academic = ({ itemsArray }) => {
+const Academic = ({ itemsArray, section }) => {
 
   const items = itemsArray || Array(3).fill(1);
 
   return (
     <>
       <section className='section Academic'>
-        <h3 className='Academic-title'>Academic</h3>
+        <h3 className='Academic-title'>{section}</h3>
         {items.map((item, index) => {
           const i = index + 1;
           return (

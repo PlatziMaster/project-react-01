@@ -1,29 +1,37 @@
 import React from 'react';
+import styled, { withTheme } from 'styled-components';
 
-const About = ({ phone, email, website, address }) => {
+import { textColor } from '../utils/theme';
+
+const About = ({ phone, email, website, address, section }) => {
+  const A = styled.a`
+    color:${textColor};
+  `;
   return (
     <div className='About-color'>
-      <h3 className='About-title'>Contacto</h3>
+      <h3 className='About-title'>
+        {section}
+      </h3>
       <div className='About-item-container'>
         <div>
-          <a href={`tel:${phone}`} className='About-item Header-phone'>
+          <A href={`tel:${phone}`} className='About-item Header-phone'>
             {phone}
-          </a>
-          <a href={`mailto:${email}`} className='About-item Header-email'>
+          </A>
+          <A href={`mailto:${email}`} className='About-item Header-email'>
             {email}
-          </a>
+          </A>
         </div>
 
         <div>
-          <a href={website} className='About-color About-item Header-website'>
+          <A href={website} className='About-color About-item Header-website'>
             {website}
-          </a>
+          </A>
         </div>
 
         <div>
-          <a href={`http://maps.google.com/?q=${address}`} className='About-item Header-address'>
+          <A href={`http://maps.google.com/?q=${address}`} className='About-item Header-address'>
             {address}
-          </a>
+          </A>
         </div>
 
       </div>
@@ -31,4 +39,4 @@ const About = ({ phone, email, website, address }) => {
   );
 };
 
-export default About;
+export default withTheme(About);

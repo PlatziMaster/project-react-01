@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Language = ({ itemsArray }) => {
+const Language = ({ itemsArray, section }) => {
 
   const items = itemsArray || Array(3).fill(1);
 
   return (
     <section className='section Language'>
-      <h1 className='Languages-title'>Language</h1>
+      <h1 className='Languages-title'>{section}</h1>
       {items.map((item, index) => {
         const i = index + 1;
         return (

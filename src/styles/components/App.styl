@@ -5,13 +5,6 @@
   margin 0
   font-family sans serif
 
-.body
-  background-color $back-color-light
-
-.body-dark
-	@extend .body
-	background-color: $back-color-card-dark
-
 
 .Container
   display grid
@@ -25,15 +18,9 @@
 
 
 .section
-  background-color $back-color-card-light
   padding 10px 0 0  10px
   border-radius 4px
   box-shadow $shadow
-
-.dark-mode-section
-	@extend .section
-	color: $text-color-dark
-	background-color: $back-color-card-dark
 
 
 
@@ -41,7 +28,6 @@
 
 .About
   grid-column 1/-1
-  background-color $back-color-card-light
   display grid
   grid-template-columns 1fr 6fr
   padding 20px
@@ -50,17 +36,11 @@
   &__image img
     border-radius 50%
   a
-    color $text-color-light
     text-decoration none
     padding 10px 0 5px 0
     display block
 
 
-
-.dark-mode-About
-	@extend .About
-	color: $text-color-dark
-	background-color: $back-color-card-dark
 
 
 

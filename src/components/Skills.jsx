@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Skills = ({ itemsArray }) => {
+const Skills = ({ itemsArray, section }) => {
 
   const items = itemsArray || Array(3).fill(1);
 
   return (
     <section className='section Skills'>
-      <h1 className='Skills-title'>Skills</h1>
+      <h1 className='Skills-title'>{section}</h1>
       {items.map((items, index) => {
         const i = index + 1;
         return (
@@ -17,7 +17,7 @@ const Skills = ({ itemsArray }) => {
                   {items.name}
                 </span>
               </p>
-              <img src={items.percentage} alt="logo html"/>
+              <img src={items.percentage} alt='logo html' />
             </article>
           </div>
         );
