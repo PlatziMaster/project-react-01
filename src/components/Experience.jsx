@@ -1,14 +1,15 @@
 import React from 'react';
+import '../styles/components/Experience.styl';
 
 const Experience = () => {
   return (
-    <React.Fragment>
-      <h1 className="Experience-title">Experience Titulo</h1>
-      <p className="Experience-item">item</p>
-      <p className="Experience-item">item</p>
-      <p className="Experience-item">item</p>
-      <p className="Experience-item">item</p>
-    </React.Fragment>
+    <div className="Experience">
+      <h1 className="Experience-title">Experiencia</h1>
+      <p className="Experience-item">Asambleas</p>
+      <p className="Experience-item">Reclamodirecto</p>
+      <p className="Experience-item">Lenti</p>
+      <p className="Experience-item">Vodafone</p>
+    </div>
   )
 }
 

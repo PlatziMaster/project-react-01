@@ -1,11 +1,13 @@
 import React from 'react';
+import '../styles/components/Header.styl';
 
 const Header = () => {
   return (
-    <React.Fragment>
+    <div className="Header">
       <img src="" alt="" className="Header-image" />
-      <h1 className="Header-title">Title</h1>
-    </React.Fragment>
+      <h1 className="Header-title">Alexander Alvarez</h1>
+      {/* {props.children} */}
+    </div>
   )
 }
 
