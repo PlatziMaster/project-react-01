@@ -1,2 +1,129 @@
-body
-  background-color blue
+@import '../Vars'
+
+*
+  box-sizing border-box
+  margin 0
+  font-family sans serif
+
+
+.Container
+  display grid
+  grid-template-columns 1fr 1fr
+  grid-template-rows 250px 170px 300px 1fr 150px
+  grid-row-gap  15px
+  grid-column-gap  15px
+  padding 10px
+  max-width 1200px
+  margin 0 auto
+
+
+.section
+  padding 10px 0 0  10px
+  border-radius 4px
+  box-shadow $shadow
+
+
+
+/*-------------------Header-------------------*/
+
+.About
+  grid-column 1/-1
+  display grid
+  grid-template-columns 1fr 6fr
+  padding 20px
+  border-top 10px solid #8cbe75
+  box-shadow $shadow
+  &__image img
+    border-radius 50%
+  a
+    text-decoration none
+    padding 10px 0 5px 0
+    display block
+
+
+
+
+
+
+.About-item-container{
+  display grid
+  grid-template-columns 1fr 2fr 1fr
+  grid-column-gap  10px
+}
+
+
+.Header-title
+  padding-left 40px
+  h1
+    padding 10px 0 10px 0
+  h3
+    padding 0 0 10px 0
+
+/*-------------------Profile-------------------------*/
+.Profile-container
+  padding 9px 0 9px 9px
+  letter-spacing 1px
+  line-height 1.5em
+  h3
+    padding-bottom 10px
+
+.Profile
+  grid-column 1/-1
+
+
+
+/*------------Experience----------------*/
+.Experience
+  grid-column 1/-1
+  display flex
+  flex-direction column
+  justify-content center
+  line-height 1.5em
+  letter-spacing 1px
+  h3
+    padding-bottom 10px
+  &-item
+    border-left 5px solid #8cbe75
+    margin 0px 0px 10px 0px
+    padding-left 10px
+    h3
+      padding-top 10px
+
+
+
+/*------------------Academic---------------*/
+
+.Academic-item
+  padding-top 20px
+  line-height 1.5em
+  letter-spacing 1px
+
+
+/*--------------skills----------------*/
+.Skills
+  text-align center
+
+.Skills-container
+  padding-top 10px
+  line-height 1.5em
+  letter-spacing 1px
+
+
+/*-------Language-------*/
+
+.Language
+  padding-top 10px
+  line-height 1.5em
+  letter-spacing 1px
+  p
+    padding  15px 0 0 0
+
+/*-------Interest-------*/
+
+.Interest
+  padding-top 10px
+  line-height 1.5em
+  letter-spacing 1px
+  ul
+    list-style  none
+    padding 20px 0 0 0
