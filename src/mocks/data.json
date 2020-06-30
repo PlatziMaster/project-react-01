@@ -1,102 +1,208 @@
 {
   "data": {
-    "section": {
-      "contacto": "Contacto",
-      "perfil": "Perfil",
-      "experiencia": "Experiencia",
-      "educacion": "Educación",
-      "habilidades": "Habilidades",
-      "intereses": "Intereses",
-      "idioma": "Idiomas"
+    "es": {
+      "data": {
+        "section": {
+          "contacto": "Contacto",
+          "perfil": "Perfil",
+          "experiencia": "Experiencia",
+          "educacion": "Educación",
+          "habilidades": "Habilidades",
+          "intereses": "Intereses",
+          "idioma": "Idiomas"
+        },
+        "name": "Stiven Jimnez",
+        "profession": "Frontend Developer ",
+        "address": "Bogotá, Colombia.",
+        "email": "sajqprogramming@gmail.com",
+        "website": "https://platzi.com/@stiven-jimenez-quintero/",
+        "phone": "3107406842",
+        "avatar": "https://static.platzi.com/media/avatars/avatars/stiven-jimenez-quintero_4938076b-8ea6-4958-8dfc-11262ffd79f7.jpg",
+        "profile": "Estoy formándome como desarrollador web, siempre en constante aprendizaje para obtener nuevas y mejores habilidades para afrontar nuevos retos. espero convertirme en JavaScript full stack developer. En el futuro quiero aprender Internet of Things, seguridad informática e Inteligencia artificial para mejorar y automatizar procesos cotidianos ayudando a la solución de los problemas de las personas ",
+        "academic": [
+          {
+            "degree": "Bachiiller Academico",
+            "description": " ",
+            "endDate": "febrero/2018",
+            "institution": "Colegio Rembrandt",
+            "startDate": "noviembre/2018"
+          },
+          {
+            "degree": "Frontend  development",
+            "description": "desarrollador web con react",
+            "endDate": "marzo/2020",
+            "institution": "Platzi",
+            "startDate": "Presente"
+          },
+          {
+            "degree": "Platzi Master",
+            "description": "Brindar herramientas para el desarrollo de sus carreras profesionales y su acceso al mundo laboral",
+            "endDate": "marzo/2020",
+            "institution": "Platzi",
+            "startDate": "Presente"
+          }
+        ],
+        "experience": [
+          {
+            "company": "Populapp",
+            "endDate": "junio/2020",
+            "jobDescription": "Facilitar la visualización de información a través de una plataforma web para una mejor interacción y procesamiento de datos de la población mundial.",
+            "jobTitle": "Frontend",
+            "startDate": "junio/2020"
+          },
+          {
+            "company": "Buscando roomie",
+            "endDate": "junio/2020",
+            "jobDescription": "Aplicación web para buscar y alquilar habitaciones.",
+            "jobTitle": "Frontend",
+            "startDate": "julio/2020"
+          }
+        ],
+        "skills": [
+          {
+            "name": "HTML5",
+            "percentage": "https://www.w3.org/html/logo/downloads/HTML5_Badge_64.png"
+          },
+          {
+            "name": "CSS",
+            "percentage": "https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-64.png"
+          },
+          {
+            "name": "JavaScript",
+            "percentage": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-64.png"
+          },
+          {
+            "name": "React",
+            "percentage": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-64.png"
+          }
+        ],
+        "interest": ["karting", "mecanica", "programacion"],
+        "languages": [
+          {
+            "name": "Español"
+          }
+        ],
+        "social": [
+          {
+            "name": "facebook",
+            "url": "https://facebook.com/"
+          },
+          {
+            "name": "twitter",
+            "url": "https://twitter.com/"
+          },
+          {
+            "name": "github",
+            "url": "https://github.com/"
+          },
+          {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/"
+          }
+        ]
+      }
     },
-    "name": "Stiven Jimnez",
-    "profession": "Frontend Developer ",
-    "address": "Bogotá, Colombia.",
-    "email": "sajqprogramming@gmail.com",
-    "website": "https://platzi.com/@stiven-jimenez-quintero/",
-    "phone": "3107406842",
-    "avatar": "https://static.platzi.com/media/avatars/avatars/stiven-jimenez-quintero_4938076b-8ea6-4958-8dfc-11262ffd79f7.jpg",
-    "profile": "Estoy formándome como desarrollador web, siempre en constante aprendizaje para obtener nuevas y mejores habilidades para afrontar nuevos retos. espero convertirme en JavaScript full stack developer. En el futuro quiero aprender Internet of Things, seguridad informática e Inteligencia artificial para mejorar y automatizar procesos cotidianos ayudando a la solución de los problemas de las personas ",
-    "academic": [
-      {
-        "degree": "Bachiiller Academico",
-        "description": " ",
-        "endDate": "febrero/2018",
-        "institution": "Colegio Rembrandt",
-        "startDate": "noviembre/2018"
-      },
-      {
-        "degree": "Frontend  development",
-        "description": "desarrollador web con react",
-        "endDate": "marzo/2020",
-        "institution": "Platzi",
-        "startDate": "Presente"
-      },
-      {
-        "degree": "Platzi Master",
-        "description": "Brindar herramientas para el desarrollo de sus carreras profesionales y su acceso al mundo laboral",
-        "endDate": "marzo/2020",
-        "institution": "Platzi",
-        "startDate": "Presente"
+    "en": {
+      "data": {
+        "section": {
+          "contacto": "Contact",
+          "perfil": "Profile",
+          "experiencia": "Experience",
+          "educacion": "Education",
+          "habilidades": "Skills",
+          "intereses": "Interests",
+          "idioma": "Languages"
+        },
+        "name": "Stiven Jimnez",
+        "profession": "Frontend Developer ",
+        "address": "Bogota, Colombia.",
+        "email": "sajqprogramming@gmail.com",
+        "website": "https://platzi.com/@stiven-jimenez-quintero/",
+        "phone": "3107406842",
+        "avatar": "https://static.platzi.com/media/avatars/avatars/stiven-jimenez-quintero_4938076b-8ea6-4958-8dfc-11262ffd79f7.jpg",
+        "profile": "I am training as a web developer, always in constant learning to get new and better skills to face new challenges. I wish become  JavaScript full stack developer.",
+        "academic": [
+          {
+            "degree": "Academic Bachelor",
+            "description": " ",
+            "endDate": "February / 2018",
+            "institution": "School Rembrandt",
+            "startDate": "November / 2018"
+          },
+          {
+            "degree": "Frontend  development",
+            "description": "web developer with react",
+            "endDate": "March / 2020",
+            "institution": "Platzi",
+            "startDate": "Present"
+          },
+          {
+            "degree": "Platzi Master",
+            "description": "Provide tools for the development of their professional careers and their access to the world of work",
+            "endDate": "March / 2020",
+            "institution": "Platzi",
+            "startDate": "Present"
+          }
+        ],
+        "experience": [
+          {
+            "company": "Populapp",
+            "endDate": "June / 2020",
+            "jobDescription": "Facilitate the visualization of information through a web platform for better interaction and data processing of the world population.",
+            "jobTitle": "Frontend",
+            "startDate": "June / 2020"
+          },
+          {
+            "company": "Buscando roomie",
+            "endDate": "June / 2020",
+            "jobDescription": "Web application to search and rent rooms.",
+            "jobTitle": "Frontend",
+            "startDate": "July/2020"
+          }
+        ],
+        "skills": [
+          {
+            "name": "HTML5",
+            "percentage": "https://www.w3.org/html/logo/downloads/HTML5_Badge_64.png"
+          },
+          {
+            "name": "CSS",
+            "percentage": "https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-64.png"
+          },
+          {
+            "name": "JavaScript",
+            "percentage": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-64.png"
+          },
+          {
+            "name": "React",
+            "percentage": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-64.png"
+          }
+        ],
+        "interest": ["karting", "mechanics", "programming"],
+        "languages": [
+          {
+            "name": "Español"
+          }
+        ],
+        "social": [
+          {
+            "name": "facebook",
+            "url": "https://facebook.com/"
+          },
+          {
+            "name": "twitter",
+            "url": "https://twitter.com/"
+          },
+          {
+            "name": "github",
+            "url": "https://github.com/"
+          },
+          {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/"
+          }
+        ]
       }
-    ],
-    "experience": [
-      {
-        "company": "Populapp",
-        "endDate": "junio/2020",
-        "jobDescription": "Facilitar la visualización de información a través de una plataforma web para una mejor interacción y procesamiento de datos de la población mundial.",
-        "jobTitle": "Frontend",
-        "startDate": "junio/2020"
-      },
-      {
-        "company": "Buscando roomie",
-        "endDate": "junio/2020",
-        "jobDescription": "Aplicación web para buscar y alquilar habitaciones.",
-        "jobTitle": "Frontend",
-        "startDate": "julio/2020"
-      }
-    ],
-    "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "https://www.w3.org/html/logo/downloads/HTML5_Badge_64.png"
-      },
-      {
-        "name": "CSS",
-        "percentage": "https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/css3-64.png"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/187_Js_logo_logos-64.png"
-      },
-      {
-        "name": "React",
-        "percentage": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-64.png"
-      }
-    ],
-    "interest": ["karting", "mecanica", "programacion"],
-    "languages": [
-      {
-        "name": "Español"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
-    ]
+    }
   }
 }
