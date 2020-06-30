@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Alexander Alvarez",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "jhonalexander9@gmail.com",
+    "website": "darkmefisto9.github.io",
+    "phone": "3203889058",
+    "avatar": "https://media-exp1.licdn.com/dms/image/C4E03AQHu7sJzn29hMA/profile-displayphoto-shrink_200_200/0?e=1599091200&v=beta&t=cEU3xkhK2CUSKJ7dbrntbXX3GjFULC9oAcA8tNhNWjA",
+    "Profile": "I want to learn all about React JS, i love, want and need be a good developer",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -36,6 +36,13 @@
         "endDate": "Decenber 2015",
         "institution": "Harvard",
         "startDate": "Jan 2017"
+      },
+      {
+        "degree": "Platzi Master",
+        "description": "Just need to know, im master",
+        "endDate": "Decenber 2023",
+        "institution": "Platzi",
+        "startDate": "May 2020"
       }
     ],
     "experience": [
@@ -57,26 +64,26 @@
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "95%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "95%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "85%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "60%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Frontend",
+      "Javascript",
+      "Backend",
+      "React"
     ],
     "languages": [
       {
@@ -85,7 +92,11 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "45%"
+      },
+      {
+        "name": "Francois",
+        "percentage": "1%"
       }
     ],
     "social": [
