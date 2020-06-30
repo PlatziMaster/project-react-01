@@ -1,15 +1,15 @@
 import React from 'react';
 import '../styles/components/About.styl';
 
-const About = () => {
+const About = ({ title, phone, email, website, address, job }) => {
   return (
     <div className="About">
-      <h1 className="About-title">Alexander</h1>
-      <h2 className="About-job-title">React Developer</h2>
-      <p className="About-phone">3203889058</p>
-      <p className="About-email">jhonalexander9@gmail.com</p>
-      <p className="About-website">darkmefisto9.github.io</p>
-      <p className="About-adress">fake street 123</p>
+      <h1 className="About-title">{title}</h1>
+      <h2 className="About-job-title">{job}</h2>
+      <p className="About-phone">{phone}</p>
+      <p className="About-email">{email}</p>
+      <p className="About-website">{website}</p>
+      <p className="About-address">{address}</p>
     </div>
   )
 }

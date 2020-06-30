@@ -1,12 +1,12 @@
 import React from 'react';
 import '../styles/components/Header.styl';
 
-const Header = () => {
+const Header = ({ src, children }) => {
   return (
     <div className="Header">
-      <img src="" alt="" className="Header-image" />
-      <h1 className="Header-title">Alexander Alvarez</h1>
-      {/* {props.children} */}
+      <img src={src} alt="Logo" className="Header-image" />
+      {/* <h1 className="Header-title"></h1> */}
+      {children}
     </div>
   )
 }
