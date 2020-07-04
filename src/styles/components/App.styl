@@ -1,2 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
+@import '../_variables.styl'
+@import '../../../node_modules/normalize.css/normalize.css'
+
 body
-  background-color blue
+  background-color #EFEBF7
+  font-family $contents-font
+  font-size 16px
+  font-weight 400
+  color #222
+
+h1,
+h2,
+h3
+  font-family $headers-font
+
+#app
+  display grid
+  grid-template-columns 1fr
+  grid-template-areas "header" "profile" "academic" "experience" "skills" "interest" "languages" "footer"
+
+  @media screen and (min-width 768px)
+    grid-template-columns repeat(3, 1fr)
+    grid-template-areas "header header header" "profile profile profile" "academic experience experience" "skills interest languages" "footer footer footer"
+
+section
+  padding 20px

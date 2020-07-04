@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Andrés Valencia A.",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "address": "Manizales, Colombia.",
+    "email": "andres.valencia74@icloud.com",
+    "website": "https://andresv74.github.io/portfolio/",
+    "phone": "+57 (301) 647 1147",
+    "avatar": "andres.jpg",
+    "Profile": "I have been a Visual Designer for almost 20 years now. I have experience in a wide range of design fields but my main interest has always been for web design, UX & UI. I have been very passionate about it, and now I have the chance to exploit that passion as a Frontend Developer in formation cause i have been selected in the Platzi Master program.",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,68 +24,89 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Visual Designer",
+        "description": "The Visual Design career at the University of Caldas seeks to train professionals who are capable of diagnosing and solving visual communication problems through projection and creation. This is built from different aspects of design such as form, functionality, perception and interactivity, in conjunction with the application of image concepts and technologies, and in response to the needs of the environment.",
+        "endDate": "Nov 2001",
+        "institution": "Universidad de Caldas",
+        "startDate": "Jan 1996"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Frontend Developer",
+        "description": "As a Front End Developer, I can implement visual elements that are visible from the computer users vantage point within a web application. I combine the art of design with the science of programming. I am also responsible for the translation of UI/UX design wireframes to actual code.",
+        "endDate": "--",
+        "institution": "Platzi",
+        "startDate": "Dec 2019"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Universidad Católica",
+        "endDate": "Jun 2002",
+        "jobDescription": "Created support images and pieces and some html code for the University portal.",
+        "jobTitle": "Web Designer",
+        "startDate": "Jan 2001"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Fundación Manuel Mejía",
+        "endDate": "May 2009",
+        "jobDescription": "I designed & coded HTML courses. I also made some layout for printed material.",
+        "jobTitle": "Visual Designer",
+        "startDate": "Jul 2013"
+      },
+      {
+        "company": "DANE - Departamento Nacional de Estadística",
+        "endDate": "Aug 2014",
+        "jobDescription": "I made the layout of pieces for social media, some prints and some html code too.",
+        "jobTitle": "Professional in Design",
+        "startDate": "Dec 2014"
+      },
+      {
+        "company": "Proyectos Target",
+        "endDate": "Aug 2017",
+        "jobDescription": "I designed & coded full websites mainly. I also made editing and post-production of video.",
+        "jobTitle": "Web Designer & Frontend",
+        "startDate": "Jun 2019"
+      },
+      {
+        "company": "Freelances",
+        "endDate": "the time",
+        "jobDescription": "I design, code and make maintenance sites, that implies full html and css code and some Javascript for UX mainly. I also work on another areas of design.",
+        "jobTitle": "Visual Designer & Frontend",
+        "startDate": "The rest of"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "88%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "60%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "30%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "Music",
+      "Photography",
+      "Movies",
+      "Develop"
     ],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "80%"
       }
     ],
     "social": [

@@ -45,7 +45,7 @@ npm run lint
 ```
 
 ### Enviar solución de reto
-Debes de crear un "Fork" de este proyecto, revolver los problemas y crear un Pull Request hacia este repositorio.
+Debes de crear un "Fork" de este proyecto, resolver los problemas y crear un Pull Request hacia este repositorio.
 
 ### Contribuir
 Si alguien quiere agregar o mejorar algo, lo invito a colaborar directamente en este repositorio: [project-react-01](https://github.com/platzimaster/project-react-01/)
