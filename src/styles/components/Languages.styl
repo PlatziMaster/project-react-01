@@ -1,0 +1,29 @@
+@import "../_variables"
+
+.Languages
+	grid-area languages
+	margin 0 10px 50px
+	background-color $almost-white
+	color $blue
+	border-radius 12px
+	box-shadow 0 4px 4px alpha(#000, .25)
+
+	&-item
+		margin-bottom 15px
+
+		& h3
+			margin 0 0 3px
+
+		.percentage
+			position relative
+			height 10px
+			background-color $green
+			border-radius 10px
+
+			&:after
+				content attr(data-value)
+				position absolute
+				right 0
+				top -16px
+				font-size 0.875rem
+				color alpha($blue, .7)
