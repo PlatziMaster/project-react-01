@@ -1,13 +1,13 @@
 import React from 'react';
-
-const Interest = () => (
-  <div>
-    <h1 className="Interest-title">Interests</h1>
-    <ul>
-      <li className="Interest-item">Literature: Magic Realism</li>
-      <li className="Interest-item">Movies: Scy-fi</li>
-      <li className="Interest-item">Hiking</li>
-    </ul>
+import '../styles/components/Interest.styl';
+const Interest = ({ Interests = [] }) => (
+  <div className="Interest-container">
+    <h2 className="Interest-title">Interests</h2>
+    {Interests.map(item => (
+      <div className="Interest-item">
+        <p>{item}</p>
+      </div>
+    ))}
   </div>
 );
 

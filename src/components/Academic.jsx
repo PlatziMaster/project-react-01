@@ -1,13 +1,18 @@
 import React from 'react';
-
-const Academic = () => (
+import '../styles/components/Academic.styl';
+const Academic = ({ Academic = [] }) => (
   <div>
-    <h1 className="Academic-title">Academic Titles</h1>
-    <ul>
-      <li className="Academic-item">Undergraduate Electronic Engineer</li>
-      <li className="Academic-item">High school Degree</li>
-      <li className="Academic-item">Platzi Student</li>
-    </ul>
+    <h2 className="Academic-title">Academic Titles</h2>
+    {Academic.map(item => (
+      <div className="Academic-item">
+        <h3>{item.degree}</h3>
+        <p>{item.description}</p>
+        <p>{item.institution}</p>
+        <span>
+          {item.startDate} / {item.endDate}
+        </span>
+      </div>
+    ))}
   </div>
 );
 

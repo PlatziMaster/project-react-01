@@ -1,11 +1,9 @@
 import React from 'react';
-
-const Profile = () => (
-  <div>
-    <h1 className="Profile-title">Welcome to my CV</h1>
-    <p className="Profile-desc">
-      Here is a resume of my expirience, skills and likes
-    </p>
+import '../styles/components/Profile.styl';
+const Profile = ({ profile_description }) => (
+  <div className="Profile-container">
+    <h2 className="Profile-title">Profile</h2>
+    <p className="Profile-desc">{profile_description}</p>
   </div>
 );
 

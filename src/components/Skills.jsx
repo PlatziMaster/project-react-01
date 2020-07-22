@@ -1,13 +1,16 @@
 import React from 'react';
-
-const Skills = () => (
-  <div>
-    <h1 className="Skills-title">Skills</h1>
-    <ul>
-      <li className="Skills-item">Estudiante de Ingenieria electronica</li>
-      <li className="Skills-item">Bachiller con Media Tecnica en sistemas</li>
-      <li className="Skills-item">Bachiller con Media Tecnica en sistemas</li>
-    </ul>
+import '../styles/components/Skills.styl';
+const Skills = ({ Skills = [] }) => (
+  <div className="Skills-container">
+    <h2 className="Skills-title">Skills</h2>
+    {Skills.map(item => (
+      <div className="Skills_item">
+        <p>{item.name}</p>
+        <div className={item.name}>
+          <div>{item.percentage}</div>
+        </div>
+      </div>
+    ))}
   </div>
 );
 

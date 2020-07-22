@@ -1,12 +1,11 @@
 import React from 'react';
-
-const Header = () => (
-  <div>
-    <img src="/" alt="Profile Picture" />
-    <div>
-      <h1 className="Header-title">Santiago Arcila Guzmán</h1>
-      <p className="Header-job-title">Full stack developer</p>
-    </div>
+import '../styles/components/Header.styl';
+const Header = ({ children, header_title, picture, header_job }) => (
+  <div className="Header-container">
+    <img src={picture} alt="Profile Picture" />
+    <h1 className="Header-title">{header_title}</h1>
+    <p className="Header-job-title">{header_job}</p>
+    {children}
   </div>
 );
 
