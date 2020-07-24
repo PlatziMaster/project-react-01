@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/components/Profile.styl';
 const Profile = ({ profile_description }) => (
-  <div className="Profile-container">
+  <div className="Profile">
     <h2 className="Profile-title">Profile</h2>
     <p className="Profile-desc">{profile_description}</p>
   </div>

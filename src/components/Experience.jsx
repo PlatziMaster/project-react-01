@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/components/Experience.styl';
 const Experience = ({ Experience = [] }) => (
-  <div className="Experience-container">
+  <div className="Experience">
     <h2 className="Experience-title">Experience</h2>
     {Experience.map(item => (
       <div className="Experience-item">

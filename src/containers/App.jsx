@@ -31,10 +31,12 @@ const App = () => {
       </Header>
       <Profile profile_description={data.profile} />
       <Experience Experience={data.experience} />
-      <Academic Academic={data.Academic} />
-      <Skills Skills={data.skills} />
-      <Interest Interests={data.interest} />
-      <Languages Languages={data.languages} />
+      <div className="container-sail">
+        <Academic Academic={data.Academic} />
+        <Skills Skills={data.skills} />
+        <Interest Interests={data.interest} />
+        <Languages Languages={data.languages} />
+      </div>
     </Fragment>
   );
 };

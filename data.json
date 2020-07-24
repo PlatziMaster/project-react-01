@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Santiago Arcila G.",
+    "name": "Santiago Arcila Guzmán",
     "profession": "Full Stack Developer",
     "address": "Medellín, Colombia.",
     "email": "santiago.arcilag@gmail.com",
     "website": "https://example.com",
     "phone": "3175736257",
     "avatar": "./src/assets/static/profile.jpg",
-    "profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "profile": "I've been programming since high school, passing for the college but now I'm studyng by myself in Platzi Master a Full Stack learning path",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -24,41 +24,27 @@
     ],
     "Academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Full Stack Developer",
+        "description": "The Full stack developer path contains a courses of Frontend, Backend and Data bases",
+        "endDate": "Current",
+        "institution": "Platzi Master",
+        "startDate": "May 2020"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Electronic Engineering",
+        "description": "I'm in  sixth semester",
+        "endDate": "Current",
+        "institution": "University of Antioquia",
+        "startDate": "Jun 2014"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Student",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "jobDescription": "Challenges in Platzi Master",
+        "jobTitle": "Student",
+        "startDate": "Jun 2020"
       }
     ],
     "skills": [
@@ -68,7 +54,7 @@
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "50%"
       },
       {
         "name": "JavaScript",
@@ -76,7 +62,7 @@
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "40%"
       }
     ],
     "interest": ["javascript", "develop", "backend", "frontend"],
@@ -87,25 +73,29 @@
       },
       {
         "name": "English",
+        "percentage": "80%"
+      },
+      {
+        "name": "Portuguese",
         "percentage": "50%"
       }
     ],
     "social": [
       {
         "name": "facebook",
-        "url": "https://facebook.com/"
+        "url": "https://facebook.com/heavens20"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/santi_arcilag"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/sanarguz"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/santiago-arcila-a913b21a2"
       }
     ]
   }
