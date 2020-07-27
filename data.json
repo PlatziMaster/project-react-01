@@ -7,7 +7,7 @@
     "website": "https://example.com",
     "phone": "3175736257",
     "avatar": "./src/assets/static/profile.jpg",
-    "profile": "I've been programming since high school, passing for the college but now I'm studyng by myself in Platzi Master a Full Stack learning path",
+    "profile": "I'm 24 years old, passionate to be in constant learning and I've been programming since high school, passing for the college but now I'm studying by myself in Platzi Master a Full Stack learning path",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -63,21 +63,25 @@
       {
         "name": "React",
         "percentage": "40%"
+      },
+      {
+        "name": "Photoshop",
+        "percentage": "40%"
       }
     ],
-    "interest": ["javascript", "develop", "backend", "frontend"],
+    "interest": ["JavaScript", "development", "backend", "frontend", "React"],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "level": "Native"
       },
       {
         "name": "English",
-        "percentage": "80%"
+        "level": "Fluent"
       },
       {
         "name": "Portuguese",
-        "percentage": "50%"
+        "level": "Intermediate"
       }
     ],
     "social": [

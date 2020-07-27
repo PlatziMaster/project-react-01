@@ -1,18 +1,20 @@
 import React from 'react';
 import '../styles/components/About.styl';
-const About = ({ about_phone, about_email, about_website, about_address }) => (
+import iconEmail from '../assets/static/imail.png';
+import iconAddress from '../assets/static/iaddress.png';
+import iconPhone from '../assets/static/iphone.png';
+
+const About = ({ about_phone, about_email, about_address }) => (
   <div className="About">
     <p className="About-item">
-      <strong>E-mail:</strong> {about_email}
+      <img className="icon" src={iconEmail} /> {about_email}
     </p>
     <p className="About-item">
-      <strong>Tel:</strong> {about_phone}
+      <img className="icon" src={iconPhone} /> {about_phone}
     </p>
     <p className="About-item">
-      <strong>Website:</strong> {about_website}
-    </p>
-    <p className="About-item">
-      <strong>Address:</strong> {about_address}
+      <img className="icon" src={iconAddress} />
+      {about_address}
     </p>
   </div>
 );

@@ -1,10 +1,22 @@
 @import "./Vars.styl"
 
 .Experience
+    display flex
+    flex-direction: column
+    gap 20px
     background secundary-color
     padding 20px
     margin-top 10px
     &-item
+        display flex
+        background white
         break-inside avoid-column
+        border 2px solid #C7C7C7
+        border-radius: 10px
+        padding 20px
+        gap 50px   
+        span 
+            color primary-color
+            align-self: center
     &-title
-        margin-bottom 50px  
+        color primary-color 

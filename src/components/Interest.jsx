@@ -3,11 +3,13 @@ import '../styles/components/Interest.styl';
 const Interest = ({ Interests = [] }) => (
   <div className="Interest">
     <h2 className="Interest-title">Interests</h2>
-    {Interests.map(item => (
-      <div className="Interest-item">
-        <p>{item}</p>
-      </div>
-    ))}
+    <div className="Interest-container">
+      {Interests.map(item => (
+        <div className="Interest-item">
+          <p>{item}</p>
+        </div>
+      ))}
+    </div>
   </div>
 );
 

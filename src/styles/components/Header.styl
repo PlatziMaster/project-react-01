@@ -1,14 +1,9 @@
 @import "./Vars.styl"
 
     .Header
-        background primary-color
+        background radial-gradient(circle, primary-color 0%, black 800%) 
         display flex
         align-items: center
-        padding 20px
-        img     
-            border-radius 50%        
-            height 150px
-            margin 20px
         &-texts
             margin-left 60px
             width 100%
@@ -16,7 +11,14 @@
             flex-direction column
         &-title
             flex-grow 1
+            color white
             margin 0
+            text-transform: uppercase
         &-jobTitle
             flex-grow 1
             margin 0
+            color white
+        img 
+            max-width 200px
+
+
