@@ -1,5 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
+// eslint-disable-next-line import/no-self-import
 import Experience from '../../components/Experience';
 
 describe('<Experience />', () => {
@@ -16,5 +17,4 @@ describe('<Experience />', () => {
   test('Experience haves 3 items', () => {
     expect(experience.find('.Experience-item').length).toBeGreaterThan(2);
   });
-
 });

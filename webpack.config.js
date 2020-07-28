@@ -1,6 +1,8 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const WebpackPwaManifestPlugin = require('webpack-pwa-manifest');
+const WorkboxWebpackPlugin = require('workbox-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -47,6 +49,43 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: 'assets/[name].css',
+    }),
+    new WebpackPwaManifestPlugin({
+      name: 'Presentacion personal de Daniel Valderrama Mendoza',
+      shortname: 'CV de Daniel Valderrama',
+      description: 'La información principal sobre Daniel Valderrama, sus skills, logros y más detalles sobre su experiencia.',
+      orientation: 'portrait',
+      display: 'standalone',
+      start_url: '/',
+      scope: '/',
+      background_color: '#fff',
+      theme_color: '#fff',
+      icons: [
+        {
+          src: path.resolve('src/images/img1.jpg'),
+          sizes: [96, 128, 192, 256, 384, 512],
+          destination: path.join('Icons'),
+          ios: true,
+        },
+      ],
+    }),
+    new WorkboxWebpackPlugin.GenerateSW({
+      runtimeCaching: [
+        {
+          urlPattern: new RegExp('http://localhost:3000/data'),
+          handler: 'NetworkFirst',
+          options: {
+            cacheName: 'api',
+          },
+        },
+        {
+          urlPattern: new RegExp('./src/images/img1.jpg'),
+          handler: 'CacheFirst',
+          options: {
+            cacheName: 'images',
+          },
+        },
+      ],
     }),
   ],
 };
