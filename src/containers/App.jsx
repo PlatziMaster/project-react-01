@@ -1,28 +1,19 @@
 import React from 'react';
+import { Route, Switch, BrowserRouter } from 'react-router-dom';
 import '../styles/components/App.styl';
-import Header from '../components/Header';
-import About from '../components/About';
-import Profile from '../components/Profile';
-import Experience from '../components/Experience';
-import Academic from '../components/Academic';
-import Skills from '../components/Skills';
-import Interest from '../components/Interest';
-import Languages from '../components/Languages';
+import AppEs from './App1';
+import AppEn from './App2';
+import { ThemeProvider } from '../components/ThemeContext';
 
-const App = () => {
-  return (
-    <>
-      <Header>
-        <About />
-      </Header>
-      <Profile />
-      <Experience />
-      <Academic />
-      <Skills />
-      <Interest />
-      <Languages />
-    </>
-  )
-};
+const App = () => (
+  <ThemeProvider>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path='/' component={AppEs} />
+        <Route exact path='/en' component={AppEn} />
+      </Switch>
+    </BrowserRouter>
+  </ThemeProvider>
+);
 
 export default App;

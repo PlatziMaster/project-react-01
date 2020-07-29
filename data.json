@@ -1,110 +1,303 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
-      {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
-      },
-      {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
-      },
-      {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
-      }
-    ],
-    "experience": [
-      {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
-      }
-    ],
-    "skills": [
-      {
-        "name": "HTML5",
-        "percentage": "75%"
-      },
-      {
-        "name": "CSS",
-        "percentage": "25%"
-      },
-      {
-        "name": "JavaScript",
-        "percentage": "55%"
-      },
-      {
-        "name": "React",
-        "percentage": "90%"
-      }
-    ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
-    ],
-    "social": [
-      {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
-        "name": "twitter",
-        "url": "https://twitter.com/"
-      },
-      {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
-      }
-    ]
+    "es": {
+      "About": [{
+        "id": 1,
+        "category": "Perfil",
+        "name": "Daniel Valderrama Mendoza",
+        "profession": "Desarrollador FrontEnd && Diseñador gráfico",
+        "address": "Bogotá, Colombia.",
+        "email": "dny9919@gmail.com",
+        "website": "https://www.behance.net/dny99193f4f",
+        "phone": "3156570230",
+        "avatar": "https://s.gravatar.com/avatar/d8773e49c65cea0d82107b75110918b3?s=300",
+        "Profile": "Actualmente estoy estudiando diseño gráfico en la Universidad Santo Tomás y tambien estoy en Platzi Master en proceso de desarrollador FrontEnd, a finales de este año espero poder tener ambos campos terminados. Tengo conocimientos sobre distintos programas de diseño gráfico, tambien conceptos de UX y prototipado con Adobe XD, Sketch y Figma, de igual manera desarrollo web con la librería React.js"
+      }],
+      "certificate": [{
+          "id": 2,
+          "date": "Jul 2020",
+          "description": "Cetificado de React.js en Platzi para la carrera FrontEnd",
+          "institution": "Platzi",
+          "name": "Desarrollador FrontEnd",
+          "category": "Certificados"
+        },
+        {
+          "id": 3,
+          "date": "Jul 2020",
+          "description": "Certificado de profesional en Javascript para la carrera FrontEnd",
+          "institution": "Platzi",
+          "name": "Desarrollador FrontEnd"
+        }
+      ],
+      "Academic": [{
+          "id": 4,
+          "category": "Logros Académicos",
+          "degree": "Desarrollador FrontEnd",
+          "description": "Certificado de React.js en Platzi para la carrera FrontEnd",
+          "endDate": "Jul 2020",
+          "institution": "Platzi",
+          "startDate": "Jan 2020"
+        },
+        {
+          "id": 5,
+          "degree": "Desarrollador FrontEnd",
+          "description": "Certificado de profesional en Javascript para la carrera FrontEnd",
+          "endDate": "Jul 2020",
+          "institution": "Platzi",
+          "startDate": "Jan 2020"
+        },
+        {
+          "id": 6,
+          "degree": "Desarrollador FrontEnd",
+          "description": "Certificado de Sass para la carrera FrontEnd",
+          "endDate": "Jul 2020",
+          "institution": "Platzi",
+          "startDate": "Jan 2020"
+        }
+      ],
+      "experience": [{
+          "id": 7,
+          "category": "Experiencia Laboral",
+          "company": "S.A.S.",
+          "endDate": "Actualmente",
+          "jobDescription": "Realizo montajes fotográficos para centro comerciales, especificamente renders de como quedan elementos en un espacio determinado",
+          "jobTitle": "Diseñador gráfico",
+          "startDate": "Jan 2020"
+        },
+        {
+          "id": 8,
+          "company": "Trajes London",
+          "endDate": "Jul 2017",
+          "jobDescription": "Realizaba facturación de los vestidos en las ventas ",
+          "jobTitle": "Cajero",
+          "startDate": "Jun 2017"
+        },
+        {
+          "id": 9,
+          "company": "S.A.S.",
+          "endDate": "Actualmente",
+          "jobDescription": "Realizo montajes fotográficos para centro comerciales, especificamente renders de como quedan elementos en un espacio determinado, para el área de mantenimiento",
+          "jobTitle": "Diseñador gráfico",
+          "startDate": "Jan 2020"
+        }
+      ],
+      "skills": [{
+          "id": 10,
+          "category": "Fortalezas",
+          "name": "HTML5",
+          "percentage": "85"
+        },
+        {
+          "id": 11,
+          "name": "CSS",
+          "percentage": "95"
+        },
+        {
+          "id": 12,
+          "name": "JavaScript",
+          "percentage": "55"
+        }
+      ],
+      "interest": [{
+          "id": 13,
+          "category": "Intereses",
+          "name": "Javascript"
+        },
+        {
+          "id": 14,
+          "name": "Diseño UX"
+        },
+        {
+          "id": 15,
+          "name": "FrontEnd"
+        }
+      ],
+      "languages": [{
+          "id": 16,
+          "category": "Idiomas",
+          "name": "Español",
+          "percentage": "90"
+        },
+        {
+          "id": 17,
+          "name": "Italiano",
+          "percentage": "5"
+        },
+        {
+          "id": 18,
+          "name": "Ingles",
+          "percentage": "30"
+        }
+      ],
+      "social": [{
+          "id": 19,
+          "name": "Facebook",
+          "icon":"FaFacebookSquare",
+          "url1": "https://www.facebook.com/Dani3l.Valderrama.M",
+          "url2": "https://twitter.com/1danielv",
+          "url3": "https://github.com/DanielVM19",
+          "url4": "https://www.linkedin.com/in/danielvalderramamendoza1999/",
+          "url5": "https://drive.google.com/uc?id=19e6jad8dOC55bsjXdS00aMPjoFekUqWl&export=download"
+        }
+      ]
+    },
+    "en": {
+      "About": [{
+        "id": 24,
+        "category": "Profile",
+        "name": "Daniel Valderrama Mendoza",
+        "profession": "FrontEnd Developer && Grapich Design",
+        "address": "Bogotá, Colombia.",
+        "email": "dny9919@gmail.com",
+        "website": "https://www.behance.net/dny99193f4f",
+        "phone": "3156570230",
+        "avatar": "https://s.gravatar.com/avatar/d8773e49c65cea0d82107b75110918b3?s=300",
+        "Profile": "I am currently studying graphic design at the Universidad Santo Tomás and I am also in Platzi Master in FrontEnd developer process, later this year I hope to have both fields completed. I have knowledge of different graphic design programs, also UX concepts and prototyping with Adobe XD, Sketch and Figma, as well as web development with the React.js library."
+      }],
+      "certificate": [{
+          "id": 25,
+          "category": "Certificate",
+          "date": "Jul 2020",
+          "description": "Certificado de React.js en Platzi para la carrera FrontEnd",
+          "institution": "Platzi",
+          "name": "FrontEnd Developer"
+        },
+        {
+          "id": 26,
+          "date": "Jul 2020",
+          "description": "Professional Certificate in Javascript for the FrontEnd degree",
+          "institution": "Platzi",
+          "name": "FrontEnd Developer"
+        }
+      ],
+      "Academic": [{
+          "id": 27,
+          "category": "Academic achievements",
+          "degree": "FrontEnd Developer",
+          "description": "React.js certificate in Platzi for the FrontEnd race",
+          "endDate": "Jul 2020",
+          "institution": "Platzi",
+          "startDate": "Jan 2020"
+        },
+        {
+          "id": 28,
+          "category": "Academic achievements",
+          "degree": "FrontEnd Developer",
+          "description": "React.js certificate in Platzi for the FrontEnd",
+          "endDate": "Jul 2020",
+          "institution": "Platzi",
+          "startDate": "Jan 2020"
+        },
+        {
+          "id": 29,
+          "degree": "FrontEnd Developer",
+          "description": "Certificate of professional in Javascript, for the FrontEnd degree",
+          "endDate": "Jul 2020",
+          "institution": "Platzi",
+          "startDate": "Jan 2020"
+        }
+      ],
+      "experience": [{
+          "id": 30,
+          "category": "Experience",
+          "company": "S.A.S.",
+          "endDate": "Present",
+          "jobDescription": "I make photographic montages for a shopping center, specifically renderings of how elements are left in a given space",
+          "jobTitle": "Graphic designer",
+          "startDate": "Jan 2020"
+        },
+        {
+          "id": 31,
+          "company": "Trajes London",
+          "endDate": "Jul 2017",
+          "jobDescription": "Invoiced the dresses in sales",
+          "jobTitle": "cashier",
+          "startDate": "Jun 2017"
+        },
+        {
+          "id": 32,
+          "company": "S.A.S.",
+          "endDate": "Present",
+          "jobDescription": "I make photographic montages for a shopping center, specifically renderings of how elements are left in a given space, in maintenance area",
+          "jobTitle": "Graphic designer",
+          "startDate": "Jan 2020"
+        }
+      ],
+      "skills": [{
+          "id": 33,
+          "category": "Skills",
+          "name": "HTML5",
+          "percentage": "85"
+        },
+        {
+          "id": 34,
+          "name": "CSS",
+          "percentage": "95"
+        },
+        {
+          "id": 35,
+          "name": "JavaScript",
+          "percentage": "55"
+        }
+      ],
+      "interest": [{
+          "id": 36,
+          "category": "Interest",
+          "name": "Javascript"
+        },
+        {
+          "id": 37,
+          "name": "UX design"
+        },
+        {
+          "id": 38,
+          "name": "FrontEnd"
+        }
+      ],
+      "languages": [{
+          "id": 39,
+          "category": "Languages",
+          "name": "Spanish",
+          "percentage": "90"
+        },
+        {
+          "id": 40,
+          "category": "Languages",
+          "name": "Italian",
+          "percentage": "3"
+        },
+        {
+          "id": 41,
+          "name": "English",
+          "percentage": "30"
+        }
+      ],
+      "social": [{
+          "id": 42,
+          "name": "Facebook",
+          "url": "https://www.facebook.com/Dani3l.Valderrama.M"
+        },
+        {
+          "id": 43,
+          "name": "Twitter",
+          "url": "https://twitter.com/1danielv"
+        },
+        {
+          "id": 44,
+          "name": "Github",
+          "url": "https://github.com/DanielVM19"
+        },
+        {
+          "id": 45,
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/in/danielvalderramamendoza1999/"
+        },
+        {
+          "id": 46,
+          "name": "PDF",
+          "url": "https://drive.google.com/file/d/19e6jad8dOC55bsjXdS00aMPjoFekUqWl/view?usp=sharing"
+        }
+      ]
+    }
   }
 }

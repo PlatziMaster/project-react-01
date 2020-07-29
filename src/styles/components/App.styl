@@ -1,2 +1,41 @@
+/***
+ *    .█████╗.██████╗.██████╗.....
+ *    ██╔══██╗██╔══██╗██╔══██╗....
+ *    ███████║██████╔╝██████╔╝....
+ *    ██╔══██║██╔═══╝.██╔═══╝.....
+ *    ██║..██║██║.....██║.........
+ *    ╚═╝..╚═╝╚═╝.....╚═╝.........
+ *    ............................
+ */
+
+@import './Vars.styl'
+@import './About.styl'
+@import './Container.styl'
+
 body
-  background-color blue
+  padding: 0
+  margin 0
+  background-color: baseBackground !important
+  color: baseColor
+
+h5
+  opacity 0.6
+a 
+  opacity 1
+
+.Header-title
+  width:100%
+  padding: 32px
+
+.botton-collapse
+  color: ColorGray
+  &:focus
+    text-decoration: none !important
+    box-shadow: none !important
+  &:hover
+    text-decoration: none !important
+
+.card-body
+  padding: 0 !important
+
+
