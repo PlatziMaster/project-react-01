@@ -6,14 +6,16 @@ const Interest = ({ interest }) => {
   return (
     <>
       {interestTitle.map(item => (
-        <h1 className='mb-3 Interest-title'>{item.category}</h1>
+        <h1 className='mb-3 Interest-title' key={item.id}>{item.category}</h1>
       ))}
       {interestArray.map(item => (
-        <div className='row'>
-          <div className='col mt-2 text-center Interest-item'>
-            <h5>{item.name}</h5>
+        <React.Fragment key={item.id}>
+          <div className='row'>
+            <div className='col mt-2 text-center Interest-item'>
+              <h5>{item.name}</h5>
+            </div>
           </div>
-        </div>
+        </React.Fragment>
       ))}
     </>
   );

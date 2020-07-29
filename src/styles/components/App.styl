@@ -13,15 +13,29 @@
 @import './Container.styl'
 
 body
-  padding: 16px
+  padding: 0
   margin 0
-  background-color: #f7f7f7 !important
+  background-color: baseBackground !important
+  color: baseColor
 
 h5
   opacity 0.6
 a 
   opacity 1
 
-.Header-title{
-  width:100%;
-}
+.Header-title
+  width:100%
+  padding: 32px
+
+.botton-collapse
+  color: ColorGray
+  &:focus
+    text-decoration: none !important
+    box-shadow: none !important
+  &:hover
+    text-decoration: none !important
+
+.card-body
+  padding: 0 !important
+
+

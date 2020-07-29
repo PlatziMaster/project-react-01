@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import Accordion from 'react-bootstrap/Accordion';
+import Card from 'react-bootstrap/Card';
 import Header from '../components/Header';
 import About from '../components/About';
 import Profile from '../components/Profile';
@@ -21,49 +23,41 @@ const AppEs = () => {
   return data.length === 0 ? (
     <h1>Loading...</h1>
   ) : (
-    <div className='container-fluid'>
-      <div className='row'>
-        <Header>
-          <About About={data.en.About} />
-        </Header>
-      </div>
-      <div className='row'>
-        <div className='col p-0 mt-4'>
-          <Profile About={data.en.About} />
+    <>
+      <div className='container-fluid'>
+        <div className='row'>
+          <Header>
+            <About About={data.en.About} />
+          </Header>
         </div>
-      </div>
-      <div className='row'>
-        <div className='col p-0 mt-4'>
-          <div className='col Container__content rounded-lg shadow p-4'>
-            <Experience experience={data.en.experience} />
+        <div className='row justify-content-center'>
+          <div className='col-md-6 col-sm-12 mt-4 p-0 pl-3'>
+            <div className='col Container__content rounded-lg shadow p-4 mb-lg-4'>
+              <Skills skills={data.en.skills} />
+            </div>
+            <div className='col Container__content rounded-lg shadow p-4 mb-lg-4'>
+              <Interest interest={data.en.interest} />
+            </div>
+            <div className='col Container__content rounded-lg shadow p-4 mb-lg-4'>
+              <Languages Languages={data.en.languages} />
+            </div>
+          </div>
+          <div className='col-md-5 ml-lg-5 col-sm-12 mt-4 p-0 pr-3'>
+            <Accordion defaultActiveKey='0'>
+              <Card>
+                <Profile About={data.en.About} />
+              </Card>
+              <Card>
+                <Experience experience={data.en.experience} />
+              </Card>
+              <Card>
+                <Academic academic={data.en.Academic} />
+              </Card>
+            </Accordion>
           </div>
         </div>
       </div>
-      <div className='row'>
-        <div className='col-md-6 col-sm-12 mt-4 p-0 pr-3'>
-          <div className='col Container__content rounded-lg shadow p-4'>
-            <Academic academic={data.en.Academic} />
-          </div>
-        </div>
-        <div className='col-md-6 col-sm-12 mt-4 p-0 pl-3'>
-          <div className='col Container__content rounded-lg shadow p-4'>
-            <Skills skills={data.en.skills} />
-          </div>
-        </div>
-      </div>
-      <div className='row'>
-        <div className='col-md-6 col-sm-12 mt-4 p-0 pr-3'>
-          <div className='col Container__content rounded-lg shadow p-4'>
-            <Interest interest={data.en.interest} />
-          </div>
-        </div>
-        <div className='col-md-6 col-sm-12 mt-4 p-0 pl-3'>
-          <div className='col Container__content rounded-lg shadow p-4'>
-            <Languages Languages={data.en.languages} />
-          </div>
-        </div>
-      </div>
-    </div>
+    </>
   );
 };
 

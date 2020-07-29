@@ -7,16 +7,16 @@ const Skills = ({ skills, index }) => {
   return (
     <>
       {skillsTitle.map(item => (
-        <h2 className='mb-3 Skills-title'>
+        <h2 className='mb-3 Skills-title' key={item.id}>
           {item.category}
         </h2>
       ))}
 
       {skillsArray.map(item => (
-        <>
-          <h5 className='Skills-item' key={index}>{item.name}</h5>
-          <ProgressBar animated variant='success' now={Number(item.percentage)} key={index} />
-        </>
+        <React.Fragment key={item.id}>
+          <h5 className='Skills-item'>{item.name}</h5>
+          <ProgressBar animated variant='primary' now={Number(item.percentage)} />
+        </React.Fragment>
       ))}
     </>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = ({ children }) => {
+const Header = ({ children, social }) => {
   return (
     <>
       <div className='Header-title'>

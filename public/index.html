@@ -5,29 +5,15 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#000000" />
   <title>Daniel V.M.</title>
 </head>
 
-<body class="is-ligth-mode">
+<body >
   <div id="app"></div>
   <noscript>
     <h2>Esta pagina requiere Javascript para funcionar</h2>
   </noscript>
-  <script>
-    const checkbox = document.querySelector('#checkbox');
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      checkbox.setAttribute('checked', true);
-    }
-    checkbox.addEventListener('change', function (event) {
-      if (this.checked) {
-        document.body.classList.add('is-dark-mode');
-        document.body.classList.remove('is-light-mode');
-      } else {
-        document.body.classList.add('is-light-mode');
-        document.body.classList.remove('is-dark-mode');
-      }
-    });
-  </script>
 </body>
 
 </html>

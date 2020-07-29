@@ -79,7 +79,7 @@ module.exports = {
           },
         },
         {
-          urlPattern: new RegExp('./src/images/img1.jpg'),
+          urlPattern: new RegExp('https://s.gravatar.com/avatar/d8773e49c65cea0d82107b75110918b3?s=300'),
           handler: 'CacheFirst',
           options: {
             cacheName: 'images',
