@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Experience = ({ experience }) => {
+const Experience = ({ experience, theme }) => {
   const profileExpirience =
     experience ||
     Array(3).fill({
@@ -30,7 +30,7 @@ const Experience = ({ experience }) => {
       <div className="container">
         <div className="Experience">
           <h2 className="Experience-title">Experience</h2>
-          <span className="horizontal-line"></span>
+          <span className={`horizontal-line line-${theme}`}></span>
           <div className="Experience-items">{experienceList}</div>
         </div>
       </div>

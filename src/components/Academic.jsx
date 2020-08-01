@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Academic = ({ academic }) => {
+const Academic = ({ academic, theme }) => {
   const profileAcademic =
     academic ||
     Array(3).fill({
@@ -20,7 +20,7 @@ const Academic = ({ academic }) => {
         <div className="Academic-item-title">
           <h3>{aca.degree}</h3>
         </div>
-        <span className="vertical-line"></span>
+        <span className={`vertical-line line-${theme}`}></span>
         <div className="Academic-item-subtitle">
           <h3>{aca.institution}</h3>
         </div>
@@ -34,7 +34,7 @@ const Academic = ({ academic }) => {
       <div className="container">
         <div className="Academic">
           <h2 className="Academic-title">Academic</h2>
-          <span className="horizontal-line"></span>
+          <span className={`horizontal-line line-${theme}`}></span>
           <div className="Academic-items">{academicList}</div>
         </div>
       </div>

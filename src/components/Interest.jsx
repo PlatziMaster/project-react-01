@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Interest = ({ interests }) => {
+const Interest = ({ interests, theme }) => {
   const profileInterests = interests || Array(3).fill('javascript');
 
   const interestsList = profileInterests.map((interest, index) => (
@@ -14,7 +14,7 @@ const Interest = ({ interests }) => {
       <div className="container">
         <div className="Interest">
           <h2 className="Interest-title">Interest</h2>
-          <span className="horizontal-line"></span>
+          <span className={`horizontal-line line-${theme}`}></span>
           <ul>{interestsList}</ul>
         </div>
       </div>

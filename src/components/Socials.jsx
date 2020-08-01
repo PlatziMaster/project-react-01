@@ -7,7 +7,7 @@ import {
   faGithubSquare,
 } from '@fortawesome/free-brands-svg-icons';
 
-const Socials = ({ social }) => {
+const Socials = ({ social, theme }) => {
   const profileSocials =
     social ||
     Array(3).fill({ name: 'facebook', percentage: 'https://facebook.com/' });
@@ -37,7 +37,7 @@ const Socials = ({ social }) => {
       <div className="container">
         <div className="Social">
           <h2 className="Social-title">Contact</h2>
-          <span className="horizontal-line"></span>
+          <span className={`horizontal-line line-${theme}`}></span>
           <div className="Social-items">{socialList}</div>
         </div>
       </div>

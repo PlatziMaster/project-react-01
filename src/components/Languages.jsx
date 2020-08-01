@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Languages = ({ languages }) => {
+const Languages = ({ languages, theme }) => {
   const profileLangs =
     languages || Array(3).fill({ name: 'test', percentage: '100%' });
 
@@ -15,7 +15,7 @@ const Languages = ({ languages }) => {
       <div className="container">
         <div className="Languages">
           <h2 className="Languages-title">Languages</h2>
-          <span className="horizontal-line"></span>
+          <span className={`horizontal-line line-${theme}`}></span>
           <ul>{languagesList}</ul>
         </div>
       </div>
