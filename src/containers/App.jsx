@@ -9,6 +9,7 @@ import Skills from '../components/Skills';
 import Interest from '../components/Interest';
 import Languages from '../components/Languages';
 import getData from '../utils/getData';
+import Socials from '../components/Socials';
 
 const App = () => {
   const [profile, setProfile] = useState({});
@@ -33,12 +34,23 @@ const App = () => {
           address={profile.address}
         />
       </Header>
-      <Profile desc={profile.Profile} />
-      <Experience experience={profile.experience} />
-      <Academic academic={profile.Academic} />
-      <Skills skills={profile.skills} />
-      <Interest interests={profile.interest} />
-      <Languages languages={profile.languages} />
+      <section>
+        <div className="container">
+          <div className="Page">
+            <section className="Page-left">
+              <Skills skills={profile.skills} />
+              <Languages languages={profile.languages} />
+              <Interest interests={profile.interest} />
+              <Socials social={profile.social} />
+            </section>
+            <section className="Page-right">
+              <Profile desc={profile.Profile} />
+              <Experience experience={profile.experience} />
+              <Academic academic={profile.Academic} />
+            </section>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

@@ -5,7 +5,9 @@ const Header = ({ name, avatar, children }) => {
     <header>
       <div className="container">
         <div className="Header">
-          <img className="Header-img" src={avatar} alt={name} />
+          <div className="Header-img">
+            <img src={avatar} alt={name} />
+          </div>
           <div className="Header-details">
             <h1 className="Header-title">{name}</h1>
             {children}

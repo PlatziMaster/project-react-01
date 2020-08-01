@@ -5,7 +5,8 @@ const Profile = ({ desc }) => {
     <section>
       <div className="container">
         <div className="Profile">
-          <h2 className="Profile-title">Profile</h2>
+          <h2 className="Profile-title">About Me</h2>
+          <span className="horizontal-line"></span>
           <p className="Profile-desc">{desc}</p>
         </div>
       </div>

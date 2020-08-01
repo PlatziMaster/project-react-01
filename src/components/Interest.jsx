@@ -13,8 +13,8 @@ const Interest = ({ interests }) => {
     <section>
       <div className="container">
         <div className="Interest">
-          <h1 className="Interest-title">Interest</h1>
-
+          <h2 className="Interest-title">Interest</h2>
+          <span className="horizontal-line"></span>
           <ul>{interestsList}</ul>
         </div>
       </div>

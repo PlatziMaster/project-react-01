@@ -12,20 +12,26 @@ const Experience = ({ experience }) => {
     });
 
   const experienceList = profileExpirience.map((exp, index) => (
-    <li key={`${exp.company}-${index}`} className="Experience-item">
-      {exp.company}/{exp.endDate}/{exp.jobDescription}/{exp.jobTitle}/
-      {exp.startDate}
-    </li>
+    <div key={`${exp.company}-${index}`} className="Experience-item">
+      <div className="small">
+        {exp.startDate} - {exp.endDate}
+      </div>
+      <div className="Experience-item-head">
+        <div className="Experience-item-title"><h3>{exp.jobTitle}</h3></div>
+        <span className="vertical-line"></span>
+        <div className="Experience-item-subtitle"><h3>{exp.company}</h3></div>
+      </div>
+      <p>{exp.jobDescription}</p>
+    </div>
   ));
 
   return (
     <section>
       <div className="container">
         <div className="Experience">
-          <h1 className="Experience-title">Experience</h1>
-          <div className="Experience-items">
-            <ul>{experienceList}</ul>
-          </div>
+          <h2 className="Experience-title">Experience</h2>
+          <span className="horizontal-line"></span>
+          <div className="Experience-items">{experienceList}</div>
         </div>
       </div>
     </section>

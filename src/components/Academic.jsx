@@ -12,19 +12,30 @@ const Academic = ({ academic }) => {
     });
 
   const academicList = profileAcademic.map((aca, index) => (
-    <li key={`${aca.degree}-${index}`} className="Academic-item">
-      {aca.degree}/{aca.description}/{aca.endDate}/{aca.institution}/
-      {aca.startDate}
-    </li>
+    <div key={`${aca.degree}-${index}`} className="Academic-item">
+      <div className="small">
+        {aca.startDate} - {aca.endDate}
+      </div>
+      <div className="Academic-item-head">
+        <div className="Academic-item-title">
+          <h3>{aca.degree}</h3>
+        </div>
+        <span className="vertical-line"></span>
+        <div className="Academic-item-subtitle">
+          <h3>{aca.institution}</h3>
+        </div>
+      </div>
+      <p>{aca.description}</p>
+    </div>
   ));
 
   return (
     <section>
       <div className="container">
         <div className="Academic">
-          <h1 className="Academic-title">Academic</h1>
-
-          <ul>{academicList}</ul>
+          <h2 className="Academic-title">Academic</h2>
+          <span className="horizontal-line"></span>
+          <div className="Academic-items">{academicList}</div>
         </div>
       </div>
     </section>

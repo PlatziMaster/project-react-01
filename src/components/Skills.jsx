@@ -6,7 +6,7 @@ const Skills = ({ skills }) => {
 
   const skillsList = profileSkills.map((skill, index) => (
     <li key={`${skill.name}-${index}`} className="Skills-item">
-      {skill.name}:{skill.percentage}
+      {skill.name}: <span>{skill.percentage}</span>
     </li>
   ));
 
@@ -14,8 +14,8 @@ const Skills = ({ skills }) => {
     <section>
       <div className="container">
         <div className="Skills">
-          <h1 className="Skills-title">Skills</h1>
-
+          <h2 className="Skills-title">Skills</h2>
+          <span className="horizontal-line"></span>
           <ul>{skillsList}</ul>
         </div>
       </div>

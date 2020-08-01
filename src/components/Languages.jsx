@@ -6,7 +6,7 @@ const Languages = ({ languages }) => {
 
   const languagesList = profileLangs.map((language, index) => (
     <li key={`${language.name}-${index}`} className="Languages-item">
-      {language.name}:{language.percentage}
+      {language.name}: <span>{language.percentage}</span>
     </li>
   ));
 
@@ -14,8 +14,8 @@ const Languages = ({ languages }) => {
     <section>
       <div className="container">
         <div className="Languages">
-          <h1 className="Languages-title">Languages</h1>
-
+          <h2 className="Languages-title">Languages</h2>
+          <span className="horizontal-line"></span>
           <ul>{languagesList}</ul>
         </div>
       </div>
