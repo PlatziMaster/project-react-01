@@ -1,0 +1,23 @@
+{
+  "profile": {
+    "title": "About Me"
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "academic": {
+    "title": "Academic"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "language": {
+    "title": "Languages"
+  },
+  "interest": {
+    "title": "Interest"
+  },
+  "social": {
+    "title": "Contact"
+  }
+}
