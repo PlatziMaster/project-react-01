@@ -19,10 +19,14 @@ const Experience = ({ experience }) => {
   ));
 
   return (
-    <section className="Experience">
-      <h1 className="Experience-title">Experience</h1>
-      <div className="Experience-items">
-        <ul>{experienceList}</ul>
+    <section>
+      <div className="container">
+        <div className="Experience">
+          <h1 className="Experience-title">Experience</h1>
+          <div className="Experience-items">
+            <ul>{experienceList}</ul>
+          </div>
+        </div>
       </div>
     </section>
   );

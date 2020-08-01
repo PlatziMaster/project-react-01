@@ -11,10 +11,14 @@ const Skills = ({ skills }) => {
   ));
 
   return (
-    <section className="Skills">
-      <h1 className="Skills-title">Skills</h1>
+    <section>
+      <div className="container">
+        <div className="Skills">
+          <h1 className="Skills-title">Skills</h1>
 
-      <ul>{skillsList}</ul>
+          <ul>{skillsList}</ul>
+        </div>
+      </div>
     </section>
   );
 };

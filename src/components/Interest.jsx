@@ -10,10 +10,14 @@ const Interest = ({ interests }) => {
   ));
 
   return (
-    <section className="Interest">
-      <h1 className="Interest-title">Interest</h1>
+    <section>
+      <div className="container">
+        <div className="Interest">
+          <h1 className="Interest-title">Interest</h1>
 
-      <ul>{interestsList}</ul>
+          <ul>{interestsList}</ul>
+        </div>
+      </div>
     </section>
   );
 };

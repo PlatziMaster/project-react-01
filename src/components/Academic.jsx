@@ -19,10 +19,14 @@ const Academic = ({ academic }) => {
   ));
 
   return (
-    <section className="Academic">
-      <h1 className="Academic-title">Academic</h1>
+    <section>
+      <div className="container">
+        <div className="Academic">
+          <h1 className="Academic-title">Academic</h1>
 
-      <ul>{academicList}</ul>
+          <ul>{academicList}</ul>
+        </div>
+      </div>
     </section>
   );
 };
