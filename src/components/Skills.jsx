@@ -1,6 +1,8 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Skills = ({ skills, theme }) => {
+  const { t, i18n } = useTranslation('common');
   const profileSkills =
     skills || Array(3).fill({ name: 'test', percentage: '100%' });
 
@@ -14,7 +16,7 @@ const Skills = ({ skills, theme }) => {
     <section>
       <div className="container">
         <div className="Skills">
-          <h2 className="Skills-title">Skills</h2>
+          <h2 className="Skills-title">{t('skills.title')}</h2>
           <span className={`horizontal-line line-${theme}`}></span>
           <ul>{skillsList}</ul>
         </div>

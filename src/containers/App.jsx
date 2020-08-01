@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, Suspense } from 'react';
 import '../styles/components/App.styl';
 import Header from '../components/Header';
 import About from '../components/About';
@@ -31,35 +31,37 @@ const App = () => {
   }, []);
 
   return (
-    <section className={theme}>
-      <Header name={profile.name} avatar={profile.avatar}>
-        <ButtonCircle theme={theme} changeTheme={changeTheme} />
-        <About
-          profession={profile.profession}
-          phone={profile.phone}
-          email={profile.email}
-          website={profile.website}
-          address={profile.address}
-        />
-      </Header>
-      <section>
-        <div className="container">
-          <div className="Page">
-            <section className="Page-left">
-              <Skills theme={theme} skills={profile.skills} />
-              <Languages theme={theme} languages={profile.languages} />
-              <Interest theme={theme} interests={profile.interest} />
-              <Socials theme={theme} social={profile.social} />
-            </section>
-            <section className="Page-right">
-              <Profile theme={theme} desc={profile.Profile} />
-              <Experience theme={theme} experience={profile.experience} />
-              <Academic theme={theme} academic={profile.Academic} />
-            </section>
+    <Suspense fallback="loading">
+      <section className={theme}>
+        <Header name={profile.name} avatar={profile.avatar}>
+          <ButtonCircle theme={theme} changeTheme={changeTheme} />
+          <About
+            profession={profile.profession}
+            phone={profile.phone}
+            email={profile.email}
+            website={profile.website}
+            address={profile.address}
+          />
+        </Header>
+        <section>
+          <div className="container">
+            <div className="Page">
+              <section className="Page-left">
+                <Skills theme={theme} skills={profile.skills} />
+                <Languages theme={theme} languages={profile.languages} />
+                <Interest theme={theme} interests={profile.interest} />
+                <Socials theme={theme} social={profile.social} />
+              </section>
+              <section className="Page-right">
+                <Profile theme={theme} desc={profile.Profile} />
+                <Experience theme={theme} experience={profile.experience} />
+                <Academic theme={theme} academic={profile.Academic} />
+              </section>
+            </div>
           </div>
-        </div>
+        </section>
       </section>
-    </section>
+    </Suspense>
   );
 };
 

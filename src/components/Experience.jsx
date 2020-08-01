@@ -1,6 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Experience = ({ experience, theme }) => {
+
+  const { t, i18n } = useTranslation('common');
+
   const profileExpirience =
     experience ||
     Array(3).fill({
@@ -29,7 +33,7 @@ const Experience = ({ experience, theme }) => {
     <section>
       <div className="container">
         <div className="Experience">
-          <h2 className="Experience-title">Experience</h2>
+          <h2 className="Experience-title">{t('experience.title')}</h2>
           <span className={`horizontal-line line-${theme}`}></span>
           <div className="Experience-items">{experienceList}</div>
         </div>

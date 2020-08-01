@@ -6,8 +6,10 @@ import {
   faLinkedin,
   faGithubSquare,
 } from '@fortawesome/free-brands-svg-icons';
+import { useTranslation } from 'react-i18next';
 
 const Socials = ({ social, theme }) => {
+  const { t, i18n } = useTranslation('common');
   const profileSocials =
     social ||
     Array(3).fill({ name: 'facebook', percentage: 'https://facebook.com/' });
@@ -36,7 +38,7 @@ const Socials = ({ social, theme }) => {
     <section>
       <div className="container">
         <div className="Social">
-          <h2 className="Social-title">Contact</h2>
+          <h2 className="Social-title">{t('social.title')}</h2>
           <span className={`horizontal-line line-${theme}`}></span>
           <div className="Social-items">{socialList}</div>
         </div>

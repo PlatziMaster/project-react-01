@@ -1,6 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Academic = ({ academic, theme }) => {
+  const { t, i18n } = useTranslation('common');
+
   const profileAcademic =
     academic ||
     Array(3).fill({
@@ -33,7 +36,7 @@ const Academic = ({ academic, theme }) => {
     <section>
       <div className="container">
         <div className="Academic">
-          <h2 className="Academic-title">Academic</h2>
+          <h2 className="Academic-title">{t('academic.title')}</h2>
           <span className={`horizontal-line line-${theme}`}></span>
           <div className="Academic-items">{academicList}</div>
         </div>
