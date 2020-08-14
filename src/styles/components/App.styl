@@ -1,2 +1,27 @@
-body
-  background-color blue
+@import '../globals.styl';
+
+body  
+  margin 0
+  font-family primary-font
+  background comodin2-color
+
+#app
+	display grid
+	gap 10px
+	grid-template-columns repeat(4, 250px)
+	grid-template-rows repeat(5, auto)
+	justify-content center
+	align-items center
+
+@import '../components/Header.styl'
+@import '../components/About.styl'
+@import '../components/Profile.styl'
+@import '../components/Experience.styl'
+@import '../components/Academic.styl'
+@import '../components/Skills.styl'
+@import '../components/Interest.styl'
+@import '../components/Languages.styl'
+@media screen and (max-width: 768px)
+	#app
+		display: block
+		grid-template-columns: repeat(1, 1fr)
