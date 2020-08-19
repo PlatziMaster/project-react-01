@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Juan Daniel Rios Ramirez",
     "profession": "FrontEnd Developer",
     "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "email": "mrdaniel19996@gmail.com",
+    "website": "https://github.com/Mrdaniel01",
+    "phone": "3112766237",
+    "avatar": "https://res.cloudinary.com/djcsouoma/image/upload/w_100/v1597717195/IMG_5496_hgcywh.jpg",
+    "Profile": "Administrador de empresas, MBA, Master en Comercio, Tecnólogo en banca y finanzas, FrontEnd",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -57,11 +57,11 @@
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "85%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "85%"
       },
       {
         "name": "JavaScript",
@@ -69,7 +69,7 @@
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "50%"
       }
     ],
     "interest": [
@@ -85,7 +85,7 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "70%"
       }
     ],
     "social": [
