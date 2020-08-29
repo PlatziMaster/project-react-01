@@ -1,0 +1,28 @@
+@import '../vars.styl'
+
+.Languages
+  back-ground()
+  grid-area: Languages
+  @media screen and (min-width: 320px) and (max-width: 850px)
+    text-align: center
+
+.Languages-title
+    font-size: 30px
+    font-weight: 500
+    margin: 5px 0
+
+.Language
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  .Languages-item
+    padding: 10px
+    .item
+        margin: 5px 0
+
+
+@media screen and (min-width: 320px) and (max-width: 850px)
+  .Languages-title
+    font-size: 30px
+    font-weight: 500
+    margin: 5px 0
+      

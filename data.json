@@ -1,13 +1,13 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Luis Alberto Colunga Perez",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "address": "Estado de México, México.",
+    "email": "perez.luis.colunga@gmail.com",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "phone": "+52 5610799072",
+    "avatar": "https://media-exp1.licdn.com/dms/image/C5603AQGP8VTNNFp22A/profile-displayphoto-shrink_200_200/0?e=1603324800&v=beta&t=HytM208Z5eiJbNbGOLKibwLVoChO0c1ej1WDTMtlU1U",
+    "profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
         "date": "Jan 2021",
@@ -22,7 +22,7 @@
         "name": "Backend Developer"
       }
     ],
-    "Academic": [
+    "academic": [
       {
         "degree": "Atomic Master",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
@@ -36,74 +36,83 @@
         "endDate": "Decenber 2015",
         "institution": "Harvard",
         "startDate": "Jan 2017"
+      },
+      {
+        "degree": "Space Engineering",
+        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
+        "endDate": "Decenber 2015",
+        "institution": "Harvard",
+        "startDate": "Jan 2017"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "EOS Software 1",
+        "endDate": "Mayo 2019",
+        "jobDescription": "Becario en desarrollo web con tecnologias basadas en JavaScript",
+        "jobTitle": "Becario",
+        "startDate": "Enero 2019"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "EOS Software 2",
+        "endDate": "Mayo 2019",
+        "jobDescription": "Becario en desarrollo web con tecnologias basadas en JavaScript",
+        "jobTitle": "Becario",
+        "startDate": "Enero 2019"
+      },
+      {
+        "company": "EOS Software 3",
+        "endDate": "Mayo 2019",
+        "jobDescription": "Becario en desarrollo web con tecnologias basadas en JavaScript",
+        "jobTitle": "Becario",
+        "startDate": "Enero 2019"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "90%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "50%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "60%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "70%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["javascript", "develop", "backend", "frontend", "Node Js"],
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "Native"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "40%"
+      },
+      {
+        "name": "French",
+        "percentage": "5%"
       }
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
-      },
-      {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/luiscolungaperz"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/luiscolungaperez"
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "https://www.linkedin.com/in/luis-colunga-perez/"
       }
     ]
   }
