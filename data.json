@@ -1,12 +1,12 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Pedro Omar Cruz May",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
+    "address": "Guadalajara, Jalisco",
+    "email": "pcruzmay@gmail.com",
     "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
+    "phone": "3334939749",
+    "avatar": "https://lh3.googleusercontent.com/ogw/ADGmqu-VJhxwSRYFaIksFVacQ2mebJ2DT8rU8xu8WAlf=s500-c-mo",
     "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
     "certificate": [
       {
@@ -22,54 +22,54 @@
         "name": "Backend Developer"
       }
     ],
-    "Academic": [
+    "academic": [
       {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "degree": "Graphic Designer",
+        "description": "I love all the creative work of design, including UX an UI, because that, I studied Graphic Design",
+        "endDate": "September 2001",
+        "institution": "Universidad Autonoma de Guadalajara",
+        "startDate": "September 1997"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
+        "degree": "Frontend Developer",
+        "description": "Studied programing in the best online school of Latino America",
+        "endDate": "November 2020",
+        "institution": "Platzi Master",
+        "startDate": "June 2020"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "company": "Chenson Nylon de México",
+        "endDate": "November 2019",
+        "jobDescription": "digital and press Art supervision",
+        "jobTitle": "Design Chief and Frontend developer",
+        "startDate": "October 2011"
       },
       {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "company": "Cklass el calzado de las Estrellas",
+        "endDate": "May 2008",
+        "jobDescription": "Press Art supervision, creative moodboards",
+        "jobTitle": "Graphic Designer",
+        "startDate": "Sept 2004"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "100%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "90%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "70%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "70%"
       }
     ],
     "interest": [
@@ -81,11 +81,11 @@
     "languages": [
       {
         "name": "Spanish",
-        "percentage": "90%"
+        "percentage": "100%"
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "85%"
       }
     ],
     "social": [
