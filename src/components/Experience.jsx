@@ -11,6 +11,7 @@ const Experience = ({ experience = [{}, {}, {}] }) => {
                     experience.map((element, index) =>
                         (<section className='Experience-item' key={index}>
                             <h3 className='item'>{element.company}</h3>
+                            <p className="item">{element.startDate} to {element.endDate}</p>
                             <p className='item'>{element.jobTitle}</p>
                             <p className='item'>{element.jobDescription}</p>
                         </section>))

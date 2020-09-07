@@ -13,8 +13,9 @@ const Academic = ({ academic = [{}, {}, {}] }) => {
                     data.map((item, index) => <section className='Academic-item' key={index}>
                         <h3 className='item'>{item.degree}</h3>
                         <p className='item'>{item.institution}</p>
+                        <p className="item">{item.startDate} to {item.endDate}</p>
                         <p className='item'>{item.description}</p>
-                    </section>)}
+                    </section >)}
             </div>
         </section>
     )
