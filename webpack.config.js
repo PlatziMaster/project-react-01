@@ -38,6 +38,19 @@ module.exports = {
           'stylus-loader',
         ],
       },
+      {
+        //Extensiones que vamos a usar para manejo de imagenes
+        test: /\.(png|gif|jpe?g)/,
+        use: [
+          {
+            loader: 'file-loader',
+            //Como se va a llamar nuestro archivo después de pasar por webpack
+            options: {
+              name: 'assets/[hash].[ext]',
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [

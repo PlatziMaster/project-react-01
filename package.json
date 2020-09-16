@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "Project React 01",
   "main": "index.js",
+  "homepage": "https://github.com/DanielSantos495/project-react-01",
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development",
     "server": "json-server data.json",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
-    "test": "jest"
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "react",
@@ -31,9 +34,13 @@
     "webpack-dev-server": "^3.10.2",
     "enzyme": "^3.11.0",
     "jest-fetch-mock": "^3.0.1",
-    "enzyme-adapter-react-16": "^1.15.2"
+    "enzyme-adapter-react-16": "^1.15.2",
+    "style-loader": "^0.23.1",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2"
   },
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.11.5",
     "babel-eslint": "^10.0.3",
     "css-loader": "^3.4.2",
     "eslint": "^5.16.0",
@@ -44,14 +51,13 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.18.2",
+    "file-loader": "^6.1.0",
+    "gh-pages": "^3.1.0",
     "husky": "^2.7.0",
     "jest": "^25.1.0",
     "json-server": "^0.15.1",
     "mini-css-extract-plugin": "^0.7.0",
-    "prettier": "^1.19.1",
-    "style-loader": "^0.23.1",
-    "stylus": "^0.54.7",
-    "stylus-loader": "^3.0.2"
+    "prettier": "^1.19.1"
   },
   "jest": {
     "verbose": true,
