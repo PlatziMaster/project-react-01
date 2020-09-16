@@ -2,6 +2,8 @@
 
 ## React Curriculum vitae
 
+![react-cv](https://raw.githubusercontent.com/PlatziMaster/project-react-01/master/screenshot.png)
+
 Curriculum vitae personal contruido en React y Stylus, haciendo peticiones a una Fake Api
 
 - Simulación de Fake Api con: json-server.
