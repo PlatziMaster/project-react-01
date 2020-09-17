@@ -1,109 +1,72 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Daniel Esteban Santos Méndez",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
-    "certificate": [
+    "email": "dsantos0495@gmail.com",
+    "website": "https://danielsantos.netlify.app/",
+    "avatar": "https://i.imgur.com/Xw0Be34.png",
+    "about": "Soy aprendiz de Desarrollo Web especializandome en Front-end, estudiante de Platzi en el programa Platzi Master, me gusta mucho desarrollar con tecnologías Vanilla. ",
+    "proyectosPersonales": [
       {
-        "date": "Jan 2021",
-        "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
-        "institution": "Platzi",
-        "name": "FrontEnd Developer"
+        "proyecto": "Piedra, Papel o Tijera",
+        "description": "Un juego clasico en el mundo, usado usulamente para tomar decisiones sobre quien debe hacer alguna tarea. En Colombia es muy conocido como Chin, Bun, Papas.",
+        "site": "https://chinbunpapas.netlify.app/",
+        "means": "https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH"
       },
       {
-        "date": "Jan 2021",
-        "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
-        "name": "Backend Developer"
-      }
-    ],
-    "Academic": [
-      {
-        "degree": "Atomic Master",
-        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
-        "endDate": "Jan 2017",
-        "institution": "MIT",
-        "startDate": "Jan 2018"
+        "proyecto": "WeatherApp",
+        "description": "App que da el clima actual de cualquiera parte del mundo",
+        "site": "https://weather5.netlify.app/",
+        "means": "https://openweathermap.org/"
       },
       {
-        "degree": "Space Engineering",
-        "description": "Meow in empty rooms. Find empty spot in cupboard and sleep all day check cat door for ambush 10 times before coming in for hack. ",
-        "endDate": "Decenber 2015",
-        "institution": "Harvard",
-        "startDate": "Jan 2017"
-      }
-    ],
-    "experience": [
-      {
-        "company": "PugStar",
-        "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
-        "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
-      },
-      {
-        "company": "CatStore",
-        "endDate": "Jan 2016",
-        "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
-        "jobTitle": "Backend",
-        "startDate": "Sept 2019"
+        "proyecto": "Countries",
+        "description": "App que muestra todos los países del Mundo",
+        "site": "https://countriesapi.netlify.app",
+        "means": "https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "icon": "https://www.flaticon.com/svg/static/icons/svg/152/152843.svg"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "icon": "https://www.flaticon.com/svg/static/icons/svg/732/732007.svg"
       },
       {
-        "name": "JavaScript",
-        "percentage": "55%"
+        "name": "Sass",
+        "icon": "https://img.icons8.com/ios-filled/50/000000/sass.png"
+      },
+      {
+        "name": "Js",
+        "icon": "https://img.icons8.com/ios-filled/50/000000/javascript-logo.png"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "icon": "https://img.icons8.com/ios-filled/50/000000/react-native.png"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
-    "languages": [
-      {
-        "name": "Spanish",
-        "percentage": "90%"
-      },
-      {
-        "name": "English",
-        "percentage": "50%"
-      }
+      "Javascript",
+      "Backend",
+      "Frontend",
+      "React",
+      "Svelte"
     ],
     "social": [
       {
-        "name": "facebook",
-        "url": "https://facebook.com/"
+        "name": "Twitter",
+        "url": "https://twitter.com/Danielsantos495"
       },
       {
-        "name": "twitter",
-        "url": "https://twitter.com/"
+        "name": "Github",
+        "url": "https://github.com/DanielSantos495"
       },
       {
-        "name": "github",
-        "url": "https://github.com/"
-      },
-      {
-        "name": "linkedin",
-        "url": "https://www.linkedin.com/"
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/esteban-santos-mendez-00b62178/"
       }
     ]
   }
