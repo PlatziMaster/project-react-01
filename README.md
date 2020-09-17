@@ -2,14 +2,20 @@
 
 ## React Curriculum vitae
 
-![react-cv](https://raw.githubusercontent.com/PlatziMaster/project-react-01/master/screenshot.png)
+#1
+Cree los respectivos componentes para cada sección
+#2
+Cree los estilos y la estructura personalizada.
+#3
+Cree la función getData con async/await, recibe una API y te devuelve la respuesta en json para poder comunicar los datos del servidor con la aplicacion
+#4
+Integre la Api desde el container App.jsx y pase la data por props.
+#5
+Personalize el archivo data.json con mis datos, quite algunos items y agregue otros.
+#6
+Añadi los cambios que hice en el pull request
 
-Curriculum vitae personal contruido en React y Stylus, haciendo peticiones a una Fake Api
-
-- Simulación de Fake Api con: json-server.
-- Para las peticiones construimos las función getData con async/await, adicional instalamos el         paquete: @babel/plugin-transform-runtime para poder usar estar funcionalidades.
-- Solo instalamos gh-pages para hacer el deploy a Github Pages.
-- Quitamos carptea dist de .gitignore para hacer el deploy
+![react-cv](https://raw.githubusercontent.com/DanielSantos495/project-react-01/master/cv.png)
 
 
 ### Instalación
