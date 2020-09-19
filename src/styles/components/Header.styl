@@ -1,0 +1,31 @@
+@import './vars.styl'
+
+.Header
+  back-ground()
+  grid-area: Header
+  display: grid
+  grid-template-columns: 30% 70%
+
+.image
+  border-radius: 50%
+  width: 175px
+  margin: 0 auto
+
+.Header-title
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+
+@media screen and (min-width: 320px) and (max-width: 850px)
+  .Header
+    grid-template-columns: 100%
+
+  .Header-title
+    text-align: center
+    align-items: center
+
+@media screen and (min-width: 850px) and (max-width: 1000px)
+  .Header
+    grid-template-columns: auto auto
+    

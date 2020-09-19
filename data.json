@@ -1,28 +1,28 @@
 {
   "data": {
-    "name": "Melissa Walsh",
+    "name": "Esaú Maximino",
     "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
+    "address": "Estado de México, Mexico",
+    "email": "esa-max23@live.com",
+    "website": "https://github/max23esau.com",
     "phone": "3042034240",
-    "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "avatar": "https://avatars3.githubusercontent.com/u/22533926?s=460&u=d87121a5565b0e88bbb9f8afe86a4f2ef93188bd&v=4",
+    "profile": "En un lucha constante por ser mejor desarrollador y diseñador",
     "certificate": [
       {
-        "date": "Jan 2021",
+        "date": "Jan 2020",
         "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
         "institution": "Platzi",
         "name": "FrontEnd Developer"
       },
       {
-        "date": "Jan 2021",
+        "date": "Jan 2020",
         "description": "Scratch at the door then walk away wack the mini furry mouse",
         "institution": "Platzi",
         "name": "Backend Developer"
       }
     ],
-    "Academic": [
+    "academic": [
       {
         "degree": "Atomic Master",
         "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
@@ -36,15 +36,22 @@
         "endDate": "Decenber 2015",
         "institution": "Harvard",
         "startDate": "Jan 2017"
+      },
+      {
+        "degree": "Atomic Master",
+        "description": " I’m so hungry i’m so hungry but ew not for that pelt around the house and up and down stairs chasing phantoms",
+        "endDate": "Jan 2017",
+        "institution": "Standford",
+        "startDate": "Jan 2018"
       }
     ],
     "experience": [
       {
-        "company": "PugStar",
+        "company": "Platzi",
         "endDate": "Present",
-        "jobDescription": "scratch the furniture. Good now the other hand, too lay on arms while you're using the keyboard.",
+        "jobDescription": "Aceptado en el programa Platzi Master",
         "jobTitle": "Frontend",
-        "startDate": "Jan 2020"
+        "startDate": "March 2020"
       },
       {
         "company": "CatStore",
@@ -52,32 +59,34 @@
         "jobDescription": "Meow in empty rooms lick left leg for ninety minutes, still dirty.",
         "jobTitle": "Backend",
         "startDate": "Sept 2019"
+      },
+      {
+        "company": "Platzi",
+        "endDate": "Present",
+        "jobDescription": "Aceptado en el programa Platzi Master",
+        "jobTitle": "Frontend",
+        "startDate": "March 2020"
       }
     ],
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "80%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "70%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "20%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "30%"
       }
     ],
-    "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
-    ],
+    "interest": ["JavaScript", "Sass", "UI", "Frontend", "UX", "Design"],
     "languages": [
       {
         "name": "Spanish",
@@ -85,7 +94,11 @@
       },
       {
         "name": "English",
-        "percentage": "50%"
+        "percentage": "30%"
+      },
+      {
+        "name": "French",
+        "percentage": "10%"
       }
     ],
     "social": [
@@ -95,11 +108,11 @@
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/"
+        "url": "https://twitter.com/max23esau"
       },
       {
         "name": "github",
-        "url": "https://github.com/"
+        "url": "https://github.com/max23esau"
       },
       {
         "name": "linkedin",
