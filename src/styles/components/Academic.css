@@ -1,0 +1,40 @@
+h3 {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.Academic__container {
+
+    width: 90%;
+    background:#efebe9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 9em 1em #26a69a;
+
+}
+
+.Academic__title{
+
+    font-size: 1.2em;
+    margin: 0 10px 10px 0;
+    color: #ffffff;
+
+}
+
+.Academic__text {
+
+    margin-left: 170px;
+    font-size: 0.9em;
+    color: #27364a;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.imagen:hover {
+
+    margin-top: 10px;
+    border-radius:50%;
+    box-shadow: 0px 0px 15px 15px#63d7cb;
+
+}

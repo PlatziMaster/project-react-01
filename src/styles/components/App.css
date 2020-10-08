@@ -1,0 +1,38 @@
+
+:root {
+
+  --color-fondo: #F9F7F7;
+
+}
+
+* {
+
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family:'Roboto', sans-serif;
+
+}
+
+body {
+
+  background-color: var(--color-fondo);
+
+}
+
+
+.Home__container {
+
+  margin:  0 auto;
+  justify-items: center;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.imagen {
+
+  position: absolute;
+
+}

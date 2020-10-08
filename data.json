@@ -1,16 +1,16 @@
 {
   "data": {
-    "name": "Melissa Walsh",
-    "profession": "FrontEnd Developer",
-    "address": "Bogotá, Colombia.",
-    "email": "melissa@example.com",
-    "website": "https://example.com",
-    "phone": "3042034240",
+    "name": "Juan Sebastián Herrera Carvajal",
+    "profession": "Industrial Engineer and Frontend Developer",
+    "address": "Neiva, Colombia.",
+    "email": "Email: juanchoherrerac_27@hotmail.com",
+    "website": "smartcityes.blogspot.com",
+    "phone": "+57 3115617245",
     "avatar": "https://arepa.s3.amazonaws.com/melissa.jpg",
-    "Profile": "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly, ",
+    "Profile": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     "certificate": [
       {
-        "date": "Jan 2021",
+        "date": "Jan 2020",
         "description": "Hack up furballs try to jump onto window and fall while scratching at wall. ",
         "institution": "Platzi",
         "name": "FrontEnd Developer"
@@ -18,7 +18,19 @@
       {
         "date": "Jan 2021",
         "description": "Scratch at the door then walk away wack the mini furry mouse",
-        "institution": "Platzi",
+        "institution": "Silicon Valley",
+        "name": "Backend Developer"
+      },
+      {
+        "date": "Jan 2022",
+        "description": "Hack up furballs try to jump onto window and fall while scratching at wall.",
+        "institution": "Tesla",
+        "name": "Backend Developer"
+      },
+      {
+        "date": "Jan 2023",
+        "description": "Scratch at the door then walk away wack the mini furry mouse",
+        "institution": "Sola City",
         "name": "Backend Developer"
       }
     ],
@@ -57,26 +69,27 @@
     "skills": [
       {
         "name": "HTML5",
-        "percentage": "75%"
+        "percentage": "80%"
       },
       {
         "name": "CSS",
-        "percentage": "25%"
+        "percentage": "80%"
       },
       {
         "name": "JavaScript",
-        "percentage": "55%"
+        "percentage": "40%"
       },
       {
         "name": "React",
-        "percentage": "90%"
+        "percentage": "50%"
       }
     ],
     "interest": [
-      "javascript",
-      "develop",
-      "backend",
-      "frontend"
+      "CSS",
+      "HTML",
+      "JAVASCRIPT",
+      "FRONTEND",
+      "DESIGN"
     ],
     "languages": [
       {
